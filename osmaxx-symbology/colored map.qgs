@@ -19,7 +19,7 @@
       <layer-tree-layer expanded="1" checked="Qt::Checked" id="20160601_frankfurt_am_main_gpkg_geoname_l_any20160602124824368" name="geoname_l any">
         <customproperties/>
       </layer-tree-layer>
-      <layer-tree-group expanded="1" checked="Qt::Checked" name="traffic">
+      <layer-tree-group expanded="0" checked="Qt::Checked" name="traffic">
         <customproperties/>
         <layer-tree-layer expanded="0" checked="Qt::Checked" id="20160601_frankfurt_am_main_gpkg_traffic_p_any20160602124825179" name="traffic_p any">
           <customproperties/>
@@ -31,7 +31,7 @@
           <customproperties/>
         </layer-tree-layer>
       </layer-tree-group>
-      <layer-tree-group expanded="1" checked="Qt::Checked" name="poi">
+      <layer-tree-group expanded="0" checked="Qt::Checked" name="poi">
         <customproperties/>
         <layer-tree-layer expanded="0" checked="Qt::Checked" id="20160601_frankfurt_am_main_gpkg_poi_p_any20160602124824820" name="poi_p any">
           <customproperties/>
@@ -46,7 +46,7 @@
           <customproperties/>
         </layer-tree-layer>
       </layer-tree-group>
-      <layer-tree-group expanded="1" checked="Qt::Checked" name="water">
+      <layer-tree-group expanded="0" checked="Qt::Checked" name="water">
         <customproperties/>
         <layer-tree-layer expanded="0" checked="Qt::Checked" id="20160601_frankfurt_am_main_gpkg_water_p_any20160602124825584" name="water_p any">
           <customproperties/>
@@ -70,7 +70,7 @@
           <customproperties/>
         </layer-tree-layer>
       </layer-tree-group>
-      <layer-tree-group expanded="1" checked="Qt::Checked" name="natural">
+      <layer-tree-group expanded="0" checked="Qt::Checked" name="natural">
         <customproperties/>
         <layer-tree-layer expanded="0" checked="Qt::Checked" id="20160601_frankfurt_am_main_gpkg_natural_p_any20160602124824680" name="natural_p any">
           <customproperties/>
@@ -85,13 +85,13 @@
           <customproperties/>
         </layer-tree-layer>
       </layer-tree-group>
-      <layer-tree-group expanded="1" checked="Qt::Checked" name="pow">
+      <layer-tree-group expanded="0" checked="Qt::Checked" name="pow">
         <customproperties/>
         <layer-tree-layer expanded="0" checked="Qt::Checked" id="20160601_frankfurt_am_main_gpkg_pow_p_any20160602124824914" name="pow_p any">
           <customproperties/>
         </layer-tree-layer>
       </layer-tree-group>
-      <layer-tree-group expanded="1" checked="Qt::Checked" name="transport">
+      <layer-tree-group expanded="0" checked="Qt::Checked" name="transport">
         <customproperties/>
         <layer-tree-layer expanded="0" checked="Qt::Checked" id="20160601_frankfurt_am_main_gpkg_transport_p_any20160602124825319" name="transport_p any">
           <customproperties/>
@@ -106,7 +106,7 @@
           <customproperties/>
         </layer-tree-layer>
       </layer-tree-group>
-      <layer-tree-group expanded="1" checked="Qt::Checked" name="utility">
+      <layer-tree-group expanded="0" checked="Qt::Checked" name="utility">
         <customproperties/>
         <layer-tree-layer expanded="0" checked="Qt::Checked" id="20160601_frankfurt_am_main_gpkg_utility_p_any20160602124825444" name="utility_p any">
           <customproperties/>
@@ -266,7 +266,7 @@
           <legendlayerfile isInOverview="0" layerid="20160601_frankfurt_am_main_gpkg_geoname_l_any20160602124824368" visible="1"/>
         </filegroup>
       </legendlayer>
-      <legendgroup open="true" checked="Qt::Checked" name="traffic">
+      <legendgroup open="false" checked="Qt::Checked" name="traffic">
         <legendlayer drawingOrder="5" open="false" checked="Qt::Checked" name="traffic_p any" showFeatureCount="0">
           <filegroup open="false" hidden="false">
             <legendlayerfile isInOverview="0" layerid="20160601_frankfurt_am_main_gpkg_traffic_p_any20160602124825179" visible="1"/>
@@ -283,7 +283,7 @@
           </filegroup>
         </legendlayer>
       </legendgroup>
-      <legendgroup open="true" checked="Qt::Checked" name="poi">
+      <legendgroup open="false" checked="Qt::Checked" name="poi">
         <legendlayer drawingOrder="3" open="false" checked="Qt::Checked" name="poi_p any" showFeatureCount="0">
           <filegroup open="false" hidden="false">
             <legendlayerfile isInOverview="0" layerid="20160601_frankfurt_am_main_gpkg_poi_p_any20160602124824820" visible="1"/>
@@ -305,7 +305,7 @@
           </filegroup>
         </legendlayer>
       </legendgroup>
-      <legendgroup open="true" checked="Qt::Checked" name="water">
+      <legendgroup open="false" checked="Qt::Checked" name="water">
         <legendlayer drawingOrder="7" open="false" checked="Qt::Checked" name="water_p any" showFeatureCount="0">
           <filegroup open="false" hidden="false">
             <legendlayerfile isInOverview="0" layerid="20160601_frankfurt_am_main_gpkg_water_p_any20160602124825584" visible="1"/>
@@ -342,7 +342,7 @@
           </filegroup>
         </legendlayer>
       </legendgroup>
-      <legendgroup open="true" checked="Qt::Checked" name="natural">
+      <legendgroup open="false" checked="Qt::Checked" name="natural">
         <legendlayer drawingOrder="9" open="false" checked="Qt::Checked" name="natural_p any" showFeatureCount="0">
           <filegroup open="false" hidden="false">
             <legendlayerfile isInOverview="0" layerid="20160601_frankfurt_am_main_gpkg_natural_p_any20160602124824680" visible="1"/>
@@ -364,14 +364,14 @@
           </filegroup>
         </legendlayer>
       </legendgroup>
-      <legendgroup open="true" checked="Qt::Checked" name="pow">
+      <legendgroup open="false" checked="Qt::Checked" name="pow">
         <legendlayer drawingOrder="4" open="false" checked="Qt::Checked" name="pow_p any" showFeatureCount="0">
           <filegroup open="false" hidden="false">
             <legendlayerfile isInOverview="0" layerid="20160601_frankfurt_am_main_gpkg_pow_p_any20160602124824914" visible="1"/>
           </filegroup>
         </legendlayer>
       </legendgroup>
-      <legendgroup open="true" checked="Qt::Checked" name="transport">
+      <legendgroup open="false" checked="Qt::Checked" name="transport">
         <legendlayer drawingOrder="8" open="false" checked="Qt::Checked" name="transport_p any" showFeatureCount="0">
           <filegroup open="false" hidden="false">
             <legendlayerfile isInOverview="0" layerid="20160601_frankfurt_am_main_gpkg_transport_p_any20160602124825319" visible="1"/>
@@ -393,7 +393,7 @@
           </filegroup>
         </legendlayer>
       </legendgroup>
-      <legendgroup open="true" checked="Qt::Checked" name="utility">
+      <legendgroup open="false" checked="Qt::Checked" name="utility">
         <legendlayer drawingOrder="6" open="false" checked="Qt::Checked" name="utility_p any" showFeatureCount="0">
           <filegroup open="false" hidden="false">
             <legendlayerfile isInOverview="0" layerid="20160601_frankfurt_am_main_gpkg_utility_p_any20160602124825444" visible="1"/>
