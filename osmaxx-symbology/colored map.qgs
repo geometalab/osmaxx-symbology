@@ -12021,7 +12021,7 @@ def my_form_open(dialog, layer, feature):
               <prop k="customdash_unit" v="MM"/>
               <prop k="draw_inside_polygon" v="0"/>
               <prop k="joinstyle" v="bevel"/>
-              <prop k="line_color" v="255,158,106,255"/>
+              <prop k="line_color" v="255,196,102,255"/>
               <prop k="line_style" v="solid"/>
               <prop k="line_width" v="2"/>
               <prop k="line_width_unit" v="MM"/>
