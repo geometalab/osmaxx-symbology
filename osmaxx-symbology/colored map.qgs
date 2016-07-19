@@ -11947,7 +11947,7 @@ def my_form_open(dialog, layer, feature):
               <prop k="customdash_unit" v="MM"/>
               <prop k="draw_inside_polygon" v="0"/>
               <prop k="joinstyle" v="round"/>
-              <prop k="line_color" v="150,150,150,255"/>
+              <prop k="line_color" v="225,225,225,255"/>
               <prop k="line_style" v="solid"/>
               <prop k="line_width" v="2.96"/>
               <prop k="line_width_unit" v="MM"/>
@@ -11964,7 +11964,7 @@ def my_form_open(dialog, layer, feature):
               <prop k="customdash_unit" v="MM"/>
               <prop k="draw_inside_polygon" v="0"/>
               <prop k="joinstyle" v="round"/>
-              <prop k="line_color" v="255,236,206,255"/>
+              <prop k="line_color" v="255,255,255,255"/>
               <prop k="line_style" v="solid"/>
               <prop k="line_width" v="2.79371"/>
               <prop k="line_width_unit" v="MM"/>
