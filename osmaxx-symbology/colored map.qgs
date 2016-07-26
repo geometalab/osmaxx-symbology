@@ -90,6 +90,9 @@
         <layer-tree-layer expanded="0" checked="Qt::Checked" id="20160601_frankfurt_am_main_gpkg_pow_p_any20160602124824914" name="pow_p">
           <customproperties/>
         </layer-tree-layer>
+        <layer-tree-layer expanded="1" checked="Qt::Checked" id="20160601_frankfurt_am_main_gpkg_pow_a_any20160602124824867" name="pow_a">
+          <customproperties/>
+        </layer-tree-layer>
       </layer-tree-group>
       <layer-tree-group expanded="0" checked="Qt::Checked" name="transport">
         <customproperties/>
@@ -155,9 +158,6 @@
         <customproperties/>
       </layer-tree-layer>
       <layer-tree-layer expanded="0" checked="Qt::Checked" id="landuse_a_any_Kopie20160629151454712" name="landuse_a labels">
-        <customproperties/>
-      </layer-tree-layer>
-      <layer-tree-layer expanded="1" checked="Qt::Checked" id="20160601_frankfurt_am_main_gpkg_pow_a_any20160602124824867" name="pow_a">
         <customproperties/>
       </layer-tree-layer>
       <layer-tree-layer expanded="1" checked="Qt::Checked" id="20160601_frankfurt_am_main_gpkg_building_a_any20160602124824228" name="building_a">
@@ -373,6 +373,11 @@
             <legendlayerfile isInOverview="0" layerid="20160601_frankfurt_am_main_gpkg_pow_p_any20160602124824914" visible="1"/>
           </filegroup>
         </legendlayer>
+        <legendlayer drawingOrder="22" open="true" checked="Qt::Checked" name="pow_a" showFeatureCount="0">
+          <filegroup open="true" hidden="false">
+            <legendlayerfile isInOverview="0" layerid="20160601_frankfurt_am_main_gpkg_pow_a_any20160602124824867" visible="1"/>
+          </filegroup>
+        </legendlayer>
       </legendgroup>
       <legendgroup open="false" checked="Qt::Checked" name="transport">
         <legendlayer drawingOrder="8" open="false" checked="Qt::Checked" name="transport_p" showFeatureCount="0">
@@ -473,11 +478,6 @@
       <legendlayer drawingOrder="43" open="false" checked="Qt::Checked" name="landuse_a labels" showFeatureCount="0">
         <filegroup open="false" hidden="false">
           <legendlayerfile isInOverview="0" layerid="landuse_a_any_Kopie20160629151454712" visible="1"/>
-        </filegroup>
-      </legendlayer>
-      <legendlayer drawingOrder="22" open="true" checked="Qt::Checked" name="pow_a" showFeatureCount="0">
-        <filegroup open="true" hidden="false">
-          <legendlayerfile isInOverview="0" layerid="20160601_frankfurt_am_main_gpkg_pow_a_any20160602124824867" visible="1"/>
         </filegroup>
       </legendlayer>
       <legendlayer drawingOrder="27" open="true" checked="Qt::Checked" name="building_a" showFeatureCount="0">
@@ -10130,7 +10130,7 @@ def my_form_open(dialog, layer, feature):
       <annotationform>.</annotationform>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
-      <attributeactions default="0"/>
+      <attributeactions default="-1"/>
       <attributetableconfig actionWidgetStyle="dropDown" sortExpression="" sortOrder="0">
         <columns/>
       </attributetableconfig>
@@ -10868,7 +10868,7 @@ def my_form_open(dialog, layer, feature):
       <annotationform>.</annotationform>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
-      <attributeactions default="0"/>
+      <attributeactions default="-1"/>
       <attributetableconfig actionWidgetStyle="dropDown" sortExpression="" sortOrder="0">
         <columns/>
       </attributetableconfig>
@@ -19341,7 +19341,7 @@ def my_form_open(dialog, layer, feature):
       <annotationform>.</annotationform>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
-      <attributeactions default="0"/>
+      <attributeactions default="-1"/>
       <attributetableconfig actionWidgetStyle="dropDown" sortExpression="" sortOrder="0">
         <columns/>
       </attributetableconfig>
