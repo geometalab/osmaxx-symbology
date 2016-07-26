@@ -10986,7 +10986,7 @@ def my_form_open(dialog, layer, feature):
           <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
         </edittype>
       </edittypes>
-      <renderer-v2 attr="type" forceraster="0" symbollevels="0" type="categorizedSymbol" enableorderby="0">
+      <renderer-v2 attr="type" forceraster="0" symbollevels="0" type="categorizedSymbol" enableorderby="1">
         <categories>
           <category render="false" symbol="0" value="goods" label="goods"/>
           <category render="true" symbol="1" value="light_rail" label="light_rail"/>
@@ -11296,6 +11296,9 @@ def my_form_open(dialog, layer, feature):
         </source-symbol>
         <rotation/>
         <sizescale scalemethod="diameter"/>
+        <orderby>
+          <orderByClause asc="1" nullsFirst="0">"z_order"</orderByClause>
+        </orderby>
       </renderer-v2>
       <labeling type="simple"/>
       <customproperties>
