@@ -5329,7 +5329,7 @@ def my_form_open(dialog, layer, feature):
           <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
         </edittype>
       </edittypes>
-      <renderer-v2 forceraster="0" symbollevels="0" type="singleSymbol" enableorderby="0">
+      <renderer-v2 forceraster="0" symbollevels="0" type="singleSymbol" enableorderby="1">
         <symbols>
           <symbol alpha="1" clip_to_extent="1" type="line" name="0">
             <layer pass="0" class="SimpleLine" locked="0">
@@ -5353,6 +5353,9 @@ def my_form_open(dialog, layer, feature):
         </symbols>
         <rotation/>
         <sizescale scalemethod="diameter"/>
+        <orderby>
+          <orderByClause asc="1" nullsFirst="0">"z_order"</orderByClause>
+        </orderby>
       </renderer-v2>
       <labeling type="simple"/>
       <customproperties>
