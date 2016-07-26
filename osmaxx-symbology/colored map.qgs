@@ -124,12 +124,15 @@
       <layer-tree-layer expanded="0" checked="Qt::Checked" id="20160601_frankfurt_am_main_gpkg_boundary_l_any20160602124824165" name="boundary_l">
         <customproperties/>
       </layer-tree-layer>
-      <layer-tree-layer expanded="0" checked="Qt::Checked" id="20160601_frankfurt_am_main_gpkg_road_l_any20160602124825008" name="road_l">
+      <layer-tree-group expanded="0" checked="Qt::PartiallyChecked" name="road">
         <customproperties/>
-      </layer-tree-layer>
-      <layer-tree-layer expanded="0" checked="Qt::Unchecked" id="road_l_any_Kopie20160629150820356" name="road_l labels">
-        <customproperties/>
-      </layer-tree-layer>
+        <layer-tree-layer expanded="0" checked="Qt::Checked" id="20160601_frankfurt_am_main_gpkg_road_l_any20160602124825008" name="road_l">
+          <customproperties/>
+        </layer-tree-layer>
+        <layer-tree-layer expanded="0" checked="Qt::Unchecked" id="road_l_any_Kopie20160629150820356" name="road_l labels">
+          <customproperties/>
+        </layer-tree-layer>
+      </layer-tree-group>
       <layer-tree-layer expanded="0" checked="Qt::Checked" id="20160601_frankfurt_am_main_gpkg_misc_l_any20160602124824586" name="misc_l">
         <customproperties/>
       </layer-tree-layer>
@@ -420,16 +423,18 @@
           <legendlayerfile isInOverview="0" layerid="20160601_frankfurt_am_main_gpkg_boundary_l_any20160602124824165" visible="1"/>
         </filegroup>
       </legendlayer>
-      <legendlayer drawingOrder="17" open="false" checked="Qt::Checked" name="road_l" showFeatureCount="0">
-        <filegroup open="false" hidden="false">
-          <legendlayerfile isInOverview="0" layerid="20160601_frankfurt_am_main_gpkg_road_l_any20160602124825008" visible="1"/>
-        </filegroup>
-      </legendlayer>
-      <legendlayer drawingOrder="40" open="false" checked="Qt::Unchecked" name="road_l labels" showFeatureCount="0">
-        <filegroup open="false" hidden="false">
-          <legendlayerfile isInOverview="0" layerid="road_l_any_Kopie20160629150820356" visible="0"/>
-        </filegroup>
-      </legendlayer>
+      <legendgroup open="false" checked="Qt::PartiallyChecked" name="road">
+        <legendlayer drawingOrder="17" open="false" checked="Qt::Checked" name="road_l" showFeatureCount="0">
+          <filegroup open="false" hidden="false">
+            <legendlayerfile isInOverview="0" layerid="20160601_frankfurt_am_main_gpkg_road_l_any20160602124825008" visible="1"/>
+          </filegroup>
+        </legendlayer>
+        <legendlayer drawingOrder="40" open="false" checked="Qt::Unchecked" name="road_l labels" showFeatureCount="0">
+          <filegroup open="false" hidden="false">
+            <legendlayerfile isInOverview="0" layerid="road_l_any_Kopie20160629150820356" visible="0"/>
+          </filegroup>
+        </legendlayer>
+      </legendgroup>
       <legendlayer drawingOrder="19" open="false" checked="Qt::Checked" name="misc_l" showFeatureCount="0">
         <filegroup open="false" hidden="false">
           <legendlayerfile isInOverview="0" layerid="20160601_frankfurt_am_main_gpkg_misc_l_any20160602124824586" visible="1"/>
@@ -2181,7 +2186,7 @@ def my_form_open(dialog, layer, feature):
       <annotationform>.</annotationform>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
-      <attributeactions default="0"/>
+      <attributeactions default="-1"/>
       <attributetableconfig actionWidgetStyle="dropDown" sortExpression="" sortOrder="0">
         <columns/>
       </attributetableconfig>
