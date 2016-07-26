@@ -24,7 +24,7 @@
         <layer-tree-layer expanded="0" checked="Qt::Checked" id="20160601_frankfurt_am_main_gpkg_traffic_p_any20160602124825179" name="traffic_p">
           <customproperties/>
         </layer-tree-layer>
-        <layer-tree-layer expanded="0" checked="Qt::Checked" id="traffic_p_any_Kopie20160629145522028" name="traffic_p_labels">
+        <layer-tree-layer expanded="0" checked="Qt::Checked" id="traffic_p_any_Kopie20160629145522028" name="traffic_p labels">
           <customproperties/>
         </layer-tree-layer>
         <layer-tree-layer expanded="1" checked="Qt::Checked" id="20160601_frankfurt_am_main_gpkg_traffic_a_any20160602124825148" name="traffic_a">
@@ -272,7 +272,7 @@
             <legendlayerfile isInOverview="0" layerid="20160601_frankfurt_am_main_gpkg_traffic_p_any20160602124825179" visible="1"/>
           </filegroup>
         </legendlayer>
-        <legendlayer drawingOrder="34" open="false" checked="Qt::Checked" name="traffic_p_labels" showFeatureCount="0">
+        <legendlayer drawingOrder="34" open="false" checked="Qt::Checked" name="traffic_p labels" showFeatureCount="0">
           <filegroup open="false" hidden="false">
             <legendlayerfile isInOverview="0" layerid="traffic_p_any_Kopie20160629145522028" visible="1"/>
           </filegroup>
@@ -25721,7 +25721,7 @@ def my_form_open(dialog, layer, feature):
       <keywordList>
         <value></value>
       </keywordList>
-      <layername>traffic_p_labels</layername>
+      <layername>traffic_p labels</layername>
       <srs>
         <spatialrefsys>
           <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
