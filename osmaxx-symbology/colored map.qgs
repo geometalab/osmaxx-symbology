@@ -10,15 +10,15 @@
       <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="20160601_frankfurt_am_main_gpkg_address_p_any20160602124823947" name="address_p">
         <customproperties/>
       </layer-tree-layer>
-      <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="20160601_frankfurt_am_main_gpkg_military_p_any20160602124824555" name="military_p">
+      <layer-tree-group expanded="0" checked="Qt::PartiallyChecked" name="geoname">
         <customproperties/>
-      </layer-tree-layer>
-      <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="20160601_frankfurt_am_main_gpkg_geoname_p_any20160602124824415" name="geoname_p">
-        <customproperties/>
-      </layer-tree-layer>
-      <layer-tree-layer expanded="1" checked="Qt::Checked" id="20160601_frankfurt_am_main_gpkg_geoname_l_any20160602124824368" name="geoname_l">
-        <customproperties/>
-      </layer-tree-layer>
+        <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="20160601_frankfurt_am_main_gpkg_geoname_p_any20160602124824415" name="geoname_p">
+          <customproperties/>
+        </layer-tree-layer>
+        <layer-tree-layer expanded="1" checked="Qt::Checked" id="20160601_frankfurt_am_main_gpkg_geoname_l_any20160602124824368" name="geoname_l">
+          <customproperties/>
+        </layer-tree-layer>
+      </layer-tree-group>
       <layer-tree-group expanded="0" checked="Qt::Checked" name="traffic">
         <customproperties/>
         <layer-tree-layer expanded="0" checked="Qt::Checked" id="20160601_frankfurt_am_main_gpkg_traffic_p_any20160602124825179" name="traffic_p">
@@ -90,6 +90,9 @@
         <layer-tree-layer expanded="0" checked="Qt::Checked" id="20160601_frankfurt_am_main_gpkg_pow_p_any20160602124824914" name="pow_p">
           <customproperties/>
         </layer-tree-layer>
+        <layer-tree-layer expanded="1" checked="Qt::Checked" id="20160601_frankfurt_am_main_gpkg_pow_a_any20160602124824867" name="pow_a">
+          <customproperties/>
+        </layer-tree-layer>
       </layer-tree-group>
       <layer-tree-group expanded="0" checked="Qt::Checked" name="transport">
         <customproperties/>
@@ -124,12 +127,15 @@
       <layer-tree-layer expanded="0" checked="Qt::Checked" id="20160601_frankfurt_am_main_gpkg_boundary_l_any20160602124824165" name="boundary_l">
         <customproperties/>
       </layer-tree-layer>
-      <layer-tree-layer expanded="0" checked="Qt::Checked" id="20160601_frankfurt_am_main_gpkg_road_l_any20160602124825008" name="road_l">
+      <layer-tree-group expanded="0" checked="Qt::PartiallyChecked" name="road">
         <customproperties/>
-      </layer-tree-layer>
-      <layer-tree-layer expanded="0" checked="Qt::Unchecked" id="road_l_any_Kopie20160629150820356" name="road_l labels">
-        <customproperties/>
-      </layer-tree-layer>
+        <layer-tree-layer expanded="0" checked="Qt::Checked" id="20160601_frankfurt_am_main_gpkg_road_l_any20160602124825008" name="road_l">
+          <customproperties/>
+        </layer-tree-layer>
+        <layer-tree-layer expanded="0" checked="Qt::Unchecked" id="road_l_any_Kopie20160629150820356" name="road_l labels">
+          <customproperties/>
+        </layer-tree-layer>
+      </layer-tree-group>
       <layer-tree-layer expanded="0" checked="Qt::Checked" id="20160601_frankfurt_am_main_gpkg_misc_l_any20160602124824586" name="misc_l">
         <customproperties/>
       </layer-tree-layer>
@@ -145,18 +151,24 @@
       <layer-tree-layer expanded="1" checked="Qt::Checked" id="20160601_frankfurt_am_main_gpkg_route_l_any20160602124825085" name="route_l">
         <customproperties/>
       </layer-tree-layer>
-      <layer-tree-layer expanded="0" checked="Qt::Checked" id="20160601_frankfurt_am_main_gpkg_military_a_any20160602124824509" name="military_a">
+      <layer-tree-group expanded="0" checked="Qt::PartiallyChecked" name="military">
         <customproperties/>
-      </layer-tree-layer>
-      <layer-tree-layer expanded="0" checked="Qt::Checked" id="20160601_frankfurt_am_main_gpkg_landuse_a_any20160602124824462" name="landuse_a">
+        <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="20160601_frankfurt_am_main_gpkg_military_p_any20160602124824555" name="military_p">
+          <customproperties/>
+        </layer-tree-layer>
+        <layer-tree-layer expanded="0" checked="Qt::Checked" id="20160601_frankfurt_am_main_gpkg_military_a_any20160602124824509" name="military_a">
+          <customproperties/>
+        </layer-tree-layer>
+      </layer-tree-group>
+      <layer-tree-group expanded="0" checked="Qt::Checked" name="landuse">
         <customproperties/>
-      </layer-tree-layer>
-      <layer-tree-layer expanded="0" checked="Qt::Checked" id="landuse_a_any_Kopie20160629151454712" name="landuse_a labels">
-        <customproperties/>
-      </layer-tree-layer>
-      <layer-tree-layer expanded="1" checked="Qt::Checked" id="20160601_frankfurt_am_main_gpkg_pow_a_any20160602124824867" name="pow_a">
-        <customproperties/>
-      </layer-tree-layer>
+        <layer-tree-layer expanded="0" checked="Qt::Checked" id="20160601_frankfurt_am_main_gpkg_landuse_a_any20160602124824462" name="landuse_a">
+          <customproperties/>
+        </layer-tree-layer>
+        <layer-tree-layer expanded="0" checked="Qt::Checked" id="landuse_a_any_Kopie20160629151454712" name="landuse_a labels">
+          <customproperties/>
+        </layer-tree-layer>
+      </layer-tree-group>
       <layer-tree-layer expanded="1" checked="Qt::Checked" id="20160601_frankfurt_am_main_gpkg_building_a_any20160602124824228" name="building_a">
         <customproperties/>
       </layer-tree-layer>
@@ -251,21 +263,18 @@
           <legendlayerfile isInOverview="0" layerid="20160601_frankfurt_am_main_gpkg_address_p_any20160602124823947" visible="0"/>
         </filegroup>
       </legendlayer>
-      <legendlayer drawingOrder="1" open="true" checked="Qt::Unchecked" name="military_p" showFeatureCount="0">
-        <filegroup open="true" hidden="false">
-          <legendlayerfile isInOverview="0" layerid="20160601_frankfurt_am_main_gpkg_military_p_any20160602124824555" visible="0"/>
-        </filegroup>
-      </legendlayer>
-      <legendlayer drawingOrder="2" open="true" checked="Qt::Unchecked" name="geoname_p" showFeatureCount="0">
-        <filegroup open="true" hidden="false">
-          <legendlayerfile isInOverview="0" layerid="20160601_frankfurt_am_main_gpkg_geoname_p_any20160602124824415" visible="0"/>
-        </filegroup>
-      </legendlayer>
-      <legendlayer drawingOrder="12" open="true" checked="Qt::Checked" name="geoname_l" showFeatureCount="0">
-        <filegroup open="true" hidden="false">
-          <legendlayerfile isInOverview="0" layerid="20160601_frankfurt_am_main_gpkg_geoname_l_any20160602124824368" visible="1"/>
-        </filegroup>
-      </legendlayer>
+      <legendgroup open="false" checked="Qt::PartiallyChecked" name="geoname">
+        <legendlayer drawingOrder="2" open="true" checked="Qt::Unchecked" name="geoname_p" showFeatureCount="0">
+          <filegroup open="true" hidden="false">
+            <legendlayerfile isInOverview="0" layerid="20160601_frankfurt_am_main_gpkg_geoname_p_any20160602124824415" visible="0"/>
+          </filegroup>
+        </legendlayer>
+        <legendlayer drawingOrder="12" open="true" checked="Qt::Checked" name="geoname_l" showFeatureCount="0">
+          <filegroup open="true" hidden="false">
+            <legendlayerfile isInOverview="0" layerid="20160601_frankfurt_am_main_gpkg_geoname_l_any20160602124824368" visible="1"/>
+          </filegroup>
+        </legendlayer>
+      </legendgroup>
       <legendgroup open="false" checked="Qt::Checked" name="traffic">
         <legendlayer drawingOrder="5" open="false" checked="Qt::Checked" name="traffic_p" showFeatureCount="0">
           <filegroup open="false" hidden="false">
@@ -370,6 +379,11 @@
             <legendlayerfile isInOverview="0" layerid="20160601_frankfurt_am_main_gpkg_pow_p_any20160602124824914" visible="1"/>
           </filegroup>
         </legendlayer>
+        <legendlayer drawingOrder="22" open="true" checked="Qt::Checked" name="pow_a" showFeatureCount="0">
+          <filegroup open="true" hidden="false">
+            <legendlayerfile isInOverview="0" layerid="20160601_frankfurt_am_main_gpkg_pow_a_any20160602124824867" visible="1"/>
+          </filegroup>
+        </legendlayer>
       </legendgroup>
       <legendgroup open="false" checked="Qt::Checked" name="transport">
         <legendlayer drawingOrder="8" open="false" checked="Qt::Checked" name="transport_p" showFeatureCount="0">
@@ -420,16 +434,18 @@
           <legendlayerfile isInOverview="0" layerid="20160601_frankfurt_am_main_gpkg_boundary_l_any20160602124824165" visible="1"/>
         </filegroup>
       </legendlayer>
-      <legendlayer drawingOrder="17" open="false" checked="Qt::Checked" name="road_l" showFeatureCount="0">
-        <filegroup open="false" hidden="false">
-          <legendlayerfile isInOverview="0" layerid="20160601_frankfurt_am_main_gpkg_road_l_any20160602124825008" visible="1"/>
-        </filegroup>
-      </legendlayer>
-      <legendlayer drawingOrder="40" open="false" checked="Qt::Unchecked" name="road_l labels" showFeatureCount="0">
-        <filegroup open="false" hidden="false">
-          <legendlayerfile isInOverview="0" layerid="road_l_any_Kopie20160629150820356" visible="0"/>
-        </filegroup>
-      </legendlayer>
+      <legendgroup open="false" checked="Qt::PartiallyChecked" name="road">
+        <legendlayer drawingOrder="17" open="false" checked="Qt::Checked" name="road_l" showFeatureCount="0">
+          <filegroup open="false" hidden="false">
+            <legendlayerfile isInOverview="0" layerid="20160601_frankfurt_am_main_gpkg_road_l_any20160602124825008" visible="1"/>
+          </filegroup>
+        </legendlayer>
+        <legendlayer drawingOrder="40" open="false" checked="Qt::Unchecked" name="road_l labels" showFeatureCount="0">
+          <filegroup open="false" hidden="false">
+            <legendlayerfile isInOverview="0" layerid="road_l_any_Kopie20160629150820356" visible="0"/>
+          </filegroup>
+        </legendlayer>
+      </legendgroup>
       <legendlayer drawingOrder="19" open="false" checked="Qt::Checked" name="misc_l" showFeatureCount="0">
         <filegroup open="false" hidden="false">
           <legendlayerfile isInOverview="0" layerid="20160601_frankfurt_am_main_gpkg_misc_l_any20160602124824586" visible="1"/>
@@ -455,26 +471,30 @@
           <legendlayerfile isInOverview="0" layerid="20160601_frankfurt_am_main_gpkg_route_l_any20160602124825085" visible="1"/>
         </filegroup>
       </legendlayer>
-      <legendlayer drawingOrder="29" open="false" checked="Qt::Checked" name="military_a" showFeatureCount="0">
-        <filegroup open="false" hidden="false">
-          <legendlayerfile isInOverview="0" layerid="20160601_frankfurt_am_main_gpkg_military_a_any20160602124824509" visible="1"/>
-        </filegroup>
-      </legendlayer>
-      <legendlayer drawingOrder="31" open="false" checked="Qt::Checked" name="landuse_a" showFeatureCount="0">
-        <filegroup open="false" hidden="false">
-          <legendlayerfile isInOverview="0" layerid="20160601_frankfurt_am_main_gpkg_landuse_a_any20160602124824462" visible="1"/>
-        </filegroup>
-      </legendlayer>
-      <legendlayer drawingOrder="43" open="false" checked="Qt::Checked" name="landuse_a labels" showFeatureCount="0">
-        <filegroup open="false" hidden="false">
-          <legendlayerfile isInOverview="0" layerid="landuse_a_any_Kopie20160629151454712" visible="1"/>
-        </filegroup>
-      </legendlayer>
-      <legendlayer drawingOrder="22" open="true" checked="Qt::Checked" name="pow_a" showFeatureCount="0">
-        <filegroup open="true" hidden="false">
-          <legendlayerfile isInOverview="0" layerid="20160601_frankfurt_am_main_gpkg_pow_a_any20160602124824867" visible="1"/>
-        </filegroup>
-      </legendlayer>
+      <legendgroup open="false" checked="Qt::PartiallyChecked" name="military">
+        <legendlayer drawingOrder="1" open="true" checked="Qt::Unchecked" name="military_p" showFeatureCount="0">
+          <filegroup open="true" hidden="false">
+            <legendlayerfile isInOverview="0" layerid="20160601_frankfurt_am_main_gpkg_military_p_any20160602124824555" visible="0"/>
+          </filegroup>
+        </legendlayer>
+        <legendlayer drawingOrder="29" open="false" checked="Qt::Checked" name="military_a" showFeatureCount="0">
+          <filegroup open="false" hidden="false">
+            <legendlayerfile isInOverview="0" layerid="20160601_frankfurt_am_main_gpkg_military_a_any20160602124824509" visible="1"/>
+          </filegroup>
+        </legendlayer>
+      </legendgroup>
+      <legendgroup open="false" checked="Qt::Checked" name="landuse">
+        <legendlayer drawingOrder="31" open="false" checked="Qt::Checked" name="landuse_a" showFeatureCount="0">
+          <filegroup open="false" hidden="false">
+            <legendlayerfile isInOverview="0" layerid="20160601_frankfurt_am_main_gpkg_landuse_a_any20160602124824462" visible="1"/>
+          </filegroup>
+        </legendlayer>
+        <legendlayer drawingOrder="43" open="false" checked="Qt::Checked" name="landuse_a labels" showFeatureCount="0">
+          <filegroup open="false" hidden="false">
+            <legendlayerfile isInOverview="0" layerid="landuse_a_any_Kopie20160629151454712" visible="1"/>
+          </filegroup>
+        </legendlayer>
+      </legendgroup>
       <legendlayer drawingOrder="27" open="true" checked="Qt::Checked" name="building_a" showFeatureCount="0">
         <filegroup open="true" hidden="false">
           <legendlayerfile isInOverview="0" layerid="20160601_frankfurt_am_main_gpkg_building_a_any20160602124824228" visible="1"/>
@@ -620,7 +640,7 @@
       <annotationform>.</annotationform>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
-      <attributeactions default="0"/>
+      <attributeactions default="-1"/>
       <attributetableconfig actionWidgetStyle="dropDown" sortExpression="" sortOrder="0">
         <columns/>
       </attributetableconfig>
@@ -1945,7 +1965,7 @@ def my_form_open(dialog, layer, feature):
       <annotationform>.</annotationform>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
-      <attributeactions default="0"/>
+      <attributeactions default="-1"/>
       <attributetableconfig actionWidgetStyle="dropDown" sortExpression="" sortOrder="0">
         <columns/>
       </attributetableconfig>
@@ -2077,7 +2097,7 @@ def my_form_open(dialog, layer, feature):
       <annotationform>.</annotationform>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
-      <attributeactions default="0"/>
+      <attributeactions default="-1"/>
       <attributetableconfig actionWidgetStyle="dropDown" sortExpression="" sortOrder="0">
         <columns/>
       </attributetableconfig>
@@ -2181,7 +2201,7 @@ def my_form_open(dialog, layer, feature):
       <annotationform>.</annotationform>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
-      <attributeactions default="0"/>
+      <attributeactions default="-1"/>
       <attributetableconfig actionWidgetStyle="dropDown" sortExpression="" sortOrder="0">
         <columns/>
       </attributetableconfig>
@@ -3022,7 +3042,7 @@ def my_form_open(dialog, layer, feature):
       <annotationform>.</annotationform>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
-      <attributeactions default="0"/>
+      <attributeactions default="-1"/>
       <attributetableconfig actionWidgetStyle="dropDown" sortExpression="" sortOrder="0">
         <columns/>
       </attributetableconfig>
@@ -3421,7 +3441,7 @@ def my_form_open(dialog, layer, feature):
       <annotationform>.</annotationform>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
-      <attributeactions default="0"/>
+      <attributeactions default="-1"/>
       <attributetableconfig actionWidgetStyle="dropDown" sortExpression="" sortOrder="0">
         <columns/>
       </attributetableconfig>
@@ -3564,7 +3584,7 @@ def my_form_open(dialog, layer, feature):
       <annotationform>.</annotationform>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
-      <attributeactions default="0"/>
+      <attributeactions default="-1"/>
       <attributetableconfig actionWidgetStyle="dropDown" sortExpression="" sortOrder="0">
         <columns/>
       </attributetableconfig>
@@ -10125,7 +10145,7 @@ def my_form_open(dialog, layer, feature):
       <annotationform>.</annotationform>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
-      <attributeactions default="0"/>
+      <attributeactions default="-1"/>
       <attributetableconfig actionWidgetStyle="dropDown" sortExpression="" sortOrder="0">
         <columns/>
       </attributetableconfig>
@@ -10863,7 +10883,7 @@ def my_form_open(dialog, layer, feature):
       <annotationform>.</annotationform>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
-      <attributeactions default="0"/>
+      <attributeactions default="-1"/>
       <attributetableconfig actionWidgetStyle="dropDown" sortExpression="" sortOrder="0">
         <columns/>
       </attributetableconfig>
@@ -19336,7 +19356,7 @@ def my_form_open(dialog, layer, feature):
       <annotationform>.</annotationform>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
-      <attributeactions default="0"/>
+      <attributeactions default="-1"/>
       <attributetableconfig actionWidgetStyle="dropDown" sortExpression="" sortOrder="0">
         <columns/>
       </attributetableconfig>
