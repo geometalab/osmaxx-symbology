@@ -36,13 +36,13 @@
         <layer-tree-layer expanded="0" checked="Qt::Checked" id="20160601_frankfurt_am_main_gpkg_poi_p_any20160602124824820" name="poi_p any">
           <customproperties/>
         </layer-tree-layer>
-        <layer-tree-layer expanded="0" checked="Qt::Checked" id="poi_p_any_Kopie20160629145554639" name="poi_p any_labels">
+        <layer-tree-layer expanded="0" checked="Qt::Checked" id="poi_p_any_Kopie20160629145554639" name="poi_p labels">
           <customproperties/>
         </layer-tree-layer>
         <layer-tree-layer expanded="0" checked="Qt::Checked" id="20160601_frankfurt_am_main_gpkg_poi_a_any20160602124824774" name="poi_a any">
           <customproperties/>
         </layer-tree-layer>
-        <layer-tree-layer expanded="0" checked="Qt::Checked" id="poi_a_any_Kopie20160629151844866" name="poi_a any_labels">
+        <layer-tree-layer expanded="0" checked="Qt::Checked" id="poi_a_any_Kopie20160629151844866" name="poi_a labels">
           <customproperties/>
         </layer-tree-layer>
       </layer-tree-group>
@@ -51,7 +51,7 @@
         <layer-tree-layer expanded="0" checked="Qt::Checked" id="20160601_frankfurt_am_main_gpkg_water_p_any20160602124825584" name="water_p any">
           <customproperties/>
         </layer-tree-layer>
-        <layer-tree-layer expanded="0" checked="Qt::Checked" id="water_p_any_Kopie20160629150351981" name="water_p any_labels">
+        <layer-tree-layer expanded="0" checked="Qt::Checked" id="water_p_any_Kopie20160629150351981" name="water_p labels">
           <customproperties/>
         </layer-tree-layer>
         <layer-tree-layer expanded="0" checked="Qt::Checked" id="20160601_frankfurt_am_main_gpkg_water_l_any20160602124825538" name="water_l any">
@@ -75,13 +75,13 @@
         <layer-tree-layer expanded="0" checked="Qt::Checked" id="20160601_frankfurt_am_main_gpkg_natural_p_any20160602124824680" name="natural_p any">
           <customproperties/>
         </layer-tree-layer>
-        <layer-tree-layer expanded="0" checked="Qt::Checked" id="natural_p_any_Kopie20160629150445055" name="natural_p any_labels">
+        <layer-tree-layer expanded="0" checked="Qt::Checked" id="natural_p_any_Kopie20160629150445055" name="natural_p labels">
           <customproperties/>
         </layer-tree-layer>
         <layer-tree-layer expanded="0" checked="Qt::Checked" id="20160601_frankfurt_am_main_gpkg_natural_a_any20160602124824633" name="natural_a any">
           <customproperties/>
         </layer-tree-layer>
-        <layer-tree-layer expanded="0" checked="Qt::Checked" id="natural_a_any_Kopie20160629151215537" name="natural_a any_labels">
+        <layer-tree-layer expanded="0" checked="Qt::Checked" id="natural_a_any_Kopie20160629151215537" name="natural_a labels">
           <customproperties/>
         </layer-tree-layer>
       </layer-tree-group>
@@ -96,7 +96,7 @@
         <layer-tree-layer expanded="0" checked="Qt::Checked" id="20160601_frankfurt_am_main_gpkg_transport_p_any20160602124825319" name="transport_p any">
           <customproperties/>
         </layer-tree-layer>
-        <layer-tree-layer expanded="0" checked="Qt::Checked" id="transport_p_any_Kopie20160629145838982" name="transport_p any_labels">
+        <layer-tree-layer expanded="0" checked="Qt::Checked" id="transport_p_any_Kopie20160629145838982" name="transport_p labels">
           <customproperties/>
         </layer-tree-layer>
         <layer-tree-layer expanded="1" checked="Qt::Checked" id="20160601_frankfurt_am_main_gpkg_transport_l_any20160602124825273" name="transport_l any">
@@ -111,7 +111,7 @@
         <layer-tree-layer expanded="0" checked="Qt::Checked" id="20160601_frankfurt_am_main_gpkg_utility_p_any20160602124825444" name="utility_p any">
           <customproperties/>
         </layer-tree-layer>
-        <layer-tree-layer expanded="0" checked="Qt::Checked" id="utility_p_any_Kopie20160629150028395" name="utility_p any_labels">
+        <layer-tree-layer expanded="0" checked="Qt::Checked" id="utility_p_any_Kopie20160629150028395" name="utility_p labels">
           <customproperties/>
         </layer-tree-layer>
         <layer-tree-layer expanded="0" checked="Qt::Checked" id="20160601_frankfurt_am_main_gpkg_utility_l_any20160602124825413" name="utility_l any">
@@ -127,7 +127,7 @@
       <layer-tree-layer expanded="0" checked="Qt::Checked" id="20160601_frankfurt_am_main_gpkg_road_l_any20160602124825008" name="road_l any">
         <customproperties/>
       </layer-tree-layer>
-      <layer-tree-layer expanded="0" checked="Qt::Unchecked" id="road_l_any_Kopie20160629150820356" name="road_l any_labels">
+      <layer-tree-layer expanded="0" checked="Qt::Unchecked" id="road_l_any_Kopie20160629150820356" name="road_l labels">
         <customproperties/>
       </layer-tree-layer>
       <layer-tree-layer expanded="0" checked="Qt::Checked" id="20160601_frankfurt_am_main_gpkg_misc_l_any20160602124824586" name="misc_l any">
@@ -151,7 +151,7 @@
       <layer-tree-layer expanded="0" checked="Qt::Checked" id="20160601_frankfurt_am_main_gpkg_landuse_a_any20160602124824462" name="landuse_a any">
         <customproperties/>
       </layer-tree-layer>
-      <layer-tree-layer expanded="0" checked="Qt::Checked" id="landuse_a_any_Kopie20160629151454712" name="landuse_a any_labels">
+      <layer-tree-layer expanded="0" checked="Qt::Checked" id="landuse_a_any_Kopie20160629151454712" name="landuse_a labels">
         <customproperties/>
       </layer-tree-layer>
       <layer-tree-layer expanded="1" checked="Qt::Checked" id="20160601_frankfurt_am_main_gpkg_pow_a_any20160602124824867" name="pow_a any">
@@ -289,7 +289,7 @@
             <legendlayerfile isInOverview="0" layerid="20160601_frankfurt_am_main_gpkg_poi_p_any20160602124824820" visible="1"/>
           </filegroup>
         </legendlayer>
-        <legendlayer drawingOrder="35" open="false" checked="Qt::Checked" name="poi_p any_labels" showFeatureCount="0">
+        <legendlayer drawingOrder="35" open="false" checked="Qt::Checked" name="poi_p labels" showFeatureCount="0">
           <filegroup open="false" hidden="false">
             <legendlayerfile isInOverview="0" layerid="poi_p_any_Kopie20160629145554639" visible="1"/>
           </filegroup>
@@ -299,7 +299,7 @@
             <legendlayerfile isInOverview="0" layerid="20160601_frankfurt_am_main_gpkg_poi_a_any20160602124824774" visible="1"/>
           </filegroup>
         </legendlayer>
-        <legendlayer drawingOrder="44" open="false" checked="Qt::Checked" name="poi_a any_labels" showFeatureCount="0">
+        <legendlayer drawingOrder="44" open="false" checked="Qt::Checked" name="poi_a labels" showFeatureCount="0">
           <filegroup open="false" hidden="false">
             <legendlayerfile isInOverview="0" layerid="poi_a_any_Kopie20160629151844866" visible="1"/>
           </filegroup>
@@ -311,7 +311,7 @@
             <legendlayerfile isInOverview="0" layerid="20160601_frankfurt_am_main_gpkg_water_p_any20160602124825584" visible="1"/>
           </filegroup>
         </legendlayer>
-        <legendlayer drawingOrder="38" open="false" checked="Qt::Checked" name="water_p any_labels" showFeatureCount="0">
+        <legendlayer drawingOrder="38" open="false" checked="Qt::Checked" name="water_p labels" showFeatureCount="0">
           <filegroup open="false" hidden="false">
             <legendlayerfile isInOverview="0" layerid="water_p_any_Kopie20160629150351981" visible="1"/>
           </filegroup>
@@ -348,7 +348,7 @@
             <legendlayerfile isInOverview="0" layerid="20160601_frankfurt_am_main_gpkg_natural_p_any20160602124824680" visible="1"/>
           </filegroup>
         </legendlayer>
-        <legendlayer drawingOrder="39" open="false" checked="Qt::Checked" name="natural_p any_labels" showFeatureCount="0">
+        <legendlayer drawingOrder="39" open="false" checked="Qt::Checked" name="natural_p labels" showFeatureCount="0">
           <filegroup open="false" hidden="false">
             <legendlayerfile isInOverview="0" layerid="natural_p_any_Kopie20160629150445055" visible="1"/>
           </filegroup>
@@ -358,7 +358,7 @@
             <legendlayerfile isInOverview="0" layerid="20160601_frankfurt_am_main_gpkg_natural_a_any20160602124824633" visible="1"/>
           </filegroup>
         </legendlayer>
-        <legendlayer drawingOrder="42" open="false" checked="Qt::Checked" name="natural_a any_labels" showFeatureCount="0">
+        <legendlayer drawingOrder="42" open="false" checked="Qt::Checked" name="natural_a labels" showFeatureCount="0">
           <filegroup open="false" hidden="false">
             <legendlayerfile isInOverview="0" layerid="natural_a_any_Kopie20160629151215537" visible="1"/>
           </filegroup>
@@ -377,7 +377,7 @@
             <legendlayerfile isInOverview="0" layerid="20160601_frankfurt_am_main_gpkg_transport_p_any20160602124825319" visible="1"/>
           </filegroup>
         </legendlayer>
-        <legendlayer drawingOrder="36" open="false" checked="Qt::Checked" name="transport_p any_labels" showFeatureCount="0">
+        <legendlayer drawingOrder="36" open="false" checked="Qt::Checked" name="transport_p labels" showFeatureCount="0">
           <filegroup open="false" hidden="false">
             <legendlayerfile isInOverview="0" layerid="transport_p_any_Kopie20160629145838982" visible="1"/>
           </filegroup>
@@ -399,7 +399,7 @@
             <legendlayerfile isInOverview="0" layerid="20160601_frankfurt_am_main_gpkg_utility_p_any20160602124825444" visible="1"/>
           </filegroup>
         </legendlayer>
-        <legendlayer drawingOrder="37" open="false" checked="Qt::Checked" name="utility_p any_labels" showFeatureCount="0">
+        <legendlayer drawingOrder="37" open="false" checked="Qt::Checked" name="utility_p labels" showFeatureCount="0">
           <filegroup open="false" hidden="false">
             <legendlayerfile isInOverview="0" layerid="utility_p_any_Kopie20160629150028395" visible="1"/>
           </filegroup>
@@ -425,7 +425,7 @@
           <legendlayerfile isInOverview="0" layerid="20160601_frankfurt_am_main_gpkg_road_l_any20160602124825008" visible="1"/>
         </filegroup>
       </legendlayer>
-      <legendlayer drawingOrder="40" open="false" checked="Qt::Unchecked" name="road_l any_labels" showFeatureCount="0">
+      <legendlayer drawingOrder="40" open="false" checked="Qt::Unchecked" name="road_l labels" showFeatureCount="0">
         <filegroup open="false" hidden="false">
           <legendlayerfile isInOverview="0" layerid="road_l_any_Kopie20160629150820356" visible="0"/>
         </filegroup>
@@ -465,7 +465,7 @@
           <legendlayerfile isInOverview="0" layerid="20160601_frankfurt_am_main_gpkg_landuse_a_any20160602124824462" visible="1"/>
         </filegroup>
       </legendlayer>
-      <legendlayer drawingOrder="43" open="false" checked="Qt::Checked" name="landuse_a any_labels" showFeatureCount="0">
+      <legendlayer drawingOrder="43" open="false" checked="Qt::Checked" name="landuse_a labels" showFeatureCount="0">
         <filegroup open="false" hidden="false">
           <legendlayerfile isInOverview="0" layerid="landuse_a_any_Kopie20160629151454712" visible="1"/>
         </filegroup>
@@ -18519,7 +18519,7 @@ def my_form_open(dialog, layer, feature):
       <keywordList>
         <value></value>
       </keywordList>
-      <layername>landuse_a any_labels</layername>
+      <layername>landuse_a labels</layername>
       <srs>
         <spatialrefsys>
           <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
@@ -19374,7 +19374,7 @@ def my_form_open(dialog, layer, feature):
       <keywordList>
         <value></value>
       </keywordList>
-      <layername>natural_a any_labels</layername>
+      <layername>natural_a labels</layername>
       <srs>
         <spatialrefsys>
           <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
@@ -19897,7 +19897,7 @@ def my_form_open(dialog, layer, feature):
       <keywordList>
         <value></value>
       </keywordList>
-      <layername>natural_p any_labels</layername>
+      <layername>natural_p labels</layername>
       <srs>
         <spatialrefsys>
           <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
@@ -20495,7 +20495,7 @@ def my_form_open(dialog, layer, feature):
       <keywordList>
         <value></value>
       </keywordList>
-      <layername>poi_a any_labels</layername>
+      <layername>poi_a labels</layername>
       <srs>
         <spatialrefsys>
           <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
@@ -21081,7 +21081,7 @@ def my_form_open(dialog, layer, feature):
       <keywordList>
         <value></value>
       </keywordList>
-      <layername>poi_p any_labels</layername>
+      <layername>poi_p labels</layername>
       <srs>
         <spatialrefsys>
           <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
@@ -24744,7 +24744,7 @@ def my_form_open(dialog, layer, feature):
       <keywordList>
         <value></value>
       </keywordList>
-      <layername>road_l any_labels</layername>
+      <layername>road_l labels</layername>
       <srs>
         <spatialrefsys>
           <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
@@ -26754,7 +26754,7 @@ def my_form_open(dialog, layer, feature):
       <keywordList>
         <value></value>
       </keywordList>
-      <layername>transport_p any_labels</layername>
+      <layername>transport_p labels</layername>
       <srs>
         <spatialrefsys>
           <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
@@ -27416,7 +27416,7 @@ def my_form_open(dialog, layer, feature):
       <keywordList>
         <value></value>
       </keywordList>
-      <layername>utility_p any_labels</layername>
+      <layername>utility_p labels</layername>
       <srs>
         <spatialrefsys>
           <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
@@ -28856,7 +28856,7 @@ def my_form_open(dialog, layer, feature):
       <keywordList>
         <value></value>
       </keywordList>
-      <layername>water_p any_labels</layername>
+      <layername>water_p labels</layername>
       <srs>
         <spatialrefsys>
           <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
