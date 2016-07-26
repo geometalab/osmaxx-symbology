@@ -28077,7 +28077,7 @@ def my_form_open(dialog, layer, feature):
           <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
         </edittype>
       </edittypes>
-      <renderer-v2 attr="" forceraster="0" symbollevels="0" type="categorizedSymbol" enableorderby="0">
+      <renderer-v2 attr="type" forceraster="0" symbollevels="0" type="categorizedSymbol" enableorderby="0">
         <categories>
           <category render="false" symbol="0" value="pier" label="pier"/>
           <category render="false" symbol="1" value="weir" label="weir"/>
