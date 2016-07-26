@@ -10,9 +10,6 @@
       <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="20160601_frankfurt_am_main_gpkg_address_p_any20160602124823947" name="address_p">
         <customproperties/>
       </layer-tree-layer>
-      <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="20160601_frankfurt_am_main_gpkg_military_p_any20160602124824555" name="military_p">
-        <customproperties/>
-      </layer-tree-layer>
       <layer-tree-group expanded="0" checked="Qt::PartiallyChecked" name="geoname">
         <customproperties/>
         <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="20160601_frankfurt_am_main_gpkg_geoname_p_any20160602124824415" name="geoname_p">
@@ -154,9 +151,15 @@
       <layer-tree-layer expanded="1" checked="Qt::Checked" id="20160601_frankfurt_am_main_gpkg_route_l_any20160602124825085" name="route_l">
         <customproperties/>
       </layer-tree-layer>
-      <layer-tree-layer expanded="0" checked="Qt::Checked" id="20160601_frankfurt_am_main_gpkg_military_a_any20160602124824509" name="military_a">
+      <layer-tree-group expanded="0" checked="Qt::PartiallyChecked" name="military">
         <customproperties/>
-      </layer-tree-layer>
+        <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="20160601_frankfurt_am_main_gpkg_military_p_any20160602124824555" name="military_p">
+          <customproperties/>
+        </layer-tree-layer>
+        <layer-tree-layer expanded="0" checked="Qt::Checked" id="20160601_frankfurt_am_main_gpkg_military_a_any20160602124824509" name="military_a">
+          <customproperties/>
+        </layer-tree-layer>
+      </layer-tree-group>
       <layer-tree-layer expanded="0" checked="Qt::Checked" id="20160601_frankfurt_am_main_gpkg_landuse_a_any20160602124824462" name="landuse_a">
         <customproperties/>
       </layer-tree-layer>
@@ -255,11 +258,6 @@
       <legendlayer drawingOrder="0" open="true" checked="Qt::Unchecked" name="address_p" showFeatureCount="0">
         <filegroup open="true" hidden="false">
           <legendlayerfile isInOverview="0" layerid="20160601_frankfurt_am_main_gpkg_address_p_any20160602124823947" visible="0"/>
-        </filegroup>
-      </legendlayer>
-      <legendlayer drawingOrder="1" open="true" checked="Qt::Unchecked" name="military_p" showFeatureCount="0">
-        <filegroup open="true" hidden="false">
-          <legendlayerfile isInOverview="0" layerid="20160601_frankfurt_am_main_gpkg_military_p_any20160602124824555" visible="0"/>
         </filegroup>
       </legendlayer>
       <legendgroup open="false" checked="Qt::PartiallyChecked" name="geoname">
@@ -470,11 +468,18 @@
           <legendlayerfile isInOverview="0" layerid="20160601_frankfurt_am_main_gpkg_route_l_any20160602124825085" visible="1"/>
         </filegroup>
       </legendlayer>
-      <legendlayer drawingOrder="29" open="false" checked="Qt::Checked" name="military_a" showFeatureCount="0">
-        <filegroup open="false" hidden="false">
-          <legendlayerfile isInOverview="0" layerid="20160601_frankfurt_am_main_gpkg_military_a_any20160602124824509" visible="1"/>
-        </filegroup>
-      </legendlayer>
+      <legendgroup open="false" checked="Qt::PartiallyChecked" name="military">
+        <legendlayer drawingOrder="1" open="true" checked="Qt::Unchecked" name="military_p" showFeatureCount="0">
+          <filegroup open="true" hidden="false">
+            <legendlayerfile isInOverview="0" layerid="20160601_frankfurt_am_main_gpkg_military_p_any20160602124824555" visible="0"/>
+          </filegroup>
+        </legendlayer>
+        <legendlayer drawingOrder="29" open="false" checked="Qt::Checked" name="military_a" showFeatureCount="0">
+          <filegroup open="false" hidden="false">
+            <legendlayerfile isInOverview="0" layerid="20160601_frankfurt_am_main_gpkg_military_a_any20160602124824509" visible="1"/>
+          </filegroup>
+        </legendlayer>
+      </legendgroup>
       <legendlayer drawingOrder="31" open="false" checked="Qt::Checked" name="landuse_a" showFeatureCount="0">
         <filegroup open="false" hidden="false">
           <legendlayerfile isInOverview="0" layerid="20160601_frankfurt_am_main_gpkg_landuse_a_any20160602124824462" visible="1"/>
@@ -630,7 +635,7 @@
       <annotationform>.</annotationform>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
-      <attributeactions default="0"/>
+      <attributeactions default="-1"/>
       <attributetableconfig actionWidgetStyle="dropDown" sortExpression="" sortOrder="0">
         <columns/>
       </attributetableconfig>
@@ -3431,7 +3436,7 @@ def my_form_open(dialog, layer, feature):
       <annotationform>.</annotationform>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
-      <attributeactions default="0"/>
+      <attributeactions default="-1"/>
       <attributetableconfig actionWidgetStyle="dropDown" sortExpression="" sortOrder="0">
         <columns/>
       </attributetableconfig>
@@ -3574,7 +3579,7 @@ def my_form_open(dialog, layer, feature):
       <annotationform>.</annotationform>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
-      <attributeactions default="0"/>
+      <attributeactions default="-1"/>
       <attributetableconfig actionWidgetStyle="dropDown" sortExpression="" sortOrder="0">
         <columns/>
       </attributetableconfig>
