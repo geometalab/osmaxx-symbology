@@ -11629,7 +11629,9 @@ def my_form_open(dialog, layer, feature):
             <rule filter="&quot;bridge&quot;" key="{8d27107b-b2a3-466c-b0b0-ef8e1c295148}" symbol="8" label="motorway bridge"/>
             <rule filter="NOT &quot;bridge&quot;" key="{f359dc05-1902-45af-8f3d-ab7c4cb20c04}" symbol="9" label="motorway"/>
           </rule>
-          <rule filter="&quot;type&quot; = 'motorway_link'" key="{693e7ba6-983f-45ca-b717-0a3f811fc9f5}" symbol="10" label="motorway_link"/>
+          <rule filter="&quot;type&quot; = 'motorway_link'" key="{693e7ba6-983f-45ca-b717-0a3f811fc9f5}" label="motorway_link">
+            <rule key="{839be89c-c9f7-4488-a1a8-65c4b9bda598}" symbol="10" label="motorway_link"/>
+          </rule>
           <rule filter="&quot;type&quot; = 'path'" key="{e67d419f-ca39-4b43-b5c3-2be09f0f1572}" symbol="11" label="path"/>
           <rule filter="&quot;type&quot; = 'footway'" key="{0023031e-2ab0-47a5-a2bf-513f3987516a}" symbol="12" label="footway"/>
           <rule filter="&quot;type&quot; = 'pedestrian'" key="{2914045c-9424-41a0-b2d4-dee649fe1f34}" symbol="13" label="pedestrian"/>
