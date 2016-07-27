@@ -11615,36 +11615,36 @@ def my_form_open(dialog, layer, feature):
           <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
         </edittype>
       </edittypes>
-      <renderer-v2 attr="type" forceraster="0" symbollevels="0" type="categorizedSymbol" enableorderby="1">
-        <categories>
-          <category render="false" symbol="0" value="bridleway" label="bridleway"/>
-          <category render="false" symbol="1" value="cycleway" label="cycleway"/>
-          <category render="true" symbol="2" value="grade1" label="grade1"/>
-          <category render="true" symbol="3" value="grade2" label="grade2"/>
-          <category render="false" symbol="4" value="grade3" label="grade3"/>
-          <category render="false" symbol="5" value="grade4" label="grade4"/>
-          <category render="false" symbol="6" value="grade5" label="grade5"/>
-          <category render="false" symbol="7" value="living_street" label="living_street"/>
-          <category render="true" symbol="8" value="motorway" label="motorway"/>
-          <category render="true" symbol="9" value="motorway_link" label="motorway_link"/>
-          <category render="true" symbol="10" value="path" label="path"/>
-          <category render="false" symbol="11" value="footway" label="footway"/>
-          <category render="false" symbol="12" value="pedestrian" label="pedestrian"/>
-          <category render="true" symbol="13" value="primary" label="primary"/>
-          <category render="true" symbol="14" value="primary_link" label="primary_link"/>
-          <category render="true" symbol="15" value="residential" label="residential"/>
-          <category render="true" symbol="16" value="road" label="road"/>
-          <category render="true" symbol="17" value="roundabout" label="roundabout"/>
-          <category render="true" symbol="18" value="secondary" label="secondary"/>
-          <category render="true" symbol="19" value="secondary_link" label="secondary_link"/>
-          <category render="false" symbol="20" value="service" label="service"/>
-          <category render="false" symbol="21" value="steps" label="steps"/>
-          <category render="true" symbol="22" value="tertiary" label="tertiary"/>
-          <category render="true" symbol="23" value="track" label="track"/>
-          <category render="true" symbol="24" value="trunk" label="trunk"/>
-          <category render="true" symbol="25" value="trunk_link" label="trunk_link"/>
-          <category render="true" symbol="26" value="unclassified" label="unclassified"/>
-        </categories>
+      <renderer-v2 forceraster="0" symbollevels="0" type="RuleRenderer" enableorderby="1">
+        <rules key="{e955019c-db30-4be6-93dd-05799e827fd2}">
+          <rule filter="&quot;type&quot; = 'bridleway'" key="{1bccec45-f41b-46ae-bf0e-da218a4b9840}" symbol="0" label="bridleway"/>
+          <rule filter="&quot;type&quot; = 'cycleway'" key="{d1dcd92c-92ca-4fef-9653-a6849769eaf8}" symbol="1" label="cycleway"/>
+          <rule filter="&quot;type&quot; = 'grade1'" key="{bacb2e5f-bf5e-4ff5-88f2-d92b0e403033}" symbol="2" label="grade1"/>
+          <rule filter="&quot;type&quot; = 'grade2'" key="{8cb0b62d-98d4-4bfc-ac4b-28725eb34606}" symbol="3" label="grade2"/>
+          <rule filter="&quot;type&quot; = 'grade3'" key="{3e4de80a-b30f-49fc-b84d-b7a5f8e3797f}" symbol="4" label="grade3"/>
+          <rule filter="&quot;type&quot; = 'grade4'" key="{199fb7f9-2fc4-4ef9-ab8a-6bfd89984e6c}" symbol="5" label="grade4"/>
+          <rule filter="&quot;type&quot; = 'grade5'" key="{7a7e7682-c1a9-4d28-9c2d-ed19fe6f5aa5}" symbol="6" label="grade5"/>
+          <rule filter="&quot;type&quot; = 'living_street'" key="{ccdb255e-e0d5-444e-a7a3-21995d725a9e}" symbol="7" label="living_street"/>
+          <rule filter="&quot;type&quot; = 'motorway'" key="{75255ad9-73bc-46c1-9cbf-882e1e71f479}" symbol="8" label="motorway"/>
+          <rule filter="&quot;type&quot; = 'motorway_link'" key="{693e7ba6-983f-45ca-b717-0a3f811fc9f5}" symbol="9" label="motorway_link"/>
+          <rule filter="&quot;type&quot; = 'path'" key="{e67d419f-ca39-4b43-b5c3-2be09f0f1572}" symbol="10" label="path"/>
+          <rule filter="&quot;type&quot; = 'footway'" key="{0023031e-2ab0-47a5-a2bf-513f3987516a}" symbol="11" label="footway"/>
+          <rule filter="&quot;type&quot; = 'pedestrian'" key="{2914045c-9424-41a0-b2d4-dee649fe1f34}" symbol="12" label="pedestrian"/>
+          <rule filter="&quot;type&quot; = 'primary'" key="{181f0b66-2061-472f-82be-a5f3af9b8b6d}" symbol="13" label="primary"/>
+          <rule filter="&quot;type&quot; = 'primary_link'" key="{367ad5cb-fac9-40da-b951-8cd3d2698316}" symbol="14" label="primary_link"/>
+          <rule filter="&quot;type&quot; = 'residential'" key="{7190eac8-4497-44c8-8274-390c230f4530}" symbol="15" label="residential"/>
+          <rule filter="&quot;type&quot; = 'road'" key="{b9efb53e-0278-4d94-92e7-eec3f4d094a2}" symbol="16" label="road"/>
+          <rule filter="&quot;type&quot; = 'roundabout'" key="{9676a2b8-0519-4cf6-897e-2b61d0847c7e}" symbol="17" label="roundabout"/>
+          <rule filter="&quot;type&quot; = 'secondary'" key="{86c6a8db-67c0-4d13-a142-21e2d9317f19}" symbol="18" label="secondary"/>
+          <rule filter="&quot;type&quot; = 'secondary_link'" key="{2b233c44-5964-407d-968b-4af6de125655}" symbol="19" label="secondary_link"/>
+          <rule filter="&quot;type&quot; = 'service'" key="{973945be-c7b8-42df-aa68-f50434b29dc9}" symbol="20" label="service"/>
+          <rule filter="&quot;type&quot; = 'steps'" key="{d90b2c76-b517-49c9-ae91-f025145f5a48}" symbol="21" label="steps"/>
+          <rule filter="&quot;type&quot; = 'tertiary'" key="{91717ee2-0372-4573-afd1-6b8b386ad6f5}" symbol="22" label="tertiary"/>
+          <rule filter="&quot;type&quot; = 'track'" key="{e8f4be22-3920-4c36-9ffa-83009b5bb0bd}" symbol="23" label="track"/>
+          <rule filter="&quot;type&quot; = 'trunk'" key="{a2f0d311-099e-4c4a-a191-d511ac6f5ff6}" symbol="24" label="trunk"/>
+          <rule filter="&quot;type&quot; = 'trunk_link'" key="{e9e0f7b4-e5be-4bcf-a393-1fc354b634bc}" symbol="25" label="trunk_link"/>
+          <rule filter="&quot;type&quot; = 'unclassified'" key="{e39bcc56-86d6-40a0-b8e4-a2afb03b1b4e}" symbol="26" label="unclassified"/>
+        </rules>
         <symbols>
           <symbol alpha="1" clip_to_extent="1" type="line" name="0">
             <layer pass="18" class="SimpleLine" locked="0">
@@ -12262,29 +12262,6 @@ def my_form_open(dialog, layer, feature):
             </layer>
           </symbol>
         </symbols>
-        <source-symbol>
-          <symbol alpha="1" clip_to_extent="1" type="line" name="0">
-            <layer pass="0" class="SimpleLine" locked="0">
-              <prop k="capstyle" v="square"/>
-              <prop k="customdash" v="5;2"/>
-              <prop k="customdash_map_unit_scale" v="0,0,0,0,0,0"/>
-              <prop k="customdash_unit" v="MM"/>
-              <prop k="draw_inside_polygon" v="0"/>
-              <prop k="joinstyle" v="bevel"/>
-              <prop k="line_color" v="187,154,69,255"/>
-              <prop k="line_style" v="solid"/>
-              <prop k="line_width" v="0.26"/>
-              <prop k="line_width_unit" v="MM"/>
-              <prop k="offset" v="0"/>
-              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
-              <prop k="offset_unit" v="MM"/>
-              <prop k="use_custom_dash" v="0"/>
-              <prop k="width_map_unit_scale" v="0,0,0,0,0,0"/>
-            </layer>
-          </symbol>
-        </source-symbol>
-        <rotation/>
-        <sizescale scalemethod="diameter"/>
         <orderby>
           <orderByClause asc="1" nullsFirst="0">"z_order"</orderByClause>
         </orderby>
