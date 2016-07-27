@@ -11630,25 +11630,26 @@ def my_form_open(dialog, layer, feature):
             <rule filter="NOT &quot;bridge&quot;" key="{f359dc05-1902-45af-8f3d-ab7c4cb20c04}" symbol="9" label="motorway"/>
           </rule>
           <rule filter="&quot;type&quot; = 'motorway_link'" key="{693e7ba6-983f-45ca-b717-0a3f811fc9f5}" label="motorway_link">
-            <rule key="{839be89c-c9f7-4488-a1a8-65c4b9bda598}" symbol="10" label="motorway_link"/>
+            <rule filter="&quot;bridge&quot;" key="{5dea488d-201a-49e0-9fc4-0a04516f3580}" symbol="10" label="motorway_link bridge"/>
+            <rule filter="NOT &quot;bridge&quot;" key="{5589fd71-c2ee-47b4-a950-5790a5f44210}" symbol="11" label="motorway_link"/>
           </rule>
-          <rule filter="&quot;type&quot; = 'path'" key="{e67d419f-ca39-4b43-b5c3-2be09f0f1572}" symbol="11" label="path"/>
-          <rule filter="&quot;type&quot; = 'footway'" key="{0023031e-2ab0-47a5-a2bf-513f3987516a}" symbol="12" label="footway"/>
-          <rule filter="&quot;type&quot; = 'pedestrian'" key="{2914045c-9424-41a0-b2d4-dee649fe1f34}" symbol="13" label="pedestrian"/>
-          <rule filter="&quot;type&quot; = 'primary'" key="{181f0b66-2061-472f-82be-a5f3af9b8b6d}" symbol="14" label="primary"/>
-          <rule filter="&quot;type&quot; = 'primary_link'" key="{367ad5cb-fac9-40da-b951-8cd3d2698316}" symbol="15" label="primary_link"/>
-          <rule filter="&quot;type&quot; = 'residential'" key="{7190eac8-4497-44c8-8274-390c230f4530}" symbol="16" label="residential"/>
-          <rule filter="&quot;type&quot; = 'road'" key="{b9efb53e-0278-4d94-92e7-eec3f4d094a2}" symbol="17" label="road"/>
-          <rule filter="&quot;type&quot; = 'roundabout'" key="{9676a2b8-0519-4cf6-897e-2b61d0847c7e}" symbol="18" label="roundabout"/>
-          <rule filter="&quot;type&quot; = 'secondary'" key="{86c6a8db-67c0-4d13-a142-21e2d9317f19}" symbol="19" label="secondary"/>
-          <rule filter="&quot;type&quot; = 'secondary_link'" key="{2b233c44-5964-407d-968b-4af6de125655}" symbol="20" label="secondary_link"/>
-          <rule filter="&quot;type&quot; = 'service'" key="{973945be-c7b8-42df-aa68-f50434b29dc9}" symbol="21" label="service"/>
-          <rule filter="&quot;type&quot; = 'steps'" key="{d90b2c76-b517-49c9-ae91-f025145f5a48}" symbol="22" label="steps"/>
-          <rule filter="&quot;type&quot; = 'tertiary'" key="{91717ee2-0372-4573-afd1-6b8b386ad6f5}" symbol="23" label="tertiary"/>
-          <rule filter="&quot;type&quot; = 'track'" key="{e8f4be22-3920-4c36-9ffa-83009b5bb0bd}" symbol="24" label="track"/>
-          <rule filter="&quot;type&quot; = 'trunk'" key="{a2f0d311-099e-4c4a-a191-d511ac6f5ff6}" symbol="25" label="trunk"/>
-          <rule filter="&quot;type&quot; = 'trunk_link'" key="{e9e0f7b4-e5be-4bcf-a393-1fc354b634bc}" symbol="26" label="trunk_link"/>
-          <rule filter="&quot;type&quot; = 'unclassified'" key="{e39bcc56-86d6-40a0-b8e4-a2afb03b1b4e}" symbol="27" label="unclassified"/>
+          <rule filter="&quot;type&quot; = 'path'" key="{e67d419f-ca39-4b43-b5c3-2be09f0f1572}" symbol="12" label="path"/>
+          <rule filter="&quot;type&quot; = 'footway'" key="{0023031e-2ab0-47a5-a2bf-513f3987516a}" symbol="13" label="footway"/>
+          <rule filter="&quot;type&quot; = 'pedestrian'" key="{2914045c-9424-41a0-b2d4-dee649fe1f34}" symbol="14" label="pedestrian"/>
+          <rule filter="&quot;type&quot; = 'primary'" key="{181f0b66-2061-472f-82be-a5f3af9b8b6d}" symbol="15" label="primary"/>
+          <rule filter="&quot;type&quot; = 'primary_link'" key="{367ad5cb-fac9-40da-b951-8cd3d2698316}" symbol="16" label="primary_link"/>
+          <rule filter="&quot;type&quot; = 'residential'" key="{7190eac8-4497-44c8-8274-390c230f4530}" symbol="17" label="residential"/>
+          <rule filter="&quot;type&quot; = 'road'" key="{b9efb53e-0278-4d94-92e7-eec3f4d094a2}" symbol="18" label="road"/>
+          <rule filter="&quot;type&quot; = 'roundabout'" key="{9676a2b8-0519-4cf6-897e-2b61d0847c7e}" symbol="19" label="roundabout"/>
+          <rule filter="&quot;type&quot; = 'secondary'" key="{86c6a8db-67c0-4d13-a142-21e2d9317f19}" symbol="20" label="secondary"/>
+          <rule filter="&quot;type&quot; = 'secondary_link'" key="{2b233c44-5964-407d-968b-4af6de125655}" symbol="21" label="secondary_link"/>
+          <rule filter="&quot;type&quot; = 'service'" key="{973945be-c7b8-42df-aa68-f50434b29dc9}" symbol="22" label="service"/>
+          <rule filter="&quot;type&quot; = 'steps'" key="{d90b2c76-b517-49c9-ae91-f025145f5a48}" symbol="23" label="steps"/>
+          <rule filter="&quot;type&quot; = 'tertiary'" key="{91717ee2-0372-4573-afd1-6b8b386ad6f5}" symbol="24" label="tertiary"/>
+          <rule filter="&quot;type&quot; = 'track'" key="{e8f4be22-3920-4c36-9ffa-83009b5bb0bd}" symbol="25" label="track"/>
+          <rule filter="&quot;type&quot; = 'trunk'" key="{a2f0d311-099e-4c4a-a191-d511ac6f5ff6}" symbol="26" label="trunk"/>
+          <rule filter="&quot;type&quot; = 'trunk_link'" key="{e9e0f7b4-e5be-4bcf-a393-1fc354b634bc}" symbol="27" label="trunk_link"/>
+          <rule filter="&quot;type&quot; = 'unclassified'" key="{e39bcc56-86d6-40a0-b8e4-a2afb03b1b4e}" symbol="28" label="unclassified"/>
         </rules>
         <symbols>
           <symbol alpha="1" clip_to_extent="1" type="line" name="0">
@@ -11716,6 +11717,25 @@ def my_form_open(dialog, layer, feature):
               <prop k="customdash_unit" v="MM"/>
               <prop k="draw_inside_polygon" v="0"/>
               <prop k="joinstyle" v="bevel"/>
+              <prop k="line_color" v="255,179,51,255"/>
+              <prop k="line_style" v="solid"/>
+              <prop k="line_width" v="2.6"/>
+              <prop k="line_width_unit" v="MM"/>
+              <prop k="offset" v="0"/>
+              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="use_custom_dash" v="0"/>
+              <prop k="width_map_unit_scale" v="0,0,0,0,0,0"/>
+            </layer>
+          </symbol>
+          <symbol alpha="1" clip_to_extent="1" type="line" name="12">
+            <layer pass="0" class="SimpleLine" locked="0">
+              <prop k="capstyle" v="square"/>
+              <prop k="customdash" v="5;2"/>
+              <prop k="customdash_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="customdash_unit" v="MM"/>
+              <prop k="draw_inside_polygon" v="0"/>
+              <prop k="joinstyle" v="bevel"/>
               <prop k="line_color" v="109,60,38,255"/>
               <prop k="line_style" v="dash"/>
               <prop k="line_width" v="0.26"/>
@@ -11727,7 +11747,7 @@ def my_form_open(dialog, layer, feature):
               <prop k="width_map_unit_scale" v="0,0,0,0,0,0"/>
             </layer>
           </symbol>
-          <symbol alpha="1" clip_to_extent="1" type="line" name="12">
+          <symbol alpha="1" clip_to_extent="1" type="line" name="13">
             <layer pass="0" class="SimpleLine" locked="0">
               <prop k="capstyle" v="square"/>
               <prop k="customdash" v="5;2"/>
@@ -11746,7 +11766,7 @@ def my_form_open(dialog, layer, feature):
               <prop k="width_map_unit_scale" v="0,0,0,0,0,0"/>
             </layer>
           </symbol>
-          <symbol alpha="1" clip_to_extent="1" type="line" name="13">
+          <symbol alpha="1" clip_to_extent="1" type="line" name="14">
             <layer pass="0" class="SimpleLine" locked="0">
               <prop k="capstyle" v="square"/>
               <prop k="customdash" v="5;2"/>
@@ -11765,7 +11785,7 @@ def my_form_open(dialog, layer, feature):
               <prop k="width_map_unit_scale" v="0,0,0,0,0,0"/>
             </layer>
           </symbol>
-          <symbol alpha="1" clip_to_extent="1" type="line" name="14">
+          <symbol alpha="1" clip_to_extent="1" type="line" name="15">
             <layer pass="18" class="SimpleLine" locked="0">
               <prop k="capstyle" v="round"/>
               <prop k="customdash" v="5;2"/>
@@ -11784,7 +11804,7 @@ def my_form_open(dialog, layer, feature):
               <prop k="width_map_unit_scale" v="0,0,0,0,0,0"/>
             </layer>
           </symbol>
-          <symbol alpha="1" clip_to_extent="1" type="line" name="15">
+          <symbol alpha="1" clip_to_extent="1" type="line" name="16">
             <layer pass="0" class="SimpleLine" locked="0">
               <prop k="capstyle" v="square"/>
               <prop k="customdash" v="5;2"/>
@@ -11803,7 +11823,7 @@ def my_form_open(dialog, layer, feature):
               <prop k="width_map_unit_scale" v="0,0,0,0,0,0"/>
             </layer>
           </symbol>
-          <symbol alpha="1" clip_to_extent="1" type="line" name="16">
+          <symbol alpha="1" clip_to_extent="1" type="line" name="17">
             <layer pass="0" class="SimpleLine" locked="0">
               <prop k="capstyle" v="square"/>
               <prop k="customdash" v="5;2"/>
@@ -11839,7 +11859,7 @@ def my_form_open(dialog, layer, feature):
               <prop k="width_map_unit_scale" v="0,0,0,0,0,0"/>
             </layer>
           </symbol>
-          <symbol alpha="1" clip_to_extent="1" type="line" name="17">
+          <symbol alpha="1" clip_to_extent="1" type="line" name="18">
             <layer pass="0" class="SimpleLine" locked="0">
               <prop k="capstyle" v="square"/>
               <prop k="customdash" v="5;2"/>
@@ -11858,7 +11878,7 @@ def my_form_open(dialog, layer, feature):
               <prop k="width_map_unit_scale" v="0,0,0,0,0,0"/>
             </layer>
           </symbol>
-          <symbol alpha="1" clip_to_extent="1" type="line" name="18">
+          <symbol alpha="1" clip_to_extent="1" type="line" name="19">
             <layer pass="0" class="SimpleLine" locked="0">
               <prop k="capstyle" v="square"/>
               <prop k="customdash" v="5;2"/>
@@ -11894,25 +11914,6 @@ def my_form_open(dialog, layer, feature):
               <prop k="width_map_unit_scale" v="0,0,0,0,0,0"/>
             </layer>
           </symbol>
-          <symbol alpha="1" clip_to_extent="1" type="line" name="19">
-            <layer pass="18" class="SimpleLine" locked="0">
-              <prop k="capstyle" v="round"/>
-              <prop k="customdash" v="5;2"/>
-              <prop k="customdash_map_unit_scale" v="0,0,0,0,0,0"/>
-              <prop k="customdash_unit" v="MM"/>
-              <prop k="draw_inside_polygon" v="0"/>
-              <prop k="joinstyle" v="round"/>
-              <prop k="line_color" v="255,242,102,255"/>
-              <prop k="line_style" v="solid"/>
-              <prop k="line_width" v="2.98247"/>
-              <prop k="line_width_unit" v="MM"/>
-              <prop k="offset" v="0"/>
-              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
-              <prop k="offset_unit" v="MM"/>
-              <prop k="use_custom_dash" v="0"/>
-              <prop k="width_map_unit_scale" v="0,0,0,0,0,0"/>
-            </layer>
-          </symbol>
           <symbol alpha="1" clip_to_extent="1" type="line" name="2">
             <layer pass="0" class="SimpleLine" locked="0">
               <prop k="capstyle" v="square"/>
@@ -11933,6 +11934,25 @@ def my_form_open(dialog, layer, feature):
             </layer>
           </symbol>
           <symbol alpha="1" clip_to_extent="1" type="line" name="20">
+            <layer pass="18" class="SimpleLine" locked="0">
+              <prop k="capstyle" v="round"/>
+              <prop k="customdash" v="5;2"/>
+              <prop k="customdash_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="customdash_unit" v="MM"/>
+              <prop k="draw_inside_polygon" v="0"/>
+              <prop k="joinstyle" v="round"/>
+              <prop k="line_color" v="255,242,102,255"/>
+              <prop k="line_style" v="solid"/>
+              <prop k="line_width" v="2.98247"/>
+              <prop k="line_width_unit" v="MM"/>
+              <prop k="offset" v="0"/>
+              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="use_custom_dash" v="0"/>
+              <prop k="width_map_unit_scale" v="0,0,0,0,0,0"/>
+            </layer>
+          </symbol>
+          <symbol alpha="1" clip_to_extent="1" type="line" name="21">
             <layer pass="0" class="SimpleLine" locked="0">
               <prop k="capstyle" v="square"/>
               <prop k="customdash" v="5;2"/>
@@ -11951,7 +11971,7 @@ def my_form_open(dialog, layer, feature):
               <prop k="width_map_unit_scale" v="0,0,0,0,0,0"/>
             </layer>
           </symbol>
-          <symbol alpha="1" clip_to_extent="1" type="line" name="21">
+          <symbol alpha="1" clip_to_extent="1" type="line" name="22">
             <layer pass="0" class="SimpleLine" locked="1">
               <prop k="capstyle" v="square"/>
               <prop k="customdash" v="5;2"/>
@@ -11987,7 +12007,7 @@ def my_form_open(dialog, layer, feature):
               <prop k="width_map_unit_scale" v="0,0,0,0,0,0"/>
             </layer>
           </symbol>
-          <symbol alpha="0.290196" clip_to_extent="1" type="line" name="22">
+          <symbol alpha="0.290196" clip_to_extent="1" type="line" name="23">
             <layer pass="0" class="SimpleLine" locked="0">
               <prop k="capstyle" v="round"/>
               <prop k="customdash" v="5;2"/>
@@ -12006,7 +12026,7 @@ def my_form_open(dialog, layer, feature):
               <prop k="width_map_unit_scale" v="0,0,0,0,0,0"/>
             </layer>
           </symbol>
-          <symbol alpha="1" clip_to_extent="1" type="line" name="23">
+          <symbol alpha="1" clip_to_extent="1" type="line" name="24">
             <layer pass="0" class="SimpleLine" locked="1">
               <prop k="capstyle" v="round"/>
               <prop k="customdash" v="5;2"/>
@@ -12042,7 +12062,7 @@ def my_form_open(dialog, layer, feature):
               <prop k="width_map_unit_scale" v="0,0,0,0,0,0"/>
             </layer>
           </symbol>
-          <symbol alpha="1" clip_to_extent="1" type="line" name="24">
+          <symbol alpha="1" clip_to_extent="1" type="line" name="25">
             <layer pass="0" class="SimpleLine" locked="0">
               <prop k="capstyle" v="square"/>
               <prop k="customdash" v="5;2"/>
@@ -12061,7 +12081,7 @@ def my_form_open(dialog, layer, feature):
               <prop k="width_map_unit_scale" v="0,0,0,0,0,0"/>
             </layer>
           </symbol>
-          <symbol alpha="1" clip_to_extent="1" type="line" name="25">
+          <symbol alpha="1" clip_to_extent="1" type="line" name="26">
             <layer pass="0" class="SimpleLine" locked="0">
               <prop k="capstyle" v="square"/>
               <prop k="customdash" v="5;2"/>
@@ -12080,7 +12100,7 @@ def my_form_open(dialog, layer, feature):
               <prop k="width_map_unit_scale" v="0,0,0,0,0,0"/>
             </layer>
           </symbol>
-          <symbol alpha="1" clip_to_extent="1" type="line" name="26">
+          <symbol alpha="1" clip_to_extent="1" type="line" name="27">
             <layer pass="0" class="SimpleLine" locked="0">
               <prop k="capstyle" v="square"/>
               <prop k="customdash" v="5;2"/>
@@ -12099,7 +12119,7 @@ def my_form_open(dialog, layer, feature):
               <prop k="width_map_unit_scale" v="0,0,0,0,0,0"/>
             </layer>
           </symbol>
-          <symbol alpha="1" clip_to_extent="1" type="line" name="27">
+          <symbol alpha="1" clip_to_extent="1" type="line" name="28">
             <layer pass="0" class="SimpleLine" locked="1">
               <prop k="capstyle" v="round"/>
               <prop k="customdash" v="5;2"/>
