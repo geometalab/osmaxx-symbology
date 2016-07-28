@@ -11632,11 +11632,11 @@ def my_form_open(dialog, layer, feature):
           <rule filter="&quot;type&quot; = 'pedestrian'" key="{1d57d0aa-b38b-442b-a818-e405283b6549}" symbol="12" label="pedestrian"/>
           <rule filter="&quot;type&quot; = 'service'" key="{b03356d5-2fea-4669-af32-3581859f5e8d}" symbol="13" label="service"/>
           <rule filter="&quot;aggtype&quot; = 'track'" key="{b1947fce-f41e-4101-9172-95328f5561da}" label="track">
-            <rule filter="&quot;type&quot; = 'grade1'" key="{0b0fb4e6-3308-44f5-9b7f-cf0924364005}" symbol="14" label="grade1"/>
-            <rule filter="&quot;type&quot; = 'grade2'" key="{c4c16de0-fa39-4f62-a692-f3e6062acfe0}" symbol="15" label="grade2"/>
-            <rule filter="&quot;type&quot; = 'grade3'" key="{cc71efb5-1a8b-4bb8-805a-35b4ba2eb128}" symbol="16" label="grade3"/>
-            <rule filter="&quot;type&quot; = 'grade4'" key="{9310aefe-5bd9-4f75-9fbd-63caa111a5e6}" symbol="17" label="grade4"/>
-            <rule filter="&quot;type&quot; = 'grade5'" key="{5dfb402f-77a7-48fa-aa35-4af68f24095d}" symbol="18" label="grade5"/>
+            <rule filter="&quot;type&quot; = 'grade1'" key="{0b0fb4e6-3308-44f5-9b7f-cf0924364005}" symbol="14" label="track (grade 1)"/>
+            <rule filter="&quot;type&quot; = 'grade2'" key="{c4c16de0-fa39-4f62-a692-f3e6062acfe0}" symbol="15" label="track (grade 2)"/>
+            <rule filter="&quot;type&quot; = 'grade3'" key="{cc71efb5-1a8b-4bb8-805a-35b4ba2eb128}" symbol="16" label="track (grade 3)"/>
+            <rule filter="&quot;type&quot; = 'grade4'" key="{9310aefe-5bd9-4f75-9fbd-63caa111a5e6}" symbol="17" label="track (grade 4)"/>
+            <rule filter="&quot;type&quot; = 'grade5'" key="{5dfb402f-77a7-48fa-aa35-4af68f24095d}" symbol="18" label="track (grade 5)"/>
             <rule filter="&quot;type&quot; = 'track'" key="{35a37aae-d05a-4ffe-849c-97a6492fdd05}" symbol="19" label="track"/>
           </rule>
           <rule filter="&quot;type&quot; = 'bridleway'" key="{a60380d4-0822-4ecb-948d-819d9d9d54ab}" symbol="20" label="bridleway"/>
