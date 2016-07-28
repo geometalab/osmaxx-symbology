@@ -11645,8 +11645,7 @@ def my_form_open(dialog, layer, feature):
           <rule filter="&quot;type&quot; = 'path'" key="{e67d419f-ca39-4b43-b5c3-2be09f0f1572}" symbol="23" label="path"/>
           <rule filter="&quot;type&quot; = 'steps'" key="{d90b2c76-b517-49c9-ae91-f025145f5a48}" symbol="24" label="steps"/>
           <rule key="{4304372d-3096-4bd0-8c5e-7454d920d3d2}" label="unknown classification">
-            <rule filter="&quot;type&quot; = 'road'" key="{8c9e1182-a347-4ae9-9842-7c09e85d8a3d}" symbol="25" label="road"/>
-            <rule filter="&quot;type&quot; = 'roundabout'" key="{bd1b09db-8067-4bce-ac15-f3cd87a8c654}" symbol="26" label="roundabout"/>
+            <rule filter="&quot;type&quot; = 'road' OR &quot;type&quot; = 'roundabout'" key="{8c9e1182-a347-4ae9-9842-7c09e85d8a3d}" symbol="25" label="road (other or unknown classification)"/>
           </rule>
         </rules>
         <symbols>
@@ -12054,42 +12053,6 @@ def my_form_open(dialog, layer, feature):
               <prop k="line_color" v="187,154,69,255"/>
               <prop k="line_style" v="solid"/>
               <prop k="line_width" v="0.26"/>
-              <prop k="line_width_unit" v="MM"/>
-              <prop k="offset" v="0"/>
-              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
-              <prop k="offset_unit" v="MM"/>
-              <prop k="use_custom_dash" v="0"/>
-              <prop k="width_map_unit_scale" v="0,0,0,0,0,0"/>
-            </layer>
-          </symbol>
-          <symbol alpha="1" clip_to_extent="1" type="line" name="26">
-            <layer pass="0" class="SimpleLine" locked="0">
-              <prop k="capstyle" v="square"/>
-              <prop k="customdash" v="5;2"/>
-              <prop k="customdash_map_unit_scale" v="0,0,0,0,0,0"/>
-              <prop k="customdash_unit" v="MM"/>
-              <prop k="draw_inside_polygon" v="0"/>
-              <prop k="joinstyle" v="bevel"/>
-              <prop k="line_color" v="227,227,227,255"/>
-              <prop k="line_style" v="solid"/>
-              <prop k="line_width" v="2.26"/>
-              <prop k="line_width_unit" v="MM"/>
-              <prop k="offset" v="0"/>
-              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
-              <prop k="offset_unit" v="MM"/>
-              <prop k="use_custom_dash" v="0"/>
-              <prop k="width_map_unit_scale" v="0,0,0,0,0,0"/>
-            </layer>
-            <layer pass="0" class="SimpleLine" locked="0">
-              <prop k="capstyle" v="square"/>
-              <prop k="customdash" v="5;2"/>
-              <prop k="customdash_map_unit_scale" v="0,0,0,0,0,0"/>
-              <prop k="customdash_unit" v="MM"/>
-              <prop k="draw_inside_polygon" v="0"/>
-              <prop k="joinstyle" v="bevel"/>
-              <prop k="line_color" v="255,255,255,255"/>
-              <prop k="line_style" v="solid"/>
-              <prop k="line_width" v="1.26"/>
               <prop k="line_width_unit" v="MM"/>
               <prop k="offset" v="0"/>
               <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
