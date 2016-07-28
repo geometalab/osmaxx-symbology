@@ -11617,34 +11617,86 @@ def my_form_open(dialog, layer, feature):
       </edittypes>
       <renderer-v2 forceraster="0" symbollevels="0" type="RuleRenderer" enableorderby="1">
         <rules key="{e955019c-db30-4be6-93dd-05799e827fd2}">
-          <rule filter="&quot;type&quot; = 'motorway'" key="{ff563fd5-6ff0-4ff4-91ab-adeaaf1ee427}" symbol="0" label="motorway"/>
-          <rule filter="&quot;type&quot; = 'motorway_link'" key="{9fc77a20-9cf2-4d7f-bb2b-e3d0f7185c8b}" symbol="1" label="motorway_link"/>
-          <rule filter="&quot;type&quot; = 'trunk'" key="{aa877bf3-7970-4456-9f64-9350717c3ef3}" symbol="2" label="trunk"/>
-          <rule filter="&quot;type&quot; = 'trunk_link'" key="{b781a517-a92e-4eb5-afd4-6809853dace4}" symbol="3" label="trunk_link"/>
-          <rule filter="&quot;type&quot; = 'primary'" key="{43d9f9c4-f26f-4d49-8ee0-b5213509ac7e}" symbol="4" label="primary"/>
-          <rule filter="&quot;type&quot; = 'primary_link'" key="{1354b8f3-644f-42ba-8d59-fb5c3db50630}" symbol="5" label="primary_link"/>
-          <rule filter="&quot;type&quot; = 'secondary'" key="{339aa358-bc53-41c3-8039-616a48ede7ce}" symbol="6" label="secondary"/>
-          <rule filter="&quot;type&quot; = 'secondary_link'" key="{d63a8e3e-ca88-4f94-a5dd-8e5eae6103ae}" symbol="7" label="secondary_link"/>
-          <rule filter="&quot;type&quot; = 'tertiary'" key="{56b2a2e8-ee05-4994-8c23-561e25eed054}" symbol="8" label="tertiary"/>
-          <rule filter="&quot;type&quot; = 'unclassified'" key="{56ba6bdd-56de-4a3b-82c7-e68739dda29b}" symbol="9" label="unclassified"/>
-          <rule filter="&quot;type&quot; = 'residential'" key="{25dc2b8a-6d85-4f95-a7ef-aa831e1f6a4d}" symbol="10" label="residential"/>
-          <rule filter="&quot;type&quot; = 'living_street'" key="{ef4f048d-2f43-4054-8d7d-e962c9b96eae}" symbol="11" label="living_street"/>
-          <rule filter="&quot;type&quot; = 'pedestrian'" key="{1d57d0aa-b38b-442b-a818-e405283b6549}" symbol="12" label="pedestrian"/>
-          <rule filter="&quot;type&quot; = 'service'" key="{b03356d5-2fea-4669-af32-3581859f5e8d}" symbol="13" label="service"/>
-          <rule filter="&quot;aggtype&quot; = 'track'" key="{b1947fce-f41e-4101-9172-95328f5561da}" label="track">
-            <rule filter="&quot;type&quot; = 'grade1'" key="{0b0fb4e6-3308-44f5-9b7f-cf0924364005}" symbol="14" label="track (grade 1)"/>
-            <rule filter="&quot;type&quot; = 'grade2'" key="{c4c16de0-fa39-4f62-a692-f3e6062acfe0}" symbol="15" label="track (grade 2)"/>
-            <rule filter="&quot;type&quot; = 'grade3'" key="{cc71efb5-1a8b-4bb8-805a-35b4ba2eb128}" symbol="16" label="track (grade 3)"/>
-            <rule filter="&quot;type&quot; = 'grade4'" key="{9310aefe-5bd9-4f75-9fbd-63caa111a5e6}" symbol="17" label="track (grade 4)"/>
-            <rule filter="&quot;type&quot; = 'grade5'" key="{5dfb402f-77a7-48fa-aa35-4af68f24095d}" symbol="18" label="track (grade 5)"/>
-            <rule filter="&quot;type&quot; = 'track'" key="{35a37aae-d05a-4ffe-849c-97a6492fdd05}" symbol="19" label="track"/>
+          <rule filter="&quot;type&quot; = 'motorway'" key="{ff563fd5-6ff0-4ff4-91ab-adeaaf1ee427}" label="motorway">
+            <rule key="{d0c142ce-3f7b-4f96-8eb3-d0e2519663e9}" symbol="0" label="motorway"/>
           </rule>
-          <rule filter="&quot;type&quot; = 'bridleway'" key="{a60380d4-0822-4ecb-948d-819d9d9d54ab}" symbol="20" label="bridleway"/>
-          <rule filter="&quot;type&quot; = 'cycleway'" key="{6be50fcb-f17e-4bd1-9852-029bc9bcf983}" symbol="21" label="cycleway"/>
-          <rule filter="&quot;type&quot; = 'footway'" key="{b384234b-4771-4c83-8c4b-a750ce510bca}" symbol="22" label="footway"/>
-          <rule filter="&quot;type&quot; = 'path'" key="{e67d419f-ca39-4b43-b5c3-2be09f0f1572}" symbol="23" label="path"/>
-          <rule filter="&quot;type&quot; = 'steps'" key="{d90b2c76-b517-49c9-ae91-f025145f5a48}" symbol="24" label="steps"/>
-          <rule filter="&quot;type&quot; = 'road' OR &quot;type&quot; = 'roundabout'" key="{9d384140-3197-45b7-85eb-ee83a89244af}" symbol="25" label="road (other or unknown classification)"/>
+          <rule filter="&quot;type&quot; = 'motorway_link'" key="{9fc77a20-9cf2-4d7f-bb2b-e3d0f7185c8b}" label="motorway_link">
+            <rule key="{1ad4b144-9eaa-43b9-b15b-1a0c3362bc6f}" symbol="1" label="motorway_link"/>
+          </rule>
+          <rule filter="&quot;type&quot; = 'trunk'" key="{aa877bf3-7970-4456-9f64-9350717c3ef3}" label="trunk">
+            <rule key="{71a89896-cd26-4ed6-b487-a735e8624ded}" symbol="2" label="trunk"/>
+          </rule>
+          <rule filter="&quot;type&quot; = 'trunk_link'" key="{b781a517-a92e-4eb5-afd4-6809853dace4}" label="trunk_link">
+            <rule key="{51b95910-a9c1-413a-8fa1-61f48751469d}" symbol="3" label="trunk_link"/>
+          </rule>
+          <rule filter="&quot;type&quot; = 'primary'" key="{43d9f9c4-f26f-4d49-8ee0-b5213509ac7e}" label="primary">
+            <rule key="{7d0acfac-fe1c-4bd8-ae0f-928c0699860a}" symbol="4" label="primary"/>
+          </rule>
+          <rule filter="&quot;type&quot; = 'primary_link'" key="{1354b8f3-644f-42ba-8d59-fb5c3db50630}" label="primary_link">
+            <rule key="{d7f8ea18-4288-44c3-8821-caaebae4401e}" symbol="5" label="primary_link"/>
+          </rule>
+          <rule filter="&quot;type&quot; = 'secondary'" key="{339aa358-bc53-41c3-8039-616a48ede7ce}" label="secondary">
+            <rule key="{16341c28-1d5c-42ad-844f-429252ae329e}" symbol="6" label="secondary"/>
+          </rule>
+          <rule filter="&quot;type&quot; = 'secondary_link'" key="{d63a8e3e-ca88-4f94-a5dd-8e5eae6103ae}" label="secondary_link">
+            <rule key="{97f3ba97-77f8-44bd-9b74-8ea7c5f67977}" symbol="7" label="secondary_link"/>
+          </rule>
+          <rule filter="&quot;type&quot; = 'tertiary'" key="{56b2a2e8-ee05-4994-8c23-561e25eed054}" label="tertiary">
+            <rule key="{e6568829-eb92-4ac4-ad41-282c53051406}" symbol="8" label="tertiary"/>
+          </rule>
+          <rule filter="&quot;type&quot; = 'unclassified'" key="{56ba6bdd-56de-4a3b-82c7-e68739dda29b}" label="unclassified">
+            <rule key="{b292f014-c0d9-476a-a702-52781393c291}" symbol="9" label="unclassified"/>
+          </rule>
+          <rule filter="&quot;type&quot; = 'residential'" key="{25dc2b8a-6d85-4f95-a7ef-aa831e1f6a4d}" label="residential">
+            <rule key="{081d93d1-2480-43ab-95b5-dc4896b814fd}" symbol="10" label="residential"/>
+          </rule>
+          <rule filter="&quot;type&quot; = 'living_street'" key="{ef4f048d-2f43-4054-8d7d-e962c9b96eae}" label="living_street">
+            <rule key="{12b9ed9c-2ab2-4ba3-904b-5208db29e6ea}" symbol="11" label="living_street"/>
+          </rule>
+          <rule filter="&quot;type&quot; = 'pedestrian'" key="{1d57d0aa-b38b-442b-a818-e405283b6549}" label="pedestrian">
+            <rule key="{8ee45862-0fa2-4dc4-91e1-fa409d090aa4}" symbol="12" label="pedestrian"/>
+          </rule>
+          <rule filter="&quot;type&quot; = 'service'" key="{b03356d5-2fea-4669-af32-3581859f5e8d}" label="service">
+            <rule key="{fcaa23dd-e0a8-437f-a376-b19fbbec299a}" symbol="13" label="service"/>
+          </rule>
+          <rule filter="&quot;aggtype&quot; = 'track'" key="{b1947fce-f41e-4101-9172-95328f5561da}" label="track">
+            <rule filter="&quot;type&quot; = 'grade1'" key="{0b0fb4e6-3308-44f5-9b7f-cf0924364005}" label="track (grade 1)">
+              <rule key="{364d109f-67f4-40d7-868c-fd6e0a0fb940}" symbol="14" label="track (grade 1)"/>
+            </rule>
+            <rule filter="&quot;type&quot; = 'grade2'" key="{c4c16de0-fa39-4f62-a692-f3e6062acfe0}" label="track (grade 2)">
+              <rule key="{f9b6b589-6c64-4481-ad34-86fe48db22fc}" symbol="15" label="track (grade 2)"/>
+            </rule>
+            <rule filter="&quot;type&quot; = 'grade3'" key="{cc71efb5-1a8b-4bb8-805a-35b4ba2eb128}" label="track (grade 3)">
+              <rule key="{652679f4-7407-469d-b386-8ed1b9db2c73}" symbol="16" label="track (grade 3)"/>
+            </rule>
+            <rule filter="&quot;type&quot; = 'grade4'" key="{9310aefe-5bd9-4f75-9fbd-63caa111a5e6}" label="track (grade 4)">
+              <rule key="{9486ca1d-f997-434d-8fb7-994b320595a4}" symbol="17" label="track (grade 4)"/>
+            </rule>
+            <rule filter="&quot;type&quot; = 'grade5'" key="{5dfb402f-77a7-48fa-aa35-4af68f24095d}" label="track (grade 5)">
+              <rule key="{630d848c-8b59-4413-9e69-6933c70bc4d2}" symbol="18" label="track (grade 5)"/>
+            </rule>
+            <rule filter="&quot;type&quot; = 'track'" key="{35a37aae-d05a-4ffe-849c-97a6492fdd05}" label="track">
+              <rule key="{98fea53b-dba8-46ff-b581-8a6dbd25becb}" symbol="19" label="track"/>
+            </rule>
+          </rule>
+          <rule filter="&quot;type&quot; = 'bridleway'" key="{a60380d4-0822-4ecb-948d-819d9d9d54ab}" label="bridleway">
+            <rule key="{7dfecbe2-5373-4457-971b-80321dc23c0f}" symbol="20" label="bridleway"/>
+          </rule>
+          <rule filter="&quot;type&quot; = 'cycleway'" key="{6be50fcb-f17e-4bd1-9852-029bc9bcf983}" label="cycleway">
+            <rule key="{e31aefff-cf5e-4786-b7cd-99f2bae6ed6e}" symbol="21" label="cycleway"/>
+          </rule>
+          <rule filter="&quot;type&quot; = 'footway'" key="{b384234b-4771-4c83-8c4b-a750ce510bca}" label="footway">
+            <rule key="{a6526a52-7666-4842-88be-a5b6dd0e142d}" symbol="22" label="footway"/>
+          </rule>
+          <rule filter="&quot;type&quot; = 'path'" key="{e67d419f-ca39-4b43-b5c3-2be09f0f1572}" label="path">
+            <rule key="{d82ce24f-9413-4f02-b54b-e4b9b264bb70}" symbol="23" label="path"/>
+          </rule>
+          <rule filter="&quot;type&quot; = 'steps'" key="{d90b2c76-b517-49c9-ae91-f025145f5a48}" label="steps">
+            <rule key="{8775de75-bcb7-4e85-9cfc-fa2a9a687b32}" symbol="24" label="steps"/>
+          </rule>
+          <rule filter="&quot;type&quot; = 'road' OR &quot;type&quot; = 'roundabout'" key="{9d384140-3197-45b7-85eb-ee83a89244af}" label="road (other or unknown classification)">
+            <rule key="{9f1f5406-cecd-467e-bb09-fde376be331d}" symbol="25" label="road (other or unknown classification)"/>
+          </rule>
         </rules>
         <symbols>
           <symbol alpha="1" clip_to_extent="1" type="line" name="0">
