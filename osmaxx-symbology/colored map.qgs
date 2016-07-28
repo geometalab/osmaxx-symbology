@@ -12943,6 +12943,9 @@ def my_form_open(dialog, layer, feature):
             </layer>
           </symbol>
         </symbols>
+        <orderby>
+          <orderByClause asc="1" nullsFirst="0">"z_order"</orderByClause>
+        </orderby>
       </renderer-v2>
       <labeling type="simple"/>
       <customproperties>
