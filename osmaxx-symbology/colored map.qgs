@@ -11644,9 +11644,7 @@ def my_form_open(dialog, layer, feature):
           <rule filter="&quot;type&quot; = 'footway'" key="{b384234b-4771-4c83-8c4b-a750ce510bca}" symbol="22" label="footway"/>
           <rule filter="&quot;type&quot; = 'path'" key="{e67d419f-ca39-4b43-b5c3-2be09f0f1572}" symbol="23" label="path"/>
           <rule filter="&quot;type&quot; = 'steps'" key="{d90b2c76-b517-49c9-ae91-f025145f5a48}" symbol="24" label="steps"/>
-          <rule key="{4304372d-3096-4bd0-8c5e-7454d920d3d2}" label="unknown classification">
-            <rule filter="&quot;type&quot; = 'road' OR &quot;type&quot; = 'roundabout'" key="{8c9e1182-a347-4ae9-9842-7c09e85d8a3d}" symbol="25" label="road (other or unknown classification)"/>
-          </rule>
+          <rule filter="&quot;type&quot; = 'road' OR &quot;type&quot; = 'roundabout'" key="{9d384140-3197-45b7-85eb-ee83a89244af}" symbol="25" label="road (other or unknown classification)"/>
         </rules>
         <symbols>
           <symbol alpha="1" clip_to_extent="1" type="line" name="0">
