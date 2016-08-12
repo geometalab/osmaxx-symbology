@@ -10989,18 +10989,18 @@ def my_form_open(dialog, layer, feature):
           <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
         </edittype>
       </edittypes>
-      <renderer-v2 attr="type" forceraster="0" symbollevels="0" type="categorizedSymbol" enableorderby="1">
-        <categories>
-          <category render="false" symbol="0" value="goods" label="goods"/>
-          <category render="true" symbol="1" value="light_rail" label="light_rail"/>
-          <category render="false" symbol="2" value="miniature" label="miniature"/>
-          <category render="false" symbol="3" value="monorail" label="monorail"/>
-          <category render="true" symbol="4" value="narrow_gauge" label="narrow_gauge"/>
-          <category render="true" symbol="5" value="rail" label="rail"/>
-          <category render="true" symbol="6" value="railway" label="railway"/>
-          <category render="true" symbol="7" value="subway" label="subway"/>
-          <category render="true" symbol="8" value="tram" label="tram"/>
-        </categories>
+      <renderer-v2 forceraster="0" symbollevels="0" type="RuleRenderer" enableorderby="1">
+        <rules key="{017d0057-c115-4a20-a414-f448f0404a23}">
+          <rule filter="&quot;type&quot; = 'goods'" key="{8dd9f53b-dfa5-4fe0-b3e4-2ab2480397bd}" symbol="0" label="goods"/>
+          <rule filter="&quot;type&quot; = 'light_rail'" key="{66b2a8ea-2b20-46c5-a975-2b37045d78ed}" symbol="1" label="light_rail"/>
+          <rule filter="&quot;type&quot; = 'miniature'" key="{609446ea-ef00-466f-904f-866b091b927b}" symbol="2" label="miniature"/>
+          <rule filter="&quot;type&quot; = 'monorail'" key="{0431e77a-6fd6-4ef7-b54f-f159f786f411}" symbol="3" label="monorail"/>
+          <rule filter="&quot;type&quot; = 'narrow_gauge'" key="{348aac92-e862-4193-9388-bc075c3c1d74}" symbol="4" label="narrow_gauge"/>
+          <rule filter="&quot;type&quot; = 'rail'" key="{f24bf6d7-7248-4190-b99c-e15fc1161b71}" symbol="5" label="rail"/>
+          <rule filter="&quot;type&quot; = 'railway'" key="{9d57504f-974b-41bf-8d2c-53bf795a76ef}" symbol="6" label="railway"/>
+          <rule filter="&quot;type&quot; = 'subway'" key="{935d7afc-d2ae-4200-b669-2d0fda59c53d}" symbol="7" label="subway"/>
+          <rule filter="&quot;type&quot; = 'tram'" key="{ba435253-6e4e-47f4-96f1-2d4721b3eeb9}" symbol="8" label="tram"/>
+        </rules>
         <symbols>
           <symbol alpha="1" clip_to_extent="1" type="line" name="0">
             <layer pass="0" class="SimpleLine" locked="0">
@@ -11259,46 +11259,6 @@ def my_form_open(dialog, layer, feature):
             </layer>
           </symbol>
         </symbols>
-        <source-symbol>
-          <symbol alpha="1" clip_to_extent="1" type="line" name="0">
-            <layer pass="0" class="SimpleLine" locked="0">
-              <prop k="capstyle" v="round"/>
-              <prop k="customdash" v="5;2"/>
-              <prop k="customdash_map_unit_scale" v="0,0,0,0,0,0"/>
-              <prop k="customdash_unit" v="MM"/>
-              <prop k="draw_inside_polygon" v="0"/>
-              <prop k="joinstyle" v="round"/>
-              <prop k="line_color" v="243,245,244,255"/>
-              <prop k="line_style" v="solid"/>
-              <prop k="line_width" v="0.56"/>
-              <prop k="line_width_unit" v="MM"/>
-              <prop k="offset" v="0"/>
-              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
-              <prop k="offset_unit" v="MM"/>
-              <prop k="use_custom_dash" v="0"/>
-              <prop k="width_map_unit_scale" v="0,0,0,0,0,0"/>
-            </layer>
-            <layer pass="0" class="SimpleLine" locked="1">
-              <prop k="capstyle" v="round"/>
-              <prop k="customdash" v="5;2"/>
-              <prop k="customdash_map_unit_scale" v="0,0,0,0,0,0"/>
-              <prop k="customdash_unit" v="MM"/>
-              <prop k="draw_inside_polygon" v="0"/>
-              <prop k="joinstyle" v="round"/>
-              <prop k="line_color" v="1,2,0,255"/>
-              <prop k="line_style" v="dot"/>
-              <prop k="line_width" v="0.488205"/>
-              <prop k="line_width_unit" v="MM"/>
-              <prop k="offset" v="0"/>
-              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
-              <prop k="offset_unit" v="MM"/>
-              <prop k="use_custom_dash" v="0"/>
-              <prop k="width_map_unit_scale" v="0,0,0,0,0,0"/>
-            </layer>
-          </symbol>
-        </source-symbol>
-        <rotation/>
-        <sizescale scalemethod="diameter"/>
         <orderby>
           <orderByClause asc="1" nullsFirst="0">"z_order"</orderByClause>
         </orderby>
