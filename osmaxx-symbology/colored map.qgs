@@ -11006,7 +11006,7 @@ def my_form_open(dialog, layer, feature):
           <rule filter="&quot;type&quot; = 'chair_lift'" key="{df364aa2-4a4a-4907-9864-66ea572a7b0f}" label="chair lift"/>
           <rule filter="&quot;type&quot; = 'cable_car'" key="{6ca4025b-5e45-4cc7-8e29-69e4610143be}" label="cable car aerialway"/>
           <rule filter="&quot;type&quot; = 'gondola'" key="{4f0bd3dd-7cb9-4b23-be4c-47e09f18bb8a}" label="gondola aerialway"/>
-          <rule filter="&quot;type&quot; = 'goods'" key="{ef2f2cbe-cbf4-4da9-995a-87f16fb5871a}" symbol="8" label="goods"/>
+          <rule filter="&quot;type&quot; = 'goods'" key="{ef2f2cbe-cbf4-4da9-995a-87f16fb5871a}" symbol="8" label="goods lift"/>
           <rule filter="&quot;type&quot; = 'platter'" key="{a476c5d8-4ffa-460f-8ea6-133722d376db}" label="platter lift"/>
           <rule filter="&quot;type&quot; = 't-bar'" key="{fa7df252-09bb-4ab2-b5d5-5a6940a5c099}" label="T-bar lift"/>
           <rule filter="&quot;type&quot; = 'j-bar'" key="{e13b30fc-92c8-4caa-b077-31c1944b98de}" label="J-bar lift"/>
