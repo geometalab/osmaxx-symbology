@@ -11024,58 +11024,58 @@ def my_form_open(dialog, layer, feature):
             <rule filter="&quot;tunnel&quot;" key="{87cad9ba-48cf-4146-b695-859d466e32b6}" symbol="17" label="narrow_gauge, tunnel"/>
           </rule>
           <rule filter="&quot;type&quot; = 'miniature'" key="{123d5dae-88cd-4949-a867-c8d8bb5fe9f7}" label="miniature">
-            <rule filter="&quot;bridge&quot;" key="{4b92bc5d-140b-4958-b655-534afe6f90b6}" label="miniature, bridge"/>
-            <rule filter="NOT (&quot;tunnel&quot; OR &quot;bridge&quot;)" key="{9fb9d2ad-3a33-4cca-9c9b-6226b00e7e5d}" symbol="18" label="miniature"/>
+            <rule filter="&quot;bridge&quot;" key="{4b92bc5d-140b-4958-b655-534afe6f90b6}" symbol="18" label="miniature, bridge"/>
+            <rule filter="NOT (&quot;tunnel&quot; OR &quot;bridge&quot;)" key="{9fb9d2ad-3a33-4cca-9c9b-6226b00e7e5d}" symbol="19" label="miniature"/>
             <rule filter="&quot;tunnel&quot;" key="{5ee7ff2f-bb66-4ba8-a6e2-7b4feab8675f}" label="miniature, tunnel"/>
           </rule>
           <rule filter="&quot;type&quot; = 'funicular'" key="{829ce5a8-1cd4-464a-a5a0-f50d969f8b43}" label="funicular">
-            <rule filter="&quot;bridge&quot;" key="{4b92bc5d-140b-4958-b655-534afe6f90b6}" symbol="19" label="funicular, bridge"/>
-            <rule filter="NOT (&quot;tunnel&quot; OR &quot;bridge&quot;)" key="{97f47d64-c75b-48c4-a94e-ebe66643c8d2}" symbol="20" label="funicular"/>
-            <rule filter="&quot;tunnel&quot;" key="{8e39f572-cd1c-4810-96bc-3e6f8058f84c}" symbol="21" label="funicular, tunnel"/>
+            <rule filter="&quot;bridge&quot;" key="{4b92bc5d-140b-4958-b655-534afe6f90b6}" symbol="20" label="funicular, bridge"/>
+            <rule filter="NOT (&quot;tunnel&quot; OR &quot;bridge&quot;)" key="{97f47d64-c75b-48c4-a94e-ebe66643c8d2}" symbol="21" label="funicular"/>
+            <rule filter="&quot;tunnel&quot;" key="{8e39f572-cd1c-4810-96bc-3e6f8058f84c}" symbol="22" label="funicular, tunnel"/>
           </rule>
           <rule filter="&quot;type&quot; = 'railway'" key="{95fb86e3-c364-43e0-a0ed-06cd3851e104}" label="railway">
-            <rule filter="&quot;bridge&quot;" key="{4b92bc5d-140b-4958-b655-534afe6f90b6}" symbol="22" label="railway, bridge"/>
-            <rule filter="NOT (&quot;tunnel&quot; OR &quot;bridge&quot;)" key="{1fd9def3-8f7c-476f-afd9-638ab63e395c}" symbol="23" label="railway"/>
-            <rule filter="&quot;tunnel&quot;" key="{debfd24d-b456-4f11-8b5d-9a250bb23980}" symbol="24" label="railway, tunnel"/>
+            <rule filter="&quot;bridge&quot;" key="{4b92bc5d-140b-4958-b655-534afe6f90b6}" symbol="23" label="railway, bridge"/>
+            <rule filter="NOT (&quot;tunnel&quot; OR &quot;bridge&quot;)" key="{1fd9def3-8f7c-476f-afd9-638ab63e395c}" symbol="24" label="railway"/>
+            <rule filter="&quot;tunnel&quot;" key="{debfd24d-b456-4f11-8b5d-9a250bb23980}" symbol="25" label="railway, tunnel"/>
           </rule>
           <rule filter="&quot;type&quot; = 'drag_lift'" key="{a93e413c-829c-4a97-9eb0-fd9e40306837}" label="drag lift">
-            <rule filter="&quot;bridge&quot;" key="{4b92bc5d-140b-4958-b655-534afe6f90b6}" symbol="25" label="drag lift, bridge"/>
-            <rule filter="NOT (&quot;tunnel&quot; OR &quot;bridge&quot;)" key="{c3f4618c-de08-49c0-b202-100ee28c8349}" symbol="26" label="drag lift"/>
-            <rule filter="&quot;tunnel&quot;" key="{49592f44-f805-4686-bb50-b6086579d543}" symbol="27" label="drag lift, tunnel"/>
+            <rule filter="&quot;bridge&quot;" key="{4b92bc5d-140b-4958-b655-534afe6f90b6}" symbol="26" label="drag lift, bridge"/>
+            <rule filter="NOT (&quot;tunnel&quot; OR &quot;bridge&quot;)" key="{c3f4618c-de08-49c0-b202-100ee28c8349}" symbol="27" label="drag lift"/>
+            <rule filter="&quot;tunnel&quot;" key="{49592f44-f805-4686-bb50-b6086579d543}" symbol="28" label="drag lift, tunnel"/>
           </rule>
           <rule filter="&quot;type&quot; = 'chair_lift'" key="{c06880c8-f052-470d-8f5b-7077b498d35f}" label="chair lift"/>
           <rule filter="&quot;type&quot; = 'cable_car'" key="{945318e2-7ecb-44e3-a597-db6e670f33af}" label="cable car aerialway"/>
           <rule filter="&quot;type&quot; = 'gondola'" key="{51ea963d-1b72-4e65-b4cd-5555be86c440}" label="gondola aerialway"/>
-          <rule filter="&quot;type&quot; = 'goods'" key="{cb822e98-8d7c-4736-a85d-da56150b98d2}" symbol="28" label="goods lift"/>
+          <rule filter="&quot;type&quot; = 'goods'" key="{cb822e98-8d7c-4736-a85d-da56150b98d2}" symbol="29" label="goods lift"/>
           <rule filter="&quot;type&quot; = 'platter'" key="{74cd731f-e4d5-4ef2-8801-f1f7a53ab1bb}" label="platter lift">
-            <rule filter="&quot;bridge&quot;" key="{4b92bc5d-140b-4958-b655-534afe6f90b6}" symbol="29" label="platter lift, bridge"/>
-            <rule filter="NOT (&quot;tunnel&quot; OR &quot;bridge&quot;)" key="{5c87c5f4-b5d8-4ca4-82da-64e0e5e6ae3e}" symbol="30" label="platter lift"/>
-            <rule filter="&quot;tunnel&quot;" key="{c765d738-8f85-4787-8ddb-23768f391313}" symbol="31" label="platter lift, tunnel"/>
+            <rule filter="&quot;bridge&quot;" key="{4b92bc5d-140b-4958-b655-534afe6f90b6}" symbol="30" label="platter lift, bridge"/>
+            <rule filter="NOT (&quot;tunnel&quot; OR &quot;bridge&quot;)" key="{5c87c5f4-b5d8-4ca4-82da-64e0e5e6ae3e}" symbol="31" label="platter lift"/>
+            <rule filter="&quot;tunnel&quot;" key="{c765d738-8f85-4787-8ddb-23768f391313}" symbol="32" label="platter lift, tunnel"/>
           </rule>
           <rule filter="&quot;type&quot; = 't-bar'" key="{a93d0615-b9fd-478b-bb16-80d11864b69b}" label="T-bar lift">
-            <rule filter="&quot;bridge&quot;" key="{4b92bc5d-140b-4958-b655-534afe6f90b6}" symbol="32" label="T-bar lift, bridge"/>
-            <rule filter="NOT (&quot;tunnel&quot; OR &quot;bridge&quot;)" key="{add79335-822c-45df-bcc5-97bb99bfd88c}" symbol="33" label="T-bar lift"/>
-            <rule filter="&quot;tunnel&quot;" key="{145bcd7e-96b3-417b-8660-2cf2513a8d56}" symbol="34" label="T-bar lift, tunnel"/>
+            <rule filter="&quot;bridge&quot;" key="{4b92bc5d-140b-4958-b655-534afe6f90b6}" symbol="33" label="T-bar lift, bridge"/>
+            <rule filter="NOT (&quot;tunnel&quot; OR &quot;bridge&quot;)" key="{add79335-822c-45df-bcc5-97bb99bfd88c}" symbol="34" label="T-bar lift"/>
+            <rule filter="&quot;tunnel&quot;" key="{145bcd7e-96b3-417b-8660-2cf2513a8d56}" symbol="35" label="T-bar lift, tunnel"/>
           </rule>
           <rule filter="&quot;type&quot; = 'j-bar'" key="{62021b16-3d73-491f-b56a-e6c912226067}" label="J-bar lift">
-            <rule filter="&quot;bridge&quot;" key="{4b92bc5d-140b-4958-b655-534afe6f90b6}" symbol="35" label="J-bar lift, bridge"/>
-            <rule filter="NOT (&quot;tunnel&quot; OR &quot;bridge&quot;)" key="{ee88efcf-ed82-4164-96ec-1d35e4aae688}" symbol="36" label="J-bar lift"/>
-            <rule filter="&quot;tunnel&quot;" key="{322bcceb-b38a-41ff-97a6-2142eacbbdfd}" symbol="37" label="J-bar lift, tunnel"/>
+            <rule filter="&quot;bridge&quot;" key="{4b92bc5d-140b-4958-b655-534afe6f90b6}" symbol="36" label="J-bar lift, bridge"/>
+            <rule filter="NOT (&quot;tunnel&quot; OR &quot;bridge&quot;)" key="{ee88efcf-ed82-4164-96ec-1d35e4aae688}" symbol="37" label="J-bar lift"/>
+            <rule filter="&quot;tunnel&quot;" key="{322bcceb-b38a-41ff-97a6-2142eacbbdfd}" symbol="38" label="J-bar lift, tunnel"/>
           </rule>
           <rule filter="&quot;type&quot; = 'magic_carpet'" key="{ce025cfb-821e-4aa4-b032-fcf2316687fe}" label="&quot;magic carpet&quot; lift">
-            <rule filter="&quot;bridge&quot;" key="{4b92bc5d-140b-4958-b655-534afe6f90b6}" symbol="38" label="&quot;magic carpet&quot; lift, bridge"/>
-            <rule checkstate="0" filter="NOT (&quot;tunnel&quot; OR &quot;bridge&quot;)" key="{d2ec2c8b-7901-450b-8ad8-95dee7ed02a0}" symbol="39" label="&quot;magic carpet&quot; lift"/>
-            <rule filter="&quot;tunnel&quot;" key="{09783cce-21fc-4e3d-b48e-1a08c2c85068}" symbol="40" label="&quot;magic carpet&quot; lift, tunnel"/>
+            <rule filter="&quot;bridge&quot;" key="{4b92bc5d-140b-4958-b655-534afe6f90b6}" symbol="39" label="&quot;magic carpet&quot; lift, bridge"/>
+            <rule checkstate="0" filter="NOT (&quot;tunnel&quot; OR &quot;bridge&quot;)" key="{d2ec2c8b-7901-450b-8ad8-95dee7ed02a0}" symbol="40" label="&quot;magic carpet&quot; lift"/>
+            <rule filter="&quot;tunnel&quot;" key="{09783cce-21fc-4e3d-b48e-1a08c2c85068}" symbol="41" label="&quot;magic carpet&quot; lift, tunnel"/>
           </rule>
           <rule filter="&quot;type&quot; = 'zip_line'" key="{f876c819-bbe4-4494-9864-dcc730aab296}" label="zip line">
-            <rule filter="&quot;bridge&quot;" key="{4b92bc5d-140b-4958-b655-534afe6f90b6}" symbol="41" label="zip line, bridge"/>
-            <rule filter="NOT (&quot;tunnel&quot; OR &quot;bridge&quot;)" key="{44ae09e7-8a0a-4433-96fd-6fd40b039acd}" symbol="42" label="zip line"/>
-            <rule filter="&quot;tunnel&quot;" key="{4f44d6c7-f0a2-48bc-8c63-db89bcd326dc}" symbol="43" label="zip line, tunnel"/>
+            <rule filter="&quot;bridge&quot;" key="{4b92bc5d-140b-4958-b655-534afe6f90b6}" symbol="42" label="zip line, bridge"/>
+            <rule filter="NOT (&quot;tunnel&quot; OR &quot;bridge&quot;)" key="{44ae09e7-8a0a-4433-96fd-6fd40b039acd}" symbol="43" label="zip line"/>
+            <rule filter="&quot;tunnel&quot;" key="{4f44d6c7-f0a2-48bc-8c63-db89bcd326dc}" symbol="44" label="zip line, tunnel"/>
           </rule>
           <rule filter="&quot;type&quot; = 'rope_tow'" key="{62d07131-b12e-4333-b548-559e87ae147b}" label="tow ski lift">
-            <rule filter="&quot;bridge&quot;" key="{4b92bc5d-140b-4958-b655-534afe6f90b6}" symbol="44" label="tow ski lift, bridge"/>
-            <rule filter="NOT (&quot;tunnel&quot; OR &quot;bridge&quot;)" key="{3d09d782-13f6-4c31-a205-cee524e16bd7}" symbol="45" label="tow ski lift"/>
-            <rule filter="&quot;tunnel&quot;" key="{ee1f8005-6972-446c-8f6b-fde3b2160fc9}" symbol="46" label="tow ski lift, tunnel"/>
+            <rule filter="&quot;bridge&quot;" key="{4b92bc5d-140b-4958-b655-534afe6f90b6}" symbol="45" label="tow ski lift, bridge"/>
+            <rule filter="NOT (&quot;tunnel&quot; OR &quot;bridge&quot;)" key="{3d09d782-13f6-4c31-a205-cee524e16bd7}" symbol="46" label="tow ski lift"/>
+            <rule filter="&quot;tunnel&quot;" key="{ee1f8005-6972-446c-8f6b-fde3b2160fc9}" symbol="47" label="tow ski lift, tunnel"/>
           </rule>
           <rule description="combined gondola aerialway / chair lift" filter="&quot;type&quot; = 'mixed_lift'" key="{abd1ee5c-0f37-4cc3-b5dc-c265d62d54f7}" label="gondola/chair lift"/>
           <rule filter="&quot;type&quot; = 'aerialway'" key="{ed7c8296-8187-4cf3-b99b-1e00d331031c}" label="aerialway"/>
@@ -11566,6 +11566,23 @@ def my_form_open(dialog, layer, feature):
           </symbol>
           <symbol alpha="1" clip_to_extent="1" type="line" name="18">
             <layer pass="0" class="SimpleLine" locked="0">
+              <prop k="capstyle" v="square"/>
+              <prop k="customdash" v="5;2"/>
+              <prop k="customdash_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="customdash_unit" v="MM"/>
+              <prop k="draw_inside_polygon" v="0"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="line_color" v="230,228,234,255"/>
+              <prop k="line_style" v="solid"/>
+              <prop k="line_width" v="1"/>
+              <prop k="line_width_unit" v="MM"/>
+              <prop k="offset" v="0"/>
+              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="use_custom_dash" v="0"/>
+              <prop k="width_map_unit_scale" v="0,0,0,0,0,0"/>
+            </layer>
+            <layer pass="0" class="SimpleLine" locked="0">
               <prop k="capstyle" v="round"/>
               <prop k="customdash" v="5;2"/>
               <prop k="customdash_map_unit_scale" v="0,0,0,0,0,0"/>
@@ -11602,30 +11619,13 @@ def my_form_open(dialog, layer, feature):
           </symbol>
           <symbol alpha="1" clip_to_extent="1" type="line" name="19">
             <layer pass="0" class="SimpleLine" locked="0">
-              <prop k="capstyle" v="flat"/>
-              <prop k="customdash" v="5;2"/>
-              <prop k="customdash_map_unit_scale" v="0,0,0,0,0,0"/>
-              <prop k="customdash_unit" v="MM"/>
-              <prop k="draw_inside_polygon" v="0"/>
-              <prop k="joinstyle" v="bevel"/>
-              <prop k="line_color" v="0,0,0,255"/>
-              <prop k="line_style" v="solid"/>
-              <prop k="line_width" v="1"/>
-              <prop k="line_width_unit" v="MM"/>
-              <prop k="offset" v="0"/>
-              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
-              <prop k="offset_unit" v="MM"/>
-              <prop k="use_custom_dash" v="0"/>
-              <prop k="width_map_unit_scale" v="0,0,0,0,0,0"/>
-            </layer>
-            <layer pass="0" class="SimpleLine" locked="0">
               <prop k="capstyle" v="round"/>
               <prop k="customdash" v="5;2"/>
               <prop k="customdash_map_unit_scale" v="0,0,0,0,0,0"/>
               <prop k="customdash_unit" v="MM"/>
               <prop k="draw_inside_polygon" v="0"/>
               <prop k="joinstyle" v="round"/>
-              <prop k="line_color" v="230,228,234,255"/>
+              <prop k="line_color" v="146,160,240,255"/>
               <prop k="line_style" v="solid"/>
               <prop k="line_width" v="0.56"/>
               <prop k="line_width_unit" v="MM"/>
@@ -11642,7 +11642,7 @@ def my_form_open(dialog, layer, feature):
               <prop k="customdash_unit" v="MM"/>
               <prop k="draw_inside_polygon" v="0"/>
               <prop k="joinstyle" v="round"/>
-              <prop k="line_color" v="168,0,0,255"/>
+              <prop k="line_color" v="1,2,0,255"/>
               <prop k="line_style" v="dot"/>
               <prop k="line_width" v="0.488205"/>
               <prop k="line_width_unit" v="MM"/>
@@ -11744,6 +11744,23 @@ def my_form_open(dialog, layer, feature):
           </symbol>
           <symbol alpha="1" clip_to_extent="1" type="line" name="20">
             <layer pass="0" class="SimpleLine" locked="0">
+              <prop k="capstyle" v="flat"/>
+              <prop k="customdash" v="5;2"/>
+              <prop k="customdash_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="customdash_unit" v="MM"/>
+              <prop k="draw_inside_polygon" v="0"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="line_color" v="0,0,0,255"/>
+              <prop k="line_style" v="solid"/>
+              <prop k="line_width" v="1"/>
+              <prop k="line_width_unit" v="MM"/>
+              <prop k="offset" v="0"/>
+              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="use_custom_dash" v="0"/>
+              <prop k="width_map_unit_scale" v="0,0,0,0,0,0"/>
+            </layer>
+            <layer pass="0" class="SimpleLine" locked="0">
               <prop k="capstyle" v="round"/>
               <prop k="customdash" v="5;2"/>
               <prop k="customdash_map_unit_scale" v="0,0,0,0,0,0"/>
@@ -11780,6 +11797,42 @@ def my_form_open(dialog, layer, feature):
           </symbol>
           <symbol alpha="1" clip_to_extent="1" type="line" name="21">
             <layer pass="0" class="SimpleLine" locked="0">
+              <prop k="capstyle" v="round"/>
+              <prop k="customdash" v="5;2"/>
+              <prop k="customdash_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="customdash_unit" v="MM"/>
+              <prop k="draw_inside_polygon" v="0"/>
+              <prop k="joinstyle" v="round"/>
+              <prop k="line_color" v="230,228,234,255"/>
+              <prop k="line_style" v="solid"/>
+              <prop k="line_width" v="0.56"/>
+              <prop k="line_width_unit" v="MM"/>
+              <prop k="offset" v="0"/>
+              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="use_custom_dash" v="0"/>
+              <prop k="width_map_unit_scale" v="0,0,0,0,0,0"/>
+            </layer>
+            <layer pass="0" class="SimpleLine" locked="1">
+              <prop k="capstyle" v="round"/>
+              <prop k="customdash" v="5;2"/>
+              <prop k="customdash_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="customdash_unit" v="MM"/>
+              <prop k="draw_inside_polygon" v="0"/>
+              <prop k="joinstyle" v="round"/>
+              <prop k="line_color" v="168,0,0,255"/>
+              <prop k="line_style" v="dot"/>
+              <prop k="line_width" v="0.488205"/>
+              <prop k="line_width_unit" v="MM"/>
+              <prop k="offset" v="0"/>
+              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="use_custom_dash" v="0"/>
+              <prop k="width_map_unit_scale" v="0,0,0,0,0,0"/>
+            </layer>
+          </symbol>
+          <symbol alpha="1" clip_to_extent="1" type="line" name="22">
+            <layer pass="0" class="SimpleLine" locked="0">
               <prop k="capstyle" v="flat"/>
               <prop k="customdash" v="4;3"/>
               <prop k="customdash_map_unit_scale" v="0,0,0,0,0,0"/>
@@ -11808,7 +11861,7 @@ def my_form_open(dialog, layer, feature):
               <prop k="offset_unit" v="MM"/>
               <prop k="placement" v="firstvertex"/>
               <prop k="rotate" v="1"/>
-              <symbol alpha="1" clip_to_extent="1" type="marker" name="@21@1">
+              <symbol alpha="1" clip_to_extent="1" type="marker" name="@22@1">
                 <layer pass="0" class="SimpleMarker" locked="0">
                   <prop k="angle" v="0"/>
                   <prop k="color" v="255,0,0,255"/>
@@ -11843,7 +11896,7 @@ def my_form_open(dialog, layer, feature):
               <prop k="offset_unit" v="MM"/>
               <prop k="placement" v="lastvertex"/>
               <prop k="rotate" v="1"/>
-              <symbol alpha="1" clip_to_extent="1" type="marker" name="@21@2">
+              <symbol alpha="1" clip_to_extent="1" type="marker" name="@22@2">
                 <layer pass="0" class="SimpleMarker" locked="0">
                   <prop k="angle" v="0"/>
                   <prop k="color" v="255,0,0,255"/>
@@ -11867,7 +11920,7 @@ def my_form_open(dialog, layer, feature):
               </symbol>
             </layer>
           </symbol>
-          <symbol alpha="1" clip_to_extent="1" type="line" name="22">
+          <symbol alpha="1" clip_to_extent="1" type="line" name="23">
             <layer pass="0" class="SimpleLine" locked="0">
               <prop k="capstyle" v="square"/>
               <prop k="customdash" v="5;2"/>
@@ -11920,7 +11973,7 @@ def my_form_open(dialog, layer, feature):
               <prop k="width_map_unit_scale" v="0,0,0,0,0,0"/>
             </layer>
           </symbol>
-          <symbol alpha="1" clip_to_extent="1" type="line" name="23">
+          <symbol alpha="1" clip_to_extent="1" type="line" name="24">
             <layer pass="0" class="SimpleLine" locked="0">
               <prop k="capstyle" v="round"/>
               <prop k="customdash" v="5;2"/>
@@ -11956,7 +12009,7 @@ def my_form_open(dialog, layer, feature):
               <prop k="width_map_unit_scale" v="0,0,0,0,0,0"/>
             </layer>
           </symbol>
-          <symbol alpha="1" clip_to_extent="1" type="line" name="24">
+          <symbol alpha="1" clip_to_extent="1" type="line" name="25">
             <layer pass="0" class="SimpleLine" locked="0">
               <prop k="capstyle" v="square"/>
               <prop k="customdash" v="5;2"/>
@@ -11986,7 +12039,7 @@ def my_form_open(dialog, layer, feature):
               <prop k="offset_unit" v="MM"/>
               <prop k="placement" v="lastvertex"/>
               <prop k="rotate" v="1"/>
-              <symbol alpha="1" clip_to_extent="1" type="marker" name="@24@1">
+              <symbol alpha="1" clip_to_extent="1" type="marker" name="@25@1">
                 <layer pass="0" class="SimpleMarker" locked="0">
                   <prop k="angle" v="0"/>
                   <prop k="color" v="255,0,0,255"/>
@@ -12021,7 +12074,7 @@ def my_form_open(dialog, layer, feature):
               <prop k="offset_unit" v="MM"/>
               <prop k="placement" v="firstvertex"/>
               <prop k="rotate" v="1"/>
-              <symbol alpha="1" clip_to_extent="1" type="marker" name="@24@2">
+              <symbol alpha="1" clip_to_extent="1" type="marker" name="@25@2">
                 <layer pass="0" class="SimpleMarker" locked="0">
                   <prop k="angle" v="0"/>
                   <prop k="color" v="255,0,0,255"/>
@@ -12045,7 +12098,7 @@ def my_form_open(dialog, layer, feature):
               </symbol>
             </layer>
           </symbol>
-          <symbol alpha="1" clip_to_extent="1" type="line" name="25">
+          <symbol alpha="1" clip_to_extent="1" type="line" name="26">
             <layer pass="0" class="SimpleLine" locked="0">
               <prop k="capstyle" v="flat"/>
               <prop k="customdash" v="5;2"/>
@@ -12092,61 +12145,7 @@ def my_form_open(dialog, layer, feature):
               <prop k="offset_unit" v="MM"/>
               <prop k="placement" v="interval"/>
               <prop k="rotate" v="1"/>
-              <symbol alpha="1" clip_to_extent="1" type="marker" name="@25@2">
-                <layer pass="0" class="SimpleMarker" locked="0">
-                  <prop k="angle" v="0"/>
-                  <prop k="color" v="255,0,0,255"/>
-                  <prop k="horizontal_anchor_point" v="1"/>
-                  <prop k="joinstyle" v="bevel"/>
-                  <prop k="name" v="line"/>
-                  <prop k="offset" v="0,0"/>
-                  <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
-                  <prop k="offset_unit" v="MM"/>
-                  <prop k="outline_color" v="174,20,18,255"/>
-                  <prop k="outline_style" v="solid"/>
-                  <prop k="outline_width" v="0"/>
-                  <prop k="outline_width_map_unit_scale" v="0,0,0,0,0,0"/>
-                  <prop k="outline_width_unit" v="MM"/>
-                  <prop k="scale_method" v="diameter"/>
-                  <prop k="size" v="2"/>
-                  <prop k="size_map_unit_scale" v="0,0,0,0,0,0"/>
-                  <prop k="size_unit" v="MM"/>
-                  <prop k="vertical_anchor_point" v="1"/>
-                </layer>
-              </symbol>
-            </layer>
-          </symbol>
-          <symbol alpha="1" clip_to_extent="1" type="line" name="26">
-            <layer pass="0" class="SimpleLine" locked="0">
-              <prop k="capstyle" v="square"/>
-              <prop k="customdash" v="5;2"/>
-              <prop k="customdash_map_unit_scale" v="0,0,0,0,0,0"/>
-              <prop k="customdash_unit" v="MM"/>
-              <prop k="draw_inside_polygon" v="0"/>
-              <prop k="joinstyle" v="bevel"/>
-              <prop k="line_color" v="174,20,18,255"/>
-              <prop k="line_style" v="solid"/>
-              <prop k="line_width" v="0.46"/>
-              <prop k="line_width_unit" v="MM"/>
-              <prop k="offset" v="0"/>
-              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
-              <prop k="offset_unit" v="MM"/>
-              <prop k="use_custom_dash" v="0"/>
-              <prop k="width_map_unit_scale" v="0,0,0,0,0,0"/>
-            </layer>
-            <layer pass="0" class="MarkerLine" locked="0">
-              <prop k="interval" v="6"/>
-              <prop k="interval_map_unit_scale" v="0,0,0,0,0,0"/>
-              <prop k="interval_unit" v="MM"/>
-              <prop k="offset" v="0"/>
-              <prop k="offset_along_line" v="0"/>
-              <prop k="offset_along_line_map_unit_scale" v="0,0,0,0,0,0"/>
-              <prop k="offset_along_line_unit" v="MM"/>
-              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
-              <prop k="offset_unit" v="MM"/>
-              <prop k="placement" v="interval"/>
-              <prop k="rotate" v="1"/>
-              <symbol alpha="1" clip_to_extent="1" type="marker" name="@26@1">
+              <symbol alpha="1" clip_to_extent="1" type="marker" name="@26@2">
                 <layer pass="0" class="SimpleMarker" locked="0">
                   <prop k="angle" v="0"/>
                   <prop k="color" v="255,0,0,255"/>
@@ -12179,7 +12178,7 @@ def my_form_open(dialog, layer, feature):
               <prop k="draw_inside_polygon" v="0"/>
               <prop k="joinstyle" v="bevel"/>
               <prop k="line_color" v="174,20,18,255"/>
-              <prop k="line_style" v="dot"/>
+              <prop k="line_style" v="solid"/>
               <prop k="line_width" v="0.46"/>
               <prop k="line_width_unit" v="MM"/>
               <prop k="offset" v="0"/>
@@ -12226,6 +12225,60 @@ def my_form_open(dialog, layer, feature):
           </symbol>
           <symbol alpha="1" clip_to_extent="1" type="line" name="28">
             <layer pass="0" class="SimpleLine" locked="0">
+              <prop k="capstyle" v="square"/>
+              <prop k="customdash" v="5;2"/>
+              <prop k="customdash_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="customdash_unit" v="MM"/>
+              <prop k="draw_inside_polygon" v="0"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="line_color" v="174,20,18,255"/>
+              <prop k="line_style" v="dot"/>
+              <prop k="line_width" v="0.46"/>
+              <prop k="line_width_unit" v="MM"/>
+              <prop k="offset" v="0"/>
+              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="use_custom_dash" v="0"/>
+              <prop k="width_map_unit_scale" v="0,0,0,0,0,0"/>
+            </layer>
+            <layer pass="0" class="MarkerLine" locked="0">
+              <prop k="interval" v="6"/>
+              <prop k="interval_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="interval_unit" v="MM"/>
+              <prop k="offset" v="0"/>
+              <prop k="offset_along_line" v="0"/>
+              <prop k="offset_along_line_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="offset_along_line_unit" v="MM"/>
+              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="placement" v="interval"/>
+              <prop k="rotate" v="1"/>
+              <symbol alpha="1" clip_to_extent="1" type="marker" name="@28@1">
+                <layer pass="0" class="SimpleMarker" locked="0">
+                  <prop k="angle" v="0"/>
+                  <prop k="color" v="255,0,0,255"/>
+                  <prop k="horizontal_anchor_point" v="1"/>
+                  <prop k="joinstyle" v="bevel"/>
+                  <prop k="name" v="line"/>
+                  <prop k="offset" v="0,0"/>
+                  <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+                  <prop k="offset_unit" v="MM"/>
+                  <prop k="outline_color" v="174,20,18,255"/>
+                  <prop k="outline_style" v="solid"/>
+                  <prop k="outline_width" v="0"/>
+                  <prop k="outline_width_map_unit_scale" v="0,0,0,0,0,0"/>
+                  <prop k="outline_width_unit" v="MM"/>
+                  <prop k="scale_method" v="diameter"/>
+                  <prop k="size" v="2"/>
+                  <prop k="size_map_unit_scale" v="0,0,0,0,0,0"/>
+                  <prop k="size_unit" v="MM"/>
+                  <prop k="vertical_anchor_point" v="1"/>
+                </layer>
+              </symbol>
+            </layer>
+          </symbol>
+          <symbol alpha="1" clip_to_extent="1" type="line" name="29">
+            <layer pass="0" class="SimpleLine" locked="0">
               <prop k="capstyle" v="round"/>
               <prop k="customdash" v="5;2"/>
               <prop k="customdash_map_unit_scale" v="0,0,0,0,0,0"/>
@@ -12243,7 +12296,43 @@ def my_form_open(dialog, layer, feature):
               <prop k="width_map_unit_scale" v="0,0,0,0,0,0"/>
             </layer>
           </symbol>
-          <symbol alpha="1" clip_to_extent="1" type="line" name="29">
+          <symbol alpha="1" clip_to_extent="1" type="line" name="3">
+            <layer pass="0" class="SimpleLine" locked="0">
+              <prop k="capstyle" v="flat"/>
+              <prop k="customdash" v="5;2"/>
+              <prop k="customdash_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="customdash_unit" v="MM"/>
+              <prop k="draw_inside_polygon" v="0"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="line_color" v="178,178,178,255"/>
+              <prop k="line_style" v="solid"/>
+              <prop k="line_width" v="1"/>
+              <prop k="line_width_unit" v="MM"/>
+              <prop k="offset" v="0"/>
+              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="use_custom_dash" v="0"/>
+              <prop k="width_map_unit_scale" v="0,0,0,0,0,0"/>
+            </layer>
+            <layer pass="0" class="SimpleLine" locked="0">
+              <prop k="capstyle" v="square"/>
+              <prop k="customdash" v="5;2"/>
+              <prop k="customdash_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="customdash_unit" v="MM"/>
+              <prop k="draw_inside_polygon" v="0"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="line_color" v="54,145,209,255"/>
+              <prop k="line_style" v="solid"/>
+              <prop k="line_width" v="0.56"/>
+              <prop k="line_width_unit" v="MM"/>
+              <prop k="offset" v="0"/>
+              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="use_custom_dash" v="0"/>
+              <prop k="width_map_unit_scale" v="0,0,0,0,0,0"/>
+            </layer>
+          </symbol>
+          <symbol alpha="1" clip_to_extent="1" type="line" name="30">
             <layer pass="0" class="SimpleLine" locked="0">
               <prop k="capstyle" v="flat"/>
               <prop k="customdash" v="5;2"/>
@@ -12290,97 +12379,7 @@ def my_form_open(dialog, layer, feature):
               <prop k="offset_unit" v="MM"/>
               <prop k="placement" v="interval"/>
               <prop k="rotate" v="1"/>
-              <symbol alpha="1" clip_to_extent="1" type="marker" name="@29@2">
-                <layer pass="0" class="SimpleMarker" locked="0">
-                  <prop k="angle" v="0"/>
-                  <prop k="color" v="255,0,0,255"/>
-                  <prop k="horizontal_anchor_point" v="1"/>
-                  <prop k="joinstyle" v="bevel"/>
-                  <prop k="name" v="line"/>
-                  <prop k="offset" v="0,0"/>
-                  <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
-                  <prop k="offset_unit" v="MM"/>
-                  <prop k="outline_color" v="174,20,18,255"/>
-                  <prop k="outline_style" v="solid"/>
-                  <prop k="outline_width" v="0"/>
-                  <prop k="outline_width_map_unit_scale" v="0,0,0,0,0,0"/>
-                  <prop k="outline_width_unit" v="MM"/>
-                  <prop k="scale_method" v="diameter"/>
-                  <prop k="size" v="2"/>
-                  <prop k="size_map_unit_scale" v="0,0,0,0,0,0"/>
-                  <prop k="size_unit" v="MM"/>
-                  <prop k="vertical_anchor_point" v="1"/>
-                </layer>
-              </symbol>
-            </layer>
-          </symbol>
-          <symbol alpha="1" clip_to_extent="1" type="line" name="3">
-            <layer pass="0" class="SimpleLine" locked="0">
-              <prop k="capstyle" v="flat"/>
-              <prop k="customdash" v="5;2"/>
-              <prop k="customdash_map_unit_scale" v="0,0,0,0,0,0"/>
-              <prop k="customdash_unit" v="MM"/>
-              <prop k="draw_inside_polygon" v="0"/>
-              <prop k="joinstyle" v="bevel"/>
-              <prop k="line_color" v="178,178,178,255"/>
-              <prop k="line_style" v="solid"/>
-              <prop k="line_width" v="1"/>
-              <prop k="line_width_unit" v="MM"/>
-              <prop k="offset" v="0"/>
-              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
-              <prop k="offset_unit" v="MM"/>
-              <prop k="use_custom_dash" v="0"/>
-              <prop k="width_map_unit_scale" v="0,0,0,0,0,0"/>
-            </layer>
-            <layer pass="0" class="SimpleLine" locked="0">
-              <prop k="capstyle" v="square"/>
-              <prop k="customdash" v="5;2"/>
-              <prop k="customdash_map_unit_scale" v="0,0,0,0,0,0"/>
-              <prop k="customdash_unit" v="MM"/>
-              <prop k="draw_inside_polygon" v="0"/>
-              <prop k="joinstyle" v="bevel"/>
-              <prop k="line_color" v="54,145,209,255"/>
-              <prop k="line_style" v="solid"/>
-              <prop k="line_width" v="0.56"/>
-              <prop k="line_width_unit" v="MM"/>
-              <prop k="offset" v="0"/>
-              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
-              <prop k="offset_unit" v="MM"/>
-              <prop k="use_custom_dash" v="0"/>
-              <prop k="width_map_unit_scale" v="0,0,0,0,0,0"/>
-            </layer>
-          </symbol>
-          <symbol alpha="1" clip_to_extent="1" type="line" name="30">
-            <layer pass="0" class="SimpleLine" locked="0">
-              <prop k="capstyle" v="square"/>
-              <prop k="customdash" v="5;2"/>
-              <prop k="customdash_map_unit_scale" v="0,0,0,0,0,0"/>
-              <prop k="customdash_unit" v="MM"/>
-              <prop k="draw_inside_polygon" v="0"/>
-              <prop k="joinstyle" v="bevel"/>
-              <prop k="line_color" v="174,20,18,255"/>
-              <prop k="line_style" v="solid"/>
-              <prop k="line_width" v="0.46"/>
-              <prop k="line_width_unit" v="MM"/>
-              <prop k="offset" v="0"/>
-              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
-              <prop k="offset_unit" v="MM"/>
-              <prop k="use_custom_dash" v="0"/>
-              <prop k="width_map_unit_scale" v="0,0,0,0,0,0"/>
-            </layer>
-            <layer pass="0" class="MarkerLine" locked="0">
-              <prop k="interval" v="6"/>
-              <prop k="interval_map_unit_scale" v="0,0,0,0,0,0"/>
-              <prop k="interval_unit" v="MM"/>
-              <prop k="offset" v="0"/>
-              <prop k="offset_along_line" v="0"/>
-              <prop k="offset_along_line_map_unit_scale" v="0,0,0,0,0,0"/>
-              <prop k="offset_along_line_unit" v="MM"/>
-              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
-              <prop k="offset_unit" v="MM"/>
-              <prop k="placement" v="interval"/>
-              <prop k="rotate" v="1"/>
-              <symbol alpha="1" clip_to_extent="1" type="marker" name="@30@1">
+              <symbol alpha="1" clip_to_extent="1" type="marker" name="@30@2">
                 <layer pass="0" class="SimpleMarker" locked="0">
                   <prop k="angle" v="0"/>
                   <prop k="color" v="255,0,0,255"/>
@@ -12413,7 +12412,7 @@ def my_form_open(dialog, layer, feature):
               <prop k="draw_inside_polygon" v="0"/>
               <prop k="joinstyle" v="bevel"/>
               <prop k="line_color" v="174,20,18,255"/>
-              <prop k="line_style" v="dot"/>
+              <prop k="line_style" v="solid"/>
               <prop k="line_width" v="0.46"/>
               <prop k="line_width_unit" v="MM"/>
               <prop k="offset" v="0"/>
@@ -12460,6 +12459,60 @@ def my_form_open(dialog, layer, feature):
           </symbol>
           <symbol alpha="1" clip_to_extent="1" type="line" name="32">
             <layer pass="0" class="SimpleLine" locked="0">
+              <prop k="capstyle" v="square"/>
+              <prop k="customdash" v="5;2"/>
+              <prop k="customdash_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="customdash_unit" v="MM"/>
+              <prop k="draw_inside_polygon" v="0"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="line_color" v="174,20,18,255"/>
+              <prop k="line_style" v="dot"/>
+              <prop k="line_width" v="0.46"/>
+              <prop k="line_width_unit" v="MM"/>
+              <prop k="offset" v="0"/>
+              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="use_custom_dash" v="0"/>
+              <prop k="width_map_unit_scale" v="0,0,0,0,0,0"/>
+            </layer>
+            <layer pass="0" class="MarkerLine" locked="0">
+              <prop k="interval" v="6"/>
+              <prop k="interval_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="interval_unit" v="MM"/>
+              <prop k="offset" v="0"/>
+              <prop k="offset_along_line" v="0"/>
+              <prop k="offset_along_line_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="offset_along_line_unit" v="MM"/>
+              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="placement" v="interval"/>
+              <prop k="rotate" v="1"/>
+              <symbol alpha="1" clip_to_extent="1" type="marker" name="@32@1">
+                <layer pass="0" class="SimpleMarker" locked="0">
+                  <prop k="angle" v="0"/>
+                  <prop k="color" v="255,0,0,255"/>
+                  <prop k="horizontal_anchor_point" v="1"/>
+                  <prop k="joinstyle" v="bevel"/>
+                  <prop k="name" v="line"/>
+                  <prop k="offset" v="0,0"/>
+                  <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+                  <prop k="offset_unit" v="MM"/>
+                  <prop k="outline_color" v="174,20,18,255"/>
+                  <prop k="outline_style" v="solid"/>
+                  <prop k="outline_width" v="0"/>
+                  <prop k="outline_width_map_unit_scale" v="0,0,0,0,0,0"/>
+                  <prop k="outline_width_unit" v="MM"/>
+                  <prop k="scale_method" v="diameter"/>
+                  <prop k="size" v="2"/>
+                  <prop k="size_map_unit_scale" v="0,0,0,0,0,0"/>
+                  <prop k="size_unit" v="MM"/>
+                  <prop k="vertical_anchor_point" v="1"/>
+                </layer>
+              </symbol>
+            </layer>
+          </symbol>
+          <symbol alpha="1" clip_to_extent="1" type="line" name="33">
+            <layer pass="0" class="SimpleLine" locked="0">
               <prop k="capstyle" v="flat"/>
               <prop k="customdash" v="5;2"/>
               <prop k="customdash_map_unit_scale" v="0,0,0,0,0,0"/>
@@ -12505,61 +12558,7 @@ def my_form_open(dialog, layer, feature):
               <prop k="offset_unit" v="MM"/>
               <prop k="placement" v="interval"/>
               <prop k="rotate" v="1"/>
-              <symbol alpha="1" clip_to_extent="1" type="marker" name="@32@2">
-                <layer pass="0" class="SimpleMarker" locked="0">
-                  <prop k="angle" v="0"/>
-                  <prop k="color" v="255,0,0,255"/>
-                  <prop k="horizontal_anchor_point" v="1"/>
-                  <prop k="joinstyle" v="bevel"/>
-                  <prop k="name" v="line"/>
-                  <prop k="offset" v="0,0"/>
-                  <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
-                  <prop k="offset_unit" v="MM"/>
-                  <prop k="outline_color" v="174,20,18,255"/>
-                  <prop k="outline_style" v="solid"/>
-                  <prop k="outline_width" v="0"/>
-                  <prop k="outline_width_map_unit_scale" v="0,0,0,0,0,0"/>
-                  <prop k="outline_width_unit" v="MM"/>
-                  <prop k="scale_method" v="diameter"/>
-                  <prop k="size" v="2"/>
-                  <prop k="size_map_unit_scale" v="0,0,0,0,0,0"/>
-                  <prop k="size_unit" v="MM"/>
-                  <prop k="vertical_anchor_point" v="1"/>
-                </layer>
-              </symbol>
-            </layer>
-          </symbol>
-          <symbol alpha="1" clip_to_extent="1" type="line" name="33">
-            <layer pass="0" class="SimpleLine" locked="0">
-              <prop k="capstyle" v="square"/>
-              <prop k="customdash" v="5;2"/>
-              <prop k="customdash_map_unit_scale" v="0,0,0,0,0,0"/>
-              <prop k="customdash_unit" v="MM"/>
-              <prop k="draw_inside_polygon" v="0"/>
-              <prop k="joinstyle" v="bevel"/>
-              <prop k="line_color" v="174,20,18,255"/>
-              <prop k="line_style" v="solid"/>
-              <prop k="line_width" v="0.46"/>
-              <prop k="line_width_unit" v="MM"/>
-              <prop k="offset" v="0"/>
-              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
-              <prop k="offset_unit" v="MM"/>
-              <prop k="use_custom_dash" v="0"/>
-              <prop k="width_map_unit_scale" v="0,0,0,0,0,0"/>
-            </layer>
-            <layer pass="0" class="MarkerLine" locked="0">
-              <prop k="interval" v="6"/>
-              <prop k="interval_map_unit_scale" v="0,0,0,0,0,0"/>
-              <prop k="interval_unit" v="MM"/>
-              <prop k="offset" v="0"/>
-              <prop k="offset_along_line" v="0"/>
-              <prop k="offset_along_line_map_unit_scale" v="0,0,0,0,0,0"/>
-              <prop k="offset_along_line_unit" v="MM"/>
-              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
-              <prop k="offset_unit" v="MM"/>
-              <prop k="placement" v="interval"/>
-              <prop k="rotate" v="1"/>
-              <symbol alpha="1" clip_to_extent="1" type="marker" name="@33@1">
+              <symbol alpha="1" clip_to_extent="1" type="marker" name="@33@2">
                 <layer pass="0" class="SimpleMarker" locked="0">
                   <prop k="angle" v="0"/>
                   <prop k="color" v="255,0,0,255"/>
@@ -12592,7 +12591,7 @@ def my_form_open(dialog, layer, feature):
               <prop k="draw_inside_polygon" v="0"/>
               <prop k="joinstyle" v="bevel"/>
               <prop k="line_color" v="174,20,18,255"/>
-              <prop k="line_style" v="dot"/>
+              <prop k="line_style" v="solid"/>
               <prop k="line_width" v="0.46"/>
               <prop k="line_width_unit" v="MM"/>
               <prop k="offset" v="0"/>
@@ -12639,6 +12638,60 @@ def my_form_open(dialog, layer, feature):
           </symbol>
           <symbol alpha="1" clip_to_extent="1" type="line" name="35">
             <layer pass="0" class="SimpleLine" locked="0">
+              <prop k="capstyle" v="square"/>
+              <prop k="customdash" v="5;2"/>
+              <prop k="customdash_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="customdash_unit" v="MM"/>
+              <prop k="draw_inside_polygon" v="0"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="line_color" v="174,20,18,255"/>
+              <prop k="line_style" v="dot"/>
+              <prop k="line_width" v="0.46"/>
+              <prop k="line_width_unit" v="MM"/>
+              <prop k="offset" v="0"/>
+              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="use_custom_dash" v="0"/>
+              <prop k="width_map_unit_scale" v="0,0,0,0,0,0"/>
+            </layer>
+            <layer pass="0" class="MarkerLine" locked="0">
+              <prop k="interval" v="6"/>
+              <prop k="interval_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="interval_unit" v="MM"/>
+              <prop k="offset" v="0"/>
+              <prop k="offset_along_line" v="0"/>
+              <prop k="offset_along_line_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="offset_along_line_unit" v="MM"/>
+              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="placement" v="interval"/>
+              <prop k="rotate" v="1"/>
+              <symbol alpha="1" clip_to_extent="1" type="marker" name="@35@1">
+                <layer pass="0" class="SimpleMarker" locked="0">
+                  <prop k="angle" v="0"/>
+                  <prop k="color" v="255,0,0,255"/>
+                  <prop k="horizontal_anchor_point" v="1"/>
+                  <prop k="joinstyle" v="bevel"/>
+                  <prop k="name" v="line"/>
+                  <prop k="offset" v="0,0"/>
+                  <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+                  <prop k="offset_unit" v="MM"/>
+                  <prop k="outline_color" v="174,20,18,255"/>
+                  <prop k="outline_style" v="solid"/>
+                  <prop k="outline_width" v="0"/>
+                  <prop k="outline_width_map_unit_scale" v="0,0,0,0,0,0"/>
+                  <prop k="outline_width_unit" v="MM"/>
+                  <prop k="scale_method" v="diameter"/>
+                  <prop k="size" v="2"/>
+                  <prop k="size_map_unit_scale" v="0,0,0,0,0,0"/>
+                  <prop k="size_unit" v="MM"/>
+                  <prop k="vertical_anchor_point" v="1"/>
+                </layer>
+              </symbol>
+            </layer>
+          </symbol>
+          <symbol alpha="1" clip_to_extent="1" type="line" name="36">
+            <layer pass="0" class="SimpleLine" locked="0">
               <prop k="capstyle" v="flat"/>
               <prop k="customdash" v="5;2"/>
               <prop k="customdash_map_unit_scale" v="0,0,0,0,0,0"/>
@@ -12684,61 +12737,7 @@ def my_form_open(dialog, layer, feature):
               <prop k="offset_unit" v="MM"/>
               <prop k="placement" v="interval"/>
               <prop k="rotate" v="1"/>
-              <symbol alpha="1" clip_to_extent="1" type="marker" name="@35@2">
-                <layer pass="0" class="SimpleMarker" locked="0">
-                  <prop k="angle" v="0"/>
-                  <prop k="color" v="255,0,0,255"/>
-                  <prop k="horizontal_anchor_point" v="1"/>
-                  <prop k="joinstyle" v="bevel"/>
-                  <prop k="name" v="line"/>
-                  <prop k="offset" v="0,0"/>
-                  <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
-                  <prop k="offset_unit" v="MM"/>
-                  <prop k="outline_color" v="174,20,18,255"/>
-                  <prop k="outline_style" v="solid"/>
-                  <prop k="outline_width" v="0"/>
-                  <prop k="outline_width_map_unit_scale" v="0,0,0,0,0,0"/>
-                  <prop k="outline_width_unit" v="MM"/>
-                  <prop k="scale_method" v="diameter"/>
-                  <prop k="size" v="2"/>
-                  <prop k="size_map_unit_scale" v="0,0,0,0,0,0"/>
-                  <prop k="size_unit" v="MM"/>
-                  <prop k="vertical_anchor_point" v="1"/>
-                </layer>
-              </symbol>
-            </layer>
-          </symbol>
-          <symbol alpha="1" clip_to_extent="1" type="line" name="36">
-            <layer pass="0" class="SimpleLine" locked="0">
-              <prop k="capstyle" v="square"/>
-              <prop k="customdash" v="5;2"/>
-              <prop k="customdash_map_unit_scale" v="0,0,0,0,0,0"/>
-              <prop k="customdash_unit" v="MM"/>
-              <prop k="draw_inside_polygon" v="0"/>
-              <prop k="joinstyle" v="bevel"/>
-              <prop k="line_color" v="174,20,18,255"/>
-              <prop k="line_style" v="solid"/>
-              <prop k="line_width" v="0.46"/>
-              <prop k="line_width_unit" v="MM"/>
-              <prop k="offset" v="0"/>
-              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
-              <prop k="offset_unit" v="MM"/>
-              <prop k="use_custom_dash" v="0"/>
-              <prop k="width_map_unit_scale" v="0,0,0,0,0,0"/>
-            </layer>
-            <layer pass="0" class="MarkerLine" locked="0">
-              <prop k="interval" v="6"/>
-              <prop k="interval_map_unit_scale" v="0,0,0,0,0,0"/>
-              <prop k="interval_unit" v="MM"/>
-              <prop k="offset" v="0"/>
-              <prop k="offset_along_line" v="0"/>
-              <prop k="offset_along_line_map_unit_scale" v="0,0,0,0,0,0"/>
-              <prop k="offset_along_line_unit" v="MM"/>
-              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
-              <prop k="offset_unit" v="MM"/>
-              <prop k="placement" v="interval"/>
-              <prop k="rotate" v="1"/>
-              <symbol alpha="1" clip_to_extent="1" type="marker" name="@36@1">
+              <symbol alpha="1" clip_to_extent="1" type="marker" name="@36@2">
                 <layer pass="0" class="SimpleMarker" locked="0">
                   <prop k="angle" v="0"/>
                   <prop k="color" v="255,0,0,255"/>
@@ -12771,7 +12770,7 @@ def my_form_open(dialog, layer, feature):
               <prop k="draw_inside_polygon" v="0"/>
               <prop k="joinstyle" v="bevel"/>
               <prop k="line_color" v="174,20,18,255"/>
-              <prop k="line_style" v="dot"/>
+              <prop k="line_style" v="solid"/>
               <prop k="line_width" v="0.46"/>
               <prop k="line_width_unit" v="MM"/>
               <prop k="offset" v="0"/>
@@ -12818,6 +12817,60 @@ def my_form_open(dialog, layer, feature):
           </symbol>
           <symbol alpha="1" clip_to_extent="1" type="line" name="38">
             <layer pass="0" class="SimpleLine" locked="0">
+              <prop k="capstyle" v="square"/>
+              <prop k="customdash" v="5;2"/>
+              <prop k="customdash_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="customdash_unit" v="MM"/>
+              <prop k="draw_inside_polygon" v="0"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="line_color" v="174,20,18,255"/>
+              <prop k="line_style" v="dot"/>
+              <prop k="line_width" v="0.46"/>
+              <prop k="line_width_unit" v="MM"/>
+              <prop k="offset" v="0"/>
+              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="use_custom_dash" v="0"/>
+              <prop k="width_map_unit_scale" v="0,0,0,0,0,0"/>
+            </layer>
+            <layer pass="0" class="MarkerLine" locked="0">
+              <prop k="interval" v="6"/>
+              <prop k="interval_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="interval_unit" v="MM"/>
+              <prop k="offset" v="0"/>
+              <prop k="offset_along_line" v="0"/>
+              <prop k="offset_along_line_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="offset_along_line_unit" v="MM"/>
+              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="placement" v="interval"/>
+              <prop k="rotate" v="1"/>
+              <symbol alpha="1" clip_to_extent="1" type="marker" name="@38@1">
+                <layer pass="0" class="SimpleMarker" locked="0">
+                  <prop k="angle" v="0"/>
+                  <prop k="color" v="255,0,0,255"/>
+                  <prop k="horizontal_anchor_point" v="1"/>
+                  <prop k="joinstyle" v="bevel"/>
+                  <prop k="name" v="line"/>
+                  <prop k="offset" v="0,0"/>
+                  <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+                  <prop k="offset_unit" v="MM"/>
+                  <prop k="outline_color" v="174,20,18,255"/>
+                  <prop k="outline_style" v="solid"/>
+                  <prop k="outline_width" v="0"/>
+                  <prop k="outline_width_map_unit_scale" v="0,0,0,0,0,0"/>
+                  <prop k="outline_width_unit" v="MM"/>
+                  <prop k="scale_method" v="diameter"/>
+                  <prop k="size" v="2"/>
+                  <prop k="size_map_unit_scale" v="0,0,0,0,0,0"/>
+                  <prop k="size_unit" v="MM"/>
+                  <prop k="vertical_anchor_point" v="1"/>
+                </layer>
+              </symbol>
+            </layer>
+          </symbol>
+          <symbol alpha="1" clip_to_extent="1" type="line" name="39">
+            <layer pass="0" class="SimpleLine" locked="0">
               <prop k="capstyle" v="flat"/>
               <prop k="customdash" v="5;2"/>
               <prop k="customdash_map_unit_scale" v="0,0,0,0,0,0"/>
@@ -12863,61 +12916,7 @@ def my_form_open(dialog, layer, feature):
               <prop k="offset_unit" v="MM"/>
               <prop k="placement" v="interval"/>
               <prop k="rotate" v="1"/>
-              <symbol alpha="1" clip_to_extent="1" type="marker" name="@38@2">
-                <layer pass="0" class="SimpleMarker" locked="0">
-                  <prop k="angle" v="0"/>
-                  <prop k="color" v="255,0,0,255"/>
-                  <prop k="horizontal_anchor_point" v="1"/>
-                  <prop k="joinstyle" v="bevel"/>
-                  <prop k="name" v="line"/>
-                  <prop k="offset" v="0,0"/>
-                  <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
-                  <prop k="offset_unit" v="MM"/>
-                  <prop k="outline_color" v="174,20,18,255"/>
-                  <prop k="outline_style" v="solid"/>
-                  <prop k="outline_width" v="0"/>
-                  <prop k="outline_width_map_unit_scale" v="0,0,0,0,0,0"/>
-                  <prop k="outline_width_unit" v="MM"/>
-                  <prop k="scale_method" v="diameter"/>
-                  <prop k="size" v="2"/>
-                  <prop k="size_map_unit_scale" v="0,0,0,0,0,0"/>
-                  <prop k="size_unit" v="MM"/>
-                  <prop k="vertical_anchor_point" v="1"/>
-                </layer>
-              </symbol>
-            </layer>
-          </symbol>
-          <symbol alpha="1" clip_to_extent="1" type="line" name="39">
-            <layer pass="0" class="SimpleLine" locked="0">
-              <prop k="capstyle" v="square"/>
-              <prop k="customdash" v="5;2"/>
-              <prop k="customdash_map_unit_scale" v="0,0,0,0,0,0"/>
-              <prop k="customdash_unit" v="MM"/>
-              <prop k="draw_inside_polygon" v="0"/>
-              <prop k="joinstyle" v="bevel"/>
-              <prop k="line_color" v="174,20,18,255"/>
-              <prop k="line_style" v="solid"/>
-              <prop k="line_width" v="0.46"/>
-              <prop k="line_width_unit" v="MM"/>
-              <prop k="offset" v="0"/>
-              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
-              <prop k="offset_unit" v="MM"/>
-              <prop k="use_custom_dash" v="0"/>
-              <prop k="width_map_unit_scale" v="0,0,0,0,0,0"/>
-            </layer>
-            <layer pass="0" class="MarkerLine" locked="0">
-              <prop k="interval" v="6"/>
-              <prop k="interval_map_unit_scale" v="0,0,0,0,0,0"/>
-              <prop k="interval_unit" v="MM"/>
-              <prop k="offset" v="0"/>
-              <prop k="offset_along_line" v="0"/>
-              <prop k="offset_along_line_map_unit_scale" v="0,0,0,0,0,0"/>
-              <prop k="offset_along_line_unit" v="MM"/>
-              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
-              <prop k="offset_unit" v="MM"/>
-              <prop k="placement" v="interval"/>
-              <prop k="rotate" v="1"/>
-              <symbol alpha="1" clip_to_extent="1" type="marker" name="@39@1">
+              <symbol alpha="1" clip_to_extent="1" type="marker" name="@39@2">
                 <layer pass="0" class="SimpleMarker" locked="0">
                   <prop k="angle" v="0"/>
                   <prop k="color" v="255,0,0,255"/>
@@ -12969,7 +12968,7 @@ def my_form_open(dialog, layer, feature):
               <prop k="draw_inside_polygon" v="0"/>
               <prop k="joinstyle" v="bevel"/>
               <prop k="line_color" v="174,20,18,255"/>
-              <prop k="line_style" v="dot"/>
+              <prop k="line_style" v="solid"/>
               <prop k="line_width" v="0.46"/>
               <prop k="line_width_unit" v="MM"/>
               <prop k="offset" v="0"/>
@@ -13016,6 +13015,60 @@ def my_form_open(dialog, layer, feature):
           </symbol>
           <symbol alpha="1" clip_to_extent="1" type="line" name="41">
             <layer pass="0" class="SimpleLine" locked="0">
+              <prop k="capstyle" v="square"/>
+              <prop k="customdash" v="5;2"/>
+              <prop k="customdash_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="customdash_unit" v="MM"/>
+              <prop k="draw_inside_polygon" v="0"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="line_color" v="174,20,18,255"/>
+              <prop k="line_style" v="dot"/>
+              <prop k="line_width" v="0.46"/>
+              <prop k="line_width_unit" v="MM"/>
+              <prop k="offset" v="0"/>
+              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="use_custom_dash" v="0"/>
+              <prop k="width_map_unit_scale" v="0,0,0,0,0,0"/>
+            </layer>
+            <layer pass="0" class="MarkerLine" locked="0">
+              <prop k="interval" v="6"/>
+              <prop k="interval_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="interval_unit" v="MM"/>
+              <prop k="offset" v="0"/>
+              <prop k="offset_along_line" v="0"/>
+              <prop k="offset_along_line_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="offset_along_line_unit" v="MM"/>
+              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="placement" v="interval"/>
+              <prop k="rotate" v="1"/>
+              <symbol alpha="1" clip_to_extent="1" type="marker" name="@41@1">
+                <layer pass="0" class="SimpleMarker" locked="0">
+                  <prop k="angle" v="0"/>
+                  <prop k="color" v="255,0,0,255"/>
+                  <prop k="horizontal_anchor_point" v="1"/>
+                  <prop k="joinstyle" v="bevel"/>
+                  <prop k="name" v="line"/>
+                  <prop k="offset" v="0,0"/>
+                  <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+                  <prop k="offset_unit" v="MM"/>
+                  <prop k="outline_color" v="174,20,18,255"/>
+                  <prop k="outline_style" v="solid"/>
+                  <prop k="outline_width" v="0"/>
+                  <prop k="outline_width_map_unit_scale" v="0,0,0,0,0,0"/>
+                  <prop k="outline_width_unit" v="MM"/>
+                  <prop k="scale_method" v="diameter"/>
+                  <prop k="size" v="2"/>
+                  <prop k="size_map_unit_scale" v="0,0,0,0,0,0"/>
+                  <prop k="size_unit" v="MM"/>
+                  <prop k="vertical_anchor_point" v="1"/>
+                </layer>
+              </symbol>
+            </layer>
+          </symbol>
+          <symbol alpha="1" clip_to_extent="1" type="line" name="42">
+            <layer pass="0" class="SimpleLine" locked="0">
               <prop k="capstyle" v="flat"/>
               <prop k="customdash" v="5;2"/>
               <prop k="customdash_map_unit_scale" v="0,0,0,0,0,0"/>
@@ -13061,61 +13114,7 @@ def my_form_open(dialog, layer, feature):
               <prop k="offset_unit" v="MM"/>
               <prop k="placement" v="interval"/>
               <prop k="rotate" v="1"/>
-              <symbol alpha="1" clip_to_extent="1" type="marker" name="@41@2">
-                <layer pass="0" class="SimpleMarker" locked="0">
-                  <prop k="angle" v="0"/>
-                  <prop k="color" v="255,0,0,255"/>
-                  <prop k="horizontal_anchor_point" v="1"/>
-                  <prop k="joinstyle" v="bevel"/>
-                  <prop k="name" v="line"/>
-                  <prop k="offset" v="0,0"/>
-                  <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
-                  <prop k="offset_unit" v="MM"/>
-                  <prop k="outline_color" v="174,20,18,255"/>
-                  <prop k="outline_style" v="solid"/>
-                  <prop k="outline_width" v="0"/>
-                  <prop k="outline_width_map_unit_scale" v="0,0,0,0,0,0"/>
-                  <prop k="outline_width_unit" v="MM"/>
-                  <prop k="scale_method" v="diameter"/>
-                  <prop k="size" v="2"/>
-                  <prop k="size_map_unit_scale" v="0,0,0,0,0,0"/>
-                  <prop k="size_unit" v="MM"/>
-                  <prop k="vertical_anchor_point" v="1"/>
-                </layer>
-              </symbol>
-            </layer>
-          </symbol>
-          <symbol alpha="1" clip_to_extent="1" type="line" name="42">
-            <layer pass="0" class="SimpleLine" locked="0">
-              <prop k="capstyle" v="square"/>
-              <prop k="customdash" v="5;2"/>
-              <prop k="customdash_map_unit_scale" v="0,0,0,0,0,0"/>
-              <prop k="customdash_unit" v="MM"/>
-              <prop k="draw_inside_polygon" v="0"/>
-              <prop k="joinstyle" v="bevel"/>
-              <prop k="line_color" v="174,20,18,255"/>
-              <prop k="line_style" v="solid"/>
-              <prop k="line_width" v="0.46"/>
-              <prop k="line_width_unit" v="MM"/>
-              <prop k="offset" v="0"/>
-              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
-              <prop k="offset_unit" v="MM"/>
-              <prop k="use_custom_dash" v="0"/>
-              <prop k="width_map_unit_scale" v="0,0,0,0,0,0"/>
-            </layer>
-            <layer pass="0" class="MarkerLine" locked="0">
-              <prop k="interval" v="6"/>
-              <prop k="interval_map_unit_scale" v="0,0,0,0,0,0"/>
-              <prop k="interval_unit" v="MM"/>
-              <prop k="offset" v="0"/>
-              <prop k="offset_along_line" v="0"/>
-              <prop k="offset_along_line_map_unit_scale" v="0,0,0,0,0,0"/>
-              <prop k="offset_along_line_unit" v="MM"/>
-              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
-              <prop k="offset_unit" v="MM"/>
-              <prop k="placement" v="interval"/>
-              <prop k="rotate" v="1"/>
-              <symbol alpha="1" clip_to_extent="1" type="marker" name="@42@1">
+              <symbol alpha="1" clip_to_extent="1" type="marker" name="@42@2">
                 <layer pass="0" class="SimpleMarker" locked="0">
                   <prop k="angle" v="0"/>
                   <prop k="color" v="255,0,0,255"/>
@@ -13148,7 +13147,7 @@ def my_form_open(dialog, layer, feature):
               <prop k="draw_inside_polygon" v="0"/>
               <prop k="joinstyle" v="bevel"/>
               <prop k="line_color" v="174,20,18,255"/>
-              <prop k="line_style" v="dot"/>
+              <prop k="line_style" v="solid"/>
               <prop k="line_width" v="0.46"/>
               <prop k="line_width_unit" v="MM"/>
               <prop k="offset" v="0"/>
@@ -13195,6 +13194,60 @@ def my_form_open(dialog, layer, feature):
           </symbol>
           <symbol alpha="1" clip_to_extent="1" type="line" name="44">
             <layer pass="0" class="SimpleLine" locked="0">
+              <prop k="capstyle" v="square"/>
+              <prop k="customdash" v="5;2"/>
+              <prop k="customdash_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="customdash_unit" v="MM"/>
+              <prop k="draw_inside_polygon" v="0"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="line_color" v="174,20,18,255"/>
+              <prop k="line_style" v="dot"/>
+              <prop k="line_width" v="0.46"/>
+              <prop k="line_width_unit" v="MM"/>
+              <prop k="offset" v="0"/>
+              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="use_custom_dash" v="0"/>
+              <prop k="width_map_unit_scale" v="0,0,0,0,0,0"/>
+            </layer>
+            <layer pass="0" class="MarkerLine" locked="0">
+              <prop k="interval" v="6"/>
+              <prop k="interval_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="interval_unit" v="MM"/>
+              <prop k="offset" v="0"/>
+              <prop k="offset_along_line" v="0"/>
+              <prop k="offset_along_line_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="offset_along_line_unit" v="MM"/>
+              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="placement" v="interval"/>
+              <prop k="rotate" v="1"/>
+              <symbol alpha="1" clip_to_extent="1" type="marker" name="@44@1">
+                <layer pass="0" class="SimpleMarker" locked="0">
+                  <prop k="angle" v="0"/>
+                  <prop k="color" v="255,0,0,255"/>
+                  <prop k="horizontal_anchor_point" v="1"/>
+                  <prop k="joinstyle" v="bevel"/>
+                  <prop k="name" v="line"/>
+                  <prop k="offset" v="0,0"/>
+                  <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+                  <prop k="offset_unit" v="MM"/>
+                  <prop k="outline_color" v="174,20,18,255"/>
+                  <prop k="outline_style" v="solid"/>
+                  <prop k="outline_width" v="0"/>
+                  <prop k="outline_width_map_unit_scale" v="0,0,0,0,0,0"/>
+                  <prop k="outline_width_unit" v="MM"/>
+                  <prop k="scale_method" v="diameter"/>
+                  <prop k="size" v="2"/>
+                  <prop k="size_map_unit_scale" v="0,0,0,0,0,0"/>
+                  <prop k="size_unit" v="MM"/>
+                  <prop k="vertical_anchor_point" v="1"/>
+                </layer>
+              </symbol>
+            </layer>
+          </symbol>
+          <symbol alpha="1" clip_to_extent="1" type="line" name="45">
+            <layer pass="0" class="SimpleLine" locked="0">
               <prop k="capstyle" v="flat"/>
               <prop k="customdash" v="5;2"/>
               <prop k="customdash_map_unit_scale" v="0,0,0,0,0,0"/>
@@ -13240,61 +13293,7 @@ def my_form_open(dialog, layer, feature):
               <prop k="offset_unit" v="MM"/>
               <prop k="placement" v="interval"/>
               <prop k="rotate" v="1"/>
-              <symbol alpha="1" clip_to_extent="1" type="marker" name="@44@2">
-                <layer pass="0" class="SimpleMarker" locked="0">
-                  <prop k="angle" v="0"/>
-                  <prop k="color" v="255,0,0,255"/>
-                  <prop k="horizontal_anchor_point" v="1"/>
-                  <prop k="joinstyle" v="bevel"/>
-                  <prop k="name" v="line"/>
-                  <prop k="offset" v="0,0"/>
-                  <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
-                  <prop k="offset_unit" v="MM"/>
-                  <prop k="outline_color" v="174,20,18,255"/>
-                  <prop k="outline_style" v="solid"/>
-                  <prop k="outline_width" v="0"/>
-                  <prop k="outline_width_map_unit_scale" v="0,0,0,0,0,0"/>
-                  <prop k="outline_width_unit" v="MM"/>
-                  <prop k="scale_method" v="diameter"/>
-                  <prop k="size" v="2"/>
-                  <prop k="size_map_unit_scale" v="0,0,0,0,0,0"/>
-                  <prop k="size_unit" v="MM"/>
-                  <prop k="vertical_anchor_point" v="1"/>
-                </layer>
-              </symbol>
-            </layer>
-          </symbol>
-          <symbol alpha="1" clip_to_extent="1" type="line" name="45">
-            <layer pass="0" class="SimpleLine" locked="0">
-              <prop k="capstyle" v="square"/>
-              <prop k="customdash" v="5;2"/>
-              <prop k="customdash_map_unit_scale" v="0,0,0,0,0,0"/>
-              <prop k="customdash_unit" v="MM"/>
-              <prop k="draw_inside_polygon" v="0"/>
-              <prop k="joinstyle" v="bevel"/>
-              <prop k="line_color" v="174,20,18,255"/>
-              <prop k="line_style" v="solid"/>
-              <prop k="line_width" v="0.46"/>
-              <prop k="line_width_unit" v="MM"/>
-              <prop k="offset" v="0"/>
-              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
-              <prop k="offset_unit" v="MM"/>
-              <prop k="use_custom_dash" v="0"/>
-              <prop k="width_map_unit_scale" v="0,0,0,0,0,0"/>
-            </layer>
-            <layer pass="0" class="MarkerLine" locked="0">
-              <prop k="interval" v="6"/>
-              <prop k="interval_map_unit_scale" v="0,0,0,0,0,0"/>
-              <prop k="interval_unit" v="MM"/>
-              <prop k="offset" v="0"/>
-              <prop k="offset_along_line" v="0"/>
-              <prop k="offset_along_line_map_unit_scale" v="0,0,0,0,0,0"/>
-              <prop k="offset_along_line_unit" v="MM"/>
-              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
-              <prop k="offset_unit" v="MM"/>
-              <prop k="placement" v="interval"/>
-              <prop k="rotate" v="1"/>
-              <symbol alpha="1" clip_to_extent="1" type="marker" name="@45@1">
+              <symbol alpha="1" clip_to_extent="1" type="marker" name="@45@2">
                 <layer pass="0" class="SimpleMarker" locked="0">
                   <prop k="angle" v="0"/>
                   <prop k="color" v="255,0,0,255"/>
@@ -13327,7 +13326,7 @@ def my_form_open(dialog, layer, feature):
               <prop k="draw_inside_polygon" v="0"/>
               <prop k="joinstyle" v="bevel"/>
               <prop k="line_color" v="174,20,18,255"/>
-              <prop k="line_style" v="dot"/>
+              <prop k="line_style" v="solid"/>
               <prop k="line_width" v="0.46"/>
               <prop k="line_width_unit" v="MM"/>
               <prop k="offset" v="0"/>
@@ -13349,6 +13348,60 @@ def my_form_open(dialog, layer, feature):
               <prop k="placement" v="interval"/>
               <prop k="rotate" v="1"/>
               <symbol alpha="1" clip_to_extent="1" type="marker" name="@46@1">
+                <layer pass="0" class="SimpleMarker" locked="0">
+                  <prop k="angle" v="0"/>
+                  <prop k="color" v="255,0,0,255"/>
+                  <prop k="horizontal_anchor_point" v="1"/>
+                  <prop k="joinstyle" v="bevel"/>
+                  <prop k="name" v="line"/>
+                  <prop k="offset" v="0,0"/>
+                  <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+                  <prop k="offset_unit" v="MM"/>
+                  <prop k="outline_color" v="174,20,18,255"/>
+                  <prop k="outline_style" v="solid"/>
+                  <prop k="outline_width" v="0"/>
+                  <prop k="outline_width_map_unit_scale" v="0,0,0,0,0,0"/>
+                  <prop k="outline_width_unit" v="MM"/>
+                  <prop k="scale_method" v="diameter"/>
+                  <prop k="size" v="2"/>
+                  <prop k="size_map_unit_scale" v="0,0,0,0,0,0"/>
+                  <prop k="size_unit" v="MM"/>
+                  <prop k="vertical_anchor_point" v="1"/>
+                </layer>
+              </symbol>
+            </layer>
+          </symbol>
+          <symbol alpha="1" clip_to_extent="1" type="line" name="47">
+            <layer pass="0" class="SimpleLine" locked="0">
+              <prop k="capstyle" v="square"/>
+              <prop k="customdash" v="5;2"/>
+              <prop k="customdash_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="customdash_unit" v="MM"/>
+              <prop k="draw_inside_polygon" v="0"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="line_color" v="174,20,18,255"/>
+              <prop k="line_style" v="dot"/>
+              <prop k="line_width" v="0.46"/>
+              <prop k="line_width_unit" v="MM"/>
+              <prop k="offset" v="0"/>
+              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="use_custom_dash" v="0"/>
+              <prop k="width_map_unit_scale" v="0,0,0,0,0,0"/>
+            </layer>
+            <layer pass="0" class="MarkerLine" locked="0">
+              <prop k="interval" v="6"/>
+              <prop k="interval_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="interval_unit" v="MM"/>
+              <prop k="offset" v="0"/>
+              <prop k="offset_along_line" v="0"/>
+              <prop k="offset_along_line_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="offset_along_line_unit" v="MM"/>
+              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="placement" v="interval"/>
+              <prop k="rotate" v="1"/>
+              <symbol alpha="1" clip_to_extent="1" type="marker" name="@47@1">
                 <layer pass="0" class="SimpleMarker" locked="0">
                   <prop k="angle" v="0"/>
                   <prop k="color" v="255,0,0,255"/>
