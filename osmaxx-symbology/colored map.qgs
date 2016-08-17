@@ -11026,15 +11026,9 @@ def my_form_open(dialog, layer, feature):
           <rule filter="&quot;type&quot; = 'chair_lift'" key="{c06880c8-f052-470d-8f5b-7077b498d35f}" label="chair lift">
             <rule key="{7a0395c3-d2cd-489e-abb2-2412446e43c8}" label="chair lift"/>
           </rule>
-          <rule filter="&quot;type&quot; = 'cable_car'" key="{945318e2-7ecb-44e3-a597-db6e670f33af}" label="cable car aerialway">
-            <rule key="{9d7fa979-7beb-4757-9996-4af38f775faf}" label="cable car aerialway"/>
-          </rule>
-          <rule filter="&quot;type&quot; = 'gondola'" key="{51ea963d-1b72-4e65-b4cd-5555be86c440}" label="gondola aerialway">
-            <rule key="{400b9231-93ae-455e-b578-7ef496deb974}" label="gondola aerialway"/>
-          </rule>
-          <rule filter="&quot;type&quot; = 'goods'" key="{c457c7bf-afd1-4d12-90e8-fa1bd11555b8}" label="goods lift">
-            <rule key="{839fb1d2-f6cd-47e5-b914-b4a2ed24a9f1}" symbol="8" label="goods lift"/>
-          </rule>
+          <rule filter="&quot;type&quot; = 'cable_car'" key="{945318e2-7ecb-44e3-a597-db6e670f33af}" label="cable car aerialway"/>
+          <rule filter="&quot;type&quot; = 'gondola'" key="{51ea963d-1b72-4e65-b4cd-5555be86c440}" label="gondola aerialway"/>
+          <rule filter="&quot;type&quot; = 'goods'" key="{cb822e98-8d7c-4736-a85d-da56150b98d2}" symbol="8" label="goods lift"/>
           <rule filter="&quot;type&quot; = 'platter'" key="{74cd731f-e4d5-4ef2-8801-f1f7a53ab1bb}" label="platter lift">
             <rule key="{5c87c5f4-b5d8-4ca4-82da-64e0e5e6ae3e}" label="platter lift"/>
           </rule>
@@ -11053,12 +11047,8 @@ def my_form_open(dialog, layer, feature):
           <rule filter="&quot;type&quot; = 'rope_tow'" key="{62d07131-b12e-4333-b548-559e87ae147b}" label="tow ski lift">
             <rule key="{3d09d782-13f6-4c31-a205-cee524e16bd7}" label="tow ski lift"/>
           </rule>
-          <rule description="combined gondola aerialway / chair lift" filter="&quot;type&quot; = 'mixed_lift'" key="{abd1ee5c-0f37-4cc3-b5dc-c265d62d54f7}" label="gondola/chair lift">
-            <rule description="combined gondola aerialway / chair lift" key="{30cdb986-9d1e-4e9b-8933-bfad906cb24d}" label="gondola/chair lift"/>
-          </rule>
-          <rule filter="&quot;type&quot; = 'aerialway'" key="{ed7c8296-8187-4cf3-b99b-1e00d331031c}" label="aerialway">
-            <rule key="{5dec3248-01fe-492e-bbb5-3399f6c0668d}" label="aerialway"/>
-          </rule>
+          <rule description="combined gondola aerialway / chair lift" filter="&quot;type&quot; = 'mixed_lift'" key="{abd1ee5c-0f37-4cc3-b5dc-c265d62d54f7}" label="gondola/chair lift"/>
+          <rule filter="&quot;type&quot; = 'aerialway'" key="{ed7c8296-8187-4cf3-b99b-1e00d331031c}" label="aerialway"/>
         </rules>
         <symbols>
           <symbol alpha="1" clip_to_extent="1" type="line" name="0">
