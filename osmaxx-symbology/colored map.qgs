@@ -10993,28 +10993,72 @@ def my_form_open(dialog, layer, feature):
       </edittypes>
       <renderer-v2 forceraster="0" symbollevels="0" type="RuleRenderer" enableorderby="1">
         <rules key="{017d0057-c115-4a20-a414-f448f0404a23}">
-          <rule filter="&quot;type&quot; = 'rail'" key="{6d349d05-c361-4c58-83aa-6de4a29dcbdd}" symbol="0" label="rail"/>
-          <rule filter="&quot;type&quot; = 'light_rail'" key="{66b2a8ea-2b20-46c5-a975-2b37045d78ed}" symbol="1" label="light_rail"/>
-          <rule filter="&quot;type&quot; = 'subway'" key="{a67f0326-afb0-4278-9b6f-baada3e922fb}" symbol="2" label="subway"/>
-          <rule filter="&quot;type&quot; = 'tram'" key="{ede717cf-ec01-4a97-a524-f70e84fe8a5f}" symbol="3" label="tram"/>
-          <rule filter="&quot;type&quot; = 'monorail'" key="{0431e77a-6fd6-4ef7-b54f-f159f786f411}" symbol="4" label="monorail"/>
-          <rule filter="&quot;type&quot; = 'narrow_gauge'" key="{348aac92-e862-4193-9388-bc075c3c1d74}" symbol="5" label="narrow_gauge"/>
-          <rule filter="&quot;type&quot; = 'miniature'" key="{addb11e0-2cee-483f-bfc3-fa46464949bb}" symbol="6" label="miniature"/>
-          <rule filter="&quot;type&quot; = 'funicular'" key="{32f378a4-dd43-4fc8-b468-63b9055e1f42}" label="funicular"/>
-          <rule filter="&quot;type&quot; = 'railway'" key="{9d57504f-974b-41bf-8d2c-53bf795a76ef}" symbol="7" label="railway"/>
-          <rule filter="&quot;type&quot; = 'drag_lift'" key="{e7431acc-385c-41c7-9b6c-4330082d8d40}" label="drag lift"/>
-          <rule filter="&quot;type&quot; = 'chair_lift'" key="{df364aa2-4a4a-4907-9864-66ea572a7b0f}" label="chair lift"/>
-          <rule filter="&quot;type&quot; = 'cable_car'" key="{6ca4025b-5e45-4cc7-8e29-69e4610143be}" label="cable car aerialway"/>
-          <rule filter="&quot;type&quot; = 'gondola'" key="{4f0bd3dd-7cb9-4b23-be4c-47e09f18bb8a}" label="gondola aerialway"/>
-          <rule filter="&quot;type&quot; = 'goods'" key="{ef2f2cbe-cbf4-4da9-995a-87f16fb5871a}" symbol="8" label="goods lift"/>
-          <rule filter="&quot;type&quot; = 'platter'" key="{a476c5d8-4ffa-460f-8ea6-133722d376db}" label="platter lift"/>
-          <rule filter="&quot;type&quot; = 't-bar'" key="{fa7df252-09bb-4ab2-b5d5-5a6940a5c099}" label="T-bar lift"/>
-          <rule filter="&quot;type&quot; = 'j-bar'" key="{e13b30fc-92c8-4caa-b077-31c1944b98de}" label="J-bar lift"/>
-          <rule filter="&quot;type&quot; = 'magic_carpet'" key="{3a9de699-a0fa-41c1-8690-efe41bba68d0}" label="&quot;magic carpet&quot; lift"/>
-          <rule filter="&quot;type&quot; = 'zip_line'" key="{9842fb37-e2bd-4d5b-ac1c-ec962f4ad508}" label="zip line"/>
-          <rule filter="&quot;type&quot; = 'rope_tow'" key="{7d73d590-f4ee-40c9-8298-d4e2ae0be430}" label="tow ski lift"/>
-          <rule description="combined gondola aerialway / chair lift" filter="&quot;type&quot; = 'mixed_lift'" key="{e9982391-9e3e-46f3-8c2c-c8bda26af412}" label="gondola/chair lift"/>
-          <rule filter="&quot;type&quot; = 'aerialway'" key="{e3c6e3f7-a27e-4ef2-bf28-5fb8d4362589}" label="aerialway"/>
+          <rule filter="&quot;type&quot; = 'rail'" key="{298a26b5-382c-4ea5-8ce6-ee7fa1c27772}" label="rail">
+            <rule key="{efe6681d-7d08-40df-89c5-2295e0b546b3}" symbol="0" label="rail"/>
+          </rule>
+          <rule filter="&quot;type&quot; = 'light_rail'" key="{1bb4aa88-b16c-49a8-98d4-ec954df9e925}" label="light_rail">
+            <rule key="{1c34e1a8-c9e4-4a35-8590-4c208851c5f3}" symbol="1" label="light_rail"/>
+          </rule>
+          <rule filter="&quot;type&quot; = 'subway'" key="{8aca5fbc-2a31-4020-bd88-540087e2154c}" label="subway">
+            <rule key="{420f48d2-f42b-4c03-865c-2c65f5a2c12e}" symbol="2" label="subway"/>
+          </rule>
+          <rule filter="&quot;type&quot; = 'tram'" key="{7b7a34de-9685-442c-8ea9-2e278791e08f}" label="tram">
+            <rule key="{692b60f1-d839-424b-ac07-ef569e1dd30b}" symbol="3" label="tram"/>
+          </rule>
+          <rule filter="&quot;type&quot; = 'monorail'" key="{953feac9-0a89-4f8c-ae60-002ca02937f3}" label="monorail">
+            <rule key="{eea291bb-4305-42f7-97ad-0fe2bbbf1c51}" symbol="4" label="monorail"/>
+          </rule>
+          <rule filter="&quot;type&quot; = 'narrow_gauge'" key="{8943c55c-893b-43de-b61b-79b7693c2e5d}" label="narrow_gauge">
+            <rule key="{47ebfd30-d3f1-48b5-86ce-b5b10086f649}" symbol="5" label="narrow_gauge"/>
+          </rule>
+          <rule filter="&quot;type&quot; = 'miniature'" key="{123d5dae-88cd-4949-a867-c8d8bb5fe9f7}" label="miniature">
+            <rule key="{9fb9d2ad-3a33-4cca-9c9b-6226b00e7e5d}" symbol="6" label="miniature"/>
+          </rule>
+          <rule filter="&quot;type&quot; = 'funicular'" key="{829ce5a8-1cd4-464a-a5a0-f50d969f8b43}" label="funicular">
+            <rule key="{97f47d64-c75b-48c4-a94e-ebe66643c8d2}" label="funicular"/>
+          </rule>
+          <rule filter="&quot;type&quot; = 'railway'" key="{95fb86e3-c364-43e0-a0ed-06cd3851e104}" label="railway">
+            <rule key="{1fd9def3-8f7c-476f-afd9-638ab63e395c}" symbol="7" label="railway"/>
+          </rule>
+          <rule filter="&quot;type&quot; = 'drag_lift'" key="{a93e413c-829c-4a97-9eb0-fd9e40306837}" label="drag lift">
+            <rule key="{c3f4618c-de08-49c0-b202-100ee28c8349}" label="drag lift"/>
+          </rule>
+          <rule filter="&quot;type&quot; = 'chair_lift'" key="{c06880c8-f052-470d-8f5b-7077b498d35f}" label="chair lift">
+            <rule key="{7a0395c3-d2cd-489e-abb2-2412446e43c8}" label="chair lift"/>
+          </rule>
+          <rule filter="&quot;type&quot; = 'cable_car'" key="{945318e2-7ecb-44e3-a597-db6e670f33af}" label="cable car aerialway">
+            <rule key="{9d7fa979-7beb-4757-9996-4af38f775faf}" label="cable car aerialway"/>
+          </rule>
+          <rule filter="&quot;type&quot; = 'gondola'" key="{51ea963d-1b72-4e65-b4cd-5555be86c440}" label="gondola aerialway">
+            <rule key="{400b9231-93ae-455e-b578-7ef496deb974}" label="gondola aerialway"/>
+          </rule>
+          <rule filter="&quot;type&quot; = 'goods'" key="{c457c7bf-afd1-4d12-90e8-fa1bd11555b8}" label="goods lift">
+            <rule key="{839fb1d2-f6cd-47e5-b914-b4a2ed24a9f1}" symbol="8" label="goods lift"/>
+          </rule>
+          <rule filter="&quot;type&quot; = 'platter'" key="{74cd731f-e4d5-4ef2-8801-f1f7a53ab1bb}" label="platter lift">
+            <rule key="{5c87c5f4-b5d8-4ca4-82da-64e0e5e6ae3e}" label="platter lift"/>
+          </rule>
+          <rule filter="&quot;type&quot; = 't-bar'" key="{a93d0615-b9fd-478b-bb16-80d11864b69b}" label="T-bar lift">
+            <rule key="{add79335-822c-45df-bcc5-97bb99bfd88c}" label="T-bar lift"/>
+          </rule>
+          <rule filter="&quot;type&quot; = 'j-bar'" key="{62021b16-3d73-491f-b56a-e6c912226067}" label="J-bar lift">
+            <rule key="{ee88efcf-ed82-4164-96ec-1d35e4aae688}" label="J-bar lift"/>
+          </rule>
+          <rule filter="&quot;type&quot; = 'magic_carpet'" key="{ce025cfb-821e-4aa4-b032-fcf2316687fe}" label="&quot;magic carpet&quot; lift">
+            <rule key="{d2ec2c8b-7901-450b-8ad8-95dee7ed02a0}" label="&quot;magic carpet&quot; lift"/>
+          </rule>
+          <rule filter="&quot;type&quot; = 'zip_line'" key="{f876c819-bbe4-4494-9864-dcc730aab296}" label="zip line">
+            <rule key="{44ae09e7-8a0a-4433-96fd-6fd40b039acd}" label="zip line"/>
+          </rule>
+          <rule filter="&quot;type&quot; = 'rope_tow'" key="{62d07131-b12e-4333-b548-559e87ae147b}" label="tow ski lift">
+            <rule key="{3d09d782-13f6-4c31-a205-cee524e16bd7}" label="tow ski lift"/>
+          </rule>
+          <rule description="combined gondola aerialway / chair lift" filter="&quot;type&quot; = 'mixed_lift'" key="{abd1ee5c-0f37-4cc3-b5dc-c265d62d54f7}" label="gondola/chair lift">
+            <rule description="combined gondola aerialway / chair lift" key="{30cdb986-9d1e-4e9b-8933-bfad906cb24d}" label="gondola/chair lift"/>
+          </rule>
+          <rule filter="&quot;type&quot; = 'aerialway'" key="{ed7c8296-8187-4cf3-b99b-1e00d331031c}" label="aerialway">
+            <rule key="{5dec3248-01fe-492e-bbb5-3399f6c0668d}" label="aerialway"/>
+          </rule>
         </rules>
         <symbols>
           <symbol alpha="1" clip_to_extent="1" type="line" name="0">
