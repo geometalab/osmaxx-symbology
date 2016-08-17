@@ -144,7 +144,7 @@
       <layer-tree-layer expanded="0" checked="Qt::Checked" id="20160601_frankfurt_am_main_gpkg_railway_l_any20160602124824961" name="railway_l">
         <customproperties/>
       </layer-tree-layer>
-      <layer-tree-layer expanded="1" checked="Qt::Checked" id="20160601_frankfurt_am_main_gpkg_nonop_l_any20160602124824727" name="nonop_l">
+      <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="20160601_frankfurt_am_main_gpkg_nonop_l_any20160602124824727" name="nonop_l">
         <customproperties/>
       </layer-tree-layer>
       <layer-tree-layer expanded="1" checked="Qt::Checked" id="20160601_frankfurt_am_main_gpkg_coastline_l_any20160602124824025" name="coastline_l">
@@ -458,9 +458,9 @@
           <legendlayerfile isInOverview="0" layerid="20160601_frankfurt_am_main_gpkg_railway_l_any20160602124824961" visible="1"/>
         </filegroup>
       </legendlayer>
-      <legendlayer drawingOrder="20" open="true" checked="Qt::Checked" name="nonop_l" showFeatureCount="0">
+      <legendlayer drawingOrder="20" open="true" checked="Qt::Unchecked" name="nonop_l" showFeatureCount="0">
         <filegroup open="true" hidden="false">
-          <legendlayerfile isInOverview="0" layerid="20160601_frankfurt_am_main_gpkg_nonop_l_any20160602124824727" visible="1"/>
+          <legendlayerfile isInOverview="0" layerid="20160601_frankfurt_am_main_gpkg_nonop_l_any20160602124824727" visible="0"/>
         </filegroup>
       </legendlayer>
       <legendlayer drawingOrder="10" open="true" checked="Qt::Checked" name="coastline_l" showFeatureCount="0">
@@ -5568,7 +5568,7 @@ def my_form_open(dialog, layer, feature):
       <annotationform>.</annotationform>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
-      <attributeactions default="0"/>
+      <attributeactions default="-1"/>
       <attributetableconfig actionWidgetStyle="dropDown" sortExpression="" sortOrder="0">
         <columns/>
       </attributetableconfig>
