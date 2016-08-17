@@ -11254,7 +11254,7 @@ def my_form_open(dialog, layer, feature):
               <prop k="customdash_unit" v="MM"/>
               <prop k="draw_inside_polygon" v="0"/>
               <prop k="joinstyle" v="round"/>
-              <prop k="line_color" v="255,2,0,255"/>
+              <prop k="line_color" v="168,0,0,255"/>
               <prop k="line_style" v="dot"/>
               <prop k="line_width" v="0.488205"/>
               <prop k="line_width_unit" v="MM"/>
@@ -11290,7 +11290,7 @@ def my_form_open(dialog, layer, feature):
               <prop k="customdash_unit" v="MM"/>
               <prop k="draw_inside_polygon" v="0"/>
               <prop k="joinstyle" v="round"/>
-              <prop k="line_color" v="255,2,0,255"/>
+              <prop k="line_color" v="168,0,0,255"/>
               <prop k="line_style" v="dot"/>
               <prop k="line_width" v="0.488205"/>
               <prop k="line_width_unit" v="MM"/>
@@ -11432,7 +11432,7 @@ def my_form_open(dialog, layer, feature):
               <prop k="customdash_unit" v="MM"/>
               <prop k="draw_inside_polygon" v="0"/>
               <prop k="joinstyle" v="round"/>
-              <prop k="line_color" v="255,2,0,255"/>
+              <prop k="line_color" v="168,0,0,255"/>
               <prop k="line_style" v="dot"/>
               <prop k="line_width" v="0.488205"/>
               <prop k="line_width_unit" v="MM"/>
@@ -11451,7 +11451,7 @@ def my_form_open(dialog, layer, feature):
               <prop k="customdash_unit" v="MM"/>
               <prop k="draw_inside_polygon" v="0"/>
               <prop k="joinstyle" v="round"/>
-              <prop k="line_color" v="221,218,221,255"/>
+              <prop k="line_color" v="230,228,234,255"/>
               <prop k="line_style" v="solid"/>
               <prop k="line_width" v="0.56"/>
               <prop k="line_width_unit" v="MM"/>
@@ -11468,7 +11468,7 @@ def my_form_open(dialog, layer, feature):
               <prop k="customdash_unit" v="MM"/>
               <prop k="draw_inside_polygon" v="0"/>
               <prop k="joinstyle" v="round"/>
-              <prop k="line_color" v="255,2,0,255"/>
+              <prop k="line_color" v="168,0,0,255"/>
               <prop k="line_style" v="dot"/>
               <prop k="line_width" v="0.488205"/>
               <prop k="line_width_unit" v="MM"/>
