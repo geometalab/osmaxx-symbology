@@ -10994,58 +10994,92 @@ def my_form_open(dialog, layer, feature):
       <renderer-v2 forceraster="0" symbollevels="0" type="RuleRenderer" enableorderby="1">
         <rules key="{017d0057-c115-4a20-a414-f448f0404a23}">
           <rule filter="&quot;type&quot; = 'rail'" key="{298a26b5-382c-4ea5-8ce6-ee7fa1c27772}" label="rail">
-            <rule key="{efe6681d-7d08-40df-89c5-2295e0b546b3}" symbol="0" label="rail"/>
+            <rule filter="&quot;bridge&quot;" key="{86cf1221-da30-45b0-a05b-31211b1846cf}" label="rail, bridge"/>
+            <rule filter="NOT (&quot;tunnel&quot; OR &quot;bridge&quot;)" key="{efe6681d-7d08-40df-89c5-2295e0b546b3}" symbol="0" label="rail"/>
+            <rule filter="&quot;tunnel&quot;" key="{e341f437-7b96-402f-865f-c4e34d4d049a}" label="rail, tunnel"/>
           </rule>
           <rule filter="&quot;type&quot; = 'light_rail'" key="{1bb4aa88-b16c-49a8-98d4-ec954df9e925}" label="light_rail">
-            <rule key="{1c34e1a8-c9e4-4a35-8590-4c208851c5f3}" symbol="1" label="light_rail"/>
+            <rule filter="&quot;bridge&quot;" key="{4b92bc5d-140b-4958-b655-534afe6f90b6}" label="light_rail, bridge"/>
+            <rule filter="NOT (&quot;tunnel&quot; OR &quot;bridge&quot;)" key="{1c34e1a8-c9e4-4a35-8590-4c208851c5f3}" symbol="1" label="light_rail"/>
+            <rule filter="&quot;tunnel&quot;" key="{b9a01973-8e22-44ec-895c-249e840bf515}" label="light_rail, tunnel"/>
           </rule>
           <rule filter="&quot;type&quot; = 'subway'" key="{8aca5fbc-2a31-4020-bd88-540087e2154c}" label="subway">
-            <rule key="{420f48d2-f42b-4c03-865c-2c65f5a2c12e}" symbol="2" label="subway"/>
+            <rule filter="&quot;bridge&quot;" key="{4b92bc5d-140b-4958-b655-534afe6f90b6}" label="subway, bridge"/>
+            <rule filter="NOT (&quot;tunnel&quot; OR &quot;bridge&quot;)" key="{420f48d2-f42b-4c03-865c-2c65f5a2c12e}" symbol="2" label="subway"/>
+            <rule filter="&quot;tunnel&quot;" key="{2505346c-092d-4924-9c2b-d3ad54f65ee7}" label="subway, tunnel"/>
           </rule>
           <rule filter="&quot;type&quot; = 'tram'" key="{7b7a34de-9685-442c-8ea9-2e278791e08f}" label="tram">
-            <rule key="{692b60f1-d839-424b-ac07-ef569e1dd30b}" symbol="3" label="tram"/>
+            <rule filter="&quot;bridge&quot;" key="{4b92bc5d-140b-4958-b655-534afe6f90b6}" label="tram, bridge"/>
+            <rule filter="NOT (&quot;tunnel&quot; OR &quot;bridge&quot;)" key="{692b60f1-d839-424b-ac07-ef569e1dd30b}" symbol="3" label="tram"/>
+            <rule filter="&quot;tunnel&quot;" key="{35cacf06-8378-4b5e-bd4b-be8b3c5046c0}" label="tram, tunnel"/>
           </rule>
           <rule filter="&quot;type&quot; = 'monorail'" key="{953feac9-0a89-4f8c-ae60-002ca02937f3}" label="monorail">
-            <rule key="{eea291bb-4305-42f7-97ad-0fe2bbbf1c51}" symbol="4" label="monorail"/>
+            <rule filter="&quot;bridge&quot;" key="{4b92bc5d-140b-4958-b655-534afe6f90b6}" label="monorail, bridge"/>
+            <rule filter="NOT (&quot;tunnel&quot; OR &quot;bridge&quot;)" key="{eea291bb-4305-42f7-97ad-0fe2bbbf1c51}" symbol="4" label="monorail"/>
+            <rule filter="&quot;tunnel&quot;" key="{b915830d-5ef6-47a0-aace-05dbb185bc6e}" label="monorail, tunnel"/>
           </rule>
           <rule filter="&quot;type&quot; = 'narrow_gauge'" key="{8943c55c-893b-43de-b61b-79b7693c2e5d}" label="narrow_gauge">
-            <rule key="{47ebfd30-d3f1-48b5-86ce-b5b10086f649}" symbol="5" label="narrow_gauge"/>
+            <rule filter="&quot;bridge&quot;" key="{4b92bc5d-140b-4958-b655-534afe6f90b6}" label="narrow_gauge, bridge"/>
+            <rule filter="NOT (&quot;tunnel&quot; OR &quot;bridge&quot;)" key="{47ebfd30-d3f1-48b5-86ce-b5b10086f649}" symbol="5" label="narrow_gauge"/>
+            <rule filter="&quot;tunnel&quot;" key="{87cad9ba-48cf-4146-b695-859d466e32b6}" label="narrow_gauge, tunnel"/>
           </rule>
           <rule filter="&quot;type&quot; = 'miniature'" key="{123d5dae-88cd-4949-a867-c8d8bb5fe9f7}" label="miniature">
-            <rule key="{9fb9d2ad-3a33-4cca-9c9b-6226b00e7e5d}" symbol="6" label="miniature"/>
+            <rule filter="&quot;bridge&quot;" key="{4b92bc5d-140b-4958-b655-534afe6f90b6}" label="miniature, bridge"/>
+            <rule filter="NOT (&quot;tunnel&quot; OR &quot;bridge&quot;)" key="{9fb9d2ad-3a33-4cca-9c9b-6226b00e7e5d}" symbol="6" label="miniature"/>
+            <rule filter="&quot;tunnel&quot;" key="{5ee7ff2f-bb66-4ba8-a6e2-7b4feab8675f}" label="miniature, tunnel"/>
           </rule>
           <rule filter="&quot;type&quot; = 'funicular'" key="{829ce5a8-1cd4-464a-a5a0-f50d969f8b43}" label="funicular">
-            <rule key="{97f47d64-c75b-48c4-a94e-ebe66643c8d2}" label="funicular"/>
+            <rule filter="&quot;bridge&quot;" key="{4b92bc5d-140b-4958-b655-534afe6f90b6}" label="funicular, bridge"/>
+            <rule filter="NOT (&quot;tunnel&quot; OR &quot;bridge&quot;)" key="{97f47d64-c75b-48c4-a94e-ebe66643c8d2}" label="funicular"/>
+            <rule filter="&quot;tunnel&quot;" key="{8e39f572-cd1c-4810-96bc-3e6f8058f84c}" label="funicular, tunnel"/>
           </rule>
           <rule filter="&quot;type&quot; = 'railway'" key="{95fb86e3-c364-43e0-a0ed-06cd3851e104}" label="railway">
-            <rule key="{1fd9def3-8f7c-476f-afd9-638ab63e395c}" symbol="7" label="railway"/>
+            <rule filter="&quot;bridge&quot;" key="{4b92bc5d-140b-4958-b655-534afe6f90b6}" label="railway, bridge"/>
+            <rule filter="NOT (&quot;tunnel&quot; OR &quot;bridge&quot;)" key="{1fd9def3-8f7c-476f-afd9-638ab63e395c}" symbol="7" label="railway"/>
+            <rule filter="&quot;tunnel&quot;" key="{debfd24d-b456-4f11-8b5d-9a250bb23980}" label="railway, tunnel"/>
           </rule>
           <rule filter="&quot;type&quot; = 'drag_lift'" key="{a93e413c-829c-4a97-9eb0-fd9e40306837}" label="drag lift">
-            <rule key="{c3f4618c-de08-49c0-b202-100ee28c8349}" label="drag lift"/>
+            <rule filter="&quot;bridge&quot;" key="{4b92bc5d-140b-4958-b655-534afe6f90b6}" label="drag lift, bridge"/>
+            <rule filter="NOT (&quot;tunnel&quot; OR &quot;bridge&quot;)" key="{c3f4618c-de08-49c0-b202-100ee28c8349}" label="drag lift"/>
+            <rule filter="&quot;tunnel&quot;" key="{49592f44-f805-4686-bb50-b6086579d543}" label="drag lift, tunnel"/>
           </rule>
           <rule filter="&quot;type&quot; = 'chair_lift'" key="{c06880c8-f052-470d-8f5b-7077b498d35f}" label="chair lift">
-            <rule key="{7a0395c3-d2cd-489e-abb2-2412446e43c8}" label="chair lift"/>
+            <rule filter="&quot;bridge&quot;" key="{4b92bc5d-140b-4958-b655-534afe6f90b6}" label="chair lift, bridge"/>
+            <rule filter="NOT (&quot;tunnel&quot; OR &quot;bridge&quot;)" key="{7a0395c3-d2cd-489e-abb2-2412446e43c8}" label="chair lift"/>
+            <rule filter="&quot;tunnel&quot;" key="{708c166b-6444-4883-a8b8-723f46a18751}" label="chair lift, tunnel"/>
           </rule>
           <rule filter="&quot;type&quot; = 'cable_car'" key="{945318e2-7ecb-44e3-a597-db6e670f33af}" label="cable car aerialway"/>
           <rule filter="&quot;type&quot; = 'gondola'" key="{51ea963d-1b72-4e65-b4cd-5555be86c440}" label="gondola aerialway"/>
           <rule filter="&quot;type&quot; = 'goods'" key="{cb822e98-8d7c-4736-a85d-da56150b98d2}" symbol="8" label="goods lift"/>
           <rule filter="&quot;type&quot; = 'platter'" key="{74cd731f-e4d5-4ef2-8801-f1f7a53ab1bb}" label="platter lift">
-            <rule key="{5c87c5f4-b5d8-4ca4-82da-64e0e5e6ae3e}" label="platter lift"/>
+            <rule filter="&quot;bridge&quot;" key="{4b92bc5d-140b-4958-b655-534afe6f90b6}" label="platter lift, bridge"/>
+            <rule filter="NOT (&quot;tunnel&quot; OR &quot;bridge&quot;)" key="{5c87c5f4-b5d8-4ca4-82da-64e0e5e6ae3e}" label="platter lift"/>
+            <rule filter="&quot;tunnel&quot;" key="{c765d738-8f85-4787-8ddb-23768f391313}" label="platter lift, tunnel"/>
           </rule>
           <rule filter="&quot;type&quot; = 't-bar'" key="{a93d0615-b9fd-478b-bb16-80d11864b69b}" label="T-bar lift">
-            <rule key="{add79335-822c-45df-bcc5-97bb99bfd88c}" label="T-bar lift"/>
+            <rule filter="&quot;bridge&quot;" key="{4b92bc5d-140b-4958-b655-534afe6f90b6}" label="T-bar lift, bridge"/>
+            <rule filter="NOT (&quot;tunnel&quot; OR &quot;bridge&quot;)" key="{add79335-822c-45df-bcc5-97bb99bfd88c}" label="T-bar lift"/>
+            <rule filter="&quot;tunnel&quot;" key="{145bcd7e-96b3-417b-8660-2cf2513a8d56}" label="T-bar lift, tunnel"/>
           </rule>
           <rule filter="&quot;type&quot; = 'j-bar'" key="{62021b16-3d73-491f-b56a-e6c912226067}" label="J-bar lift">
-            <rule key="{ee88efcf-ed82-4164-96ec-1d35e4aae688}" label="J-bar lift"/>
+            <rule filter="&quot;bridge&quot;" key="{4b92bc5d-140b-4958-b655-534afe6f90b6}" label="J-bar lift, bridge"/>
+            <rule filter="NOT (&quot;tunnel&quot; OR &quot;bridge&quot;)" key="{ee88efcf-ed82-4164-96ec-1d35e4aae688}" label="J-bar lift"/>
+            <rule filter="&quot;tunnel&quot;" key="{322bcceb-b38a-41ff-97a6-2142eacbbdfd}" label="J-bar lift, tunnel"/>
           </rule>
           <rule filter="&quot;type&quot; = 'magic_carpet'" key="{ce025cfb-821e-4aa4-b032-fcf2316687fe}" label="&quot;magic carpet&quot; lift">
-            <rule key="{d2ec2c8b-7901-450b-8ad8-95dee7ed02a0}" label="&quot;magic carpet&quot; lift"/>
+            <rule filter="&quot;bridge&quot;" key="{4b92bc5d-140b-4958-b655-534afe6f90b6}" label="&quot;magic carpet&quot; lift, bridge"/>
+            <rule filter="NOT (&quot;tunnel&quot; OR &quot;bridge&quot;)" key="{d2ec2c8b-7901-450b-8ad8-95dee7ed02a0}" label="&quot;magic carpet&quot; lift"/>
+            <rule filter="&quot;tunnel&quot;" key="{09783cce-21fc-4e3d-b48e-1a08c2c85068}" label="&quot;magic carpet&quot; lift, tunnel"/>
           </rule>
           <rule filter="&quot;type&quot; = 'zip_line'" key="{f876c819-bbe4-4494-9864-dcc730aab296}" label="zip line">
-            <rule key="{44ae09e7-8a0a-4433-96fd-6fd40b039acd}" label="zip line"/>
+            <rule filter="&quot;bridge&quot;" key="{4b92bc5d-140b-4958-b655-534afe6f90b6}" label="zip line, bridge"/>
+            <rule filter="NOT (&quot;tunnel&quot; OR &quot;bridge&quot;)" key="{44ae09e7-8a0a-4433-96fd-6fd40b039acd}" label="zip line"/>
+            <rule filter="&quot;tunnel&quot;" key="{4f44d6c7-f0a2-48bc-8c63-db89bcd326dc}" label="zip line, tunnel"/>
           </rule>
           <rule filter="&quot;type&quot; = 'rope_tow'" key="{62d07131-b12e-4333-b548-559e87ae147b}" label="tow ski lift">
-            <rule key="{3d09d782-13f6-4c31-a205-cee524e16bd7}" label="tow ski lift"/>
+            <rule filter="&quot;bridge&quot;" key="{4b92bc5d-140b-4958-b655-534afe6f90b6}" label="tow ski lift, bridge"/>
+            <rule filter="NOT (&quot;tunnel&quot; OR &quot;bridge&quot;)" key="{3d09d782-13f6-4c31-a205-cee524e16bd7}" label="tow ski lift"/>
+            <rule filter="&quot;tunnel&quot;" key="{ee1f8005-6972-446c-8f6b-fde3b2160fc9}" label="tow ski lift, tunnel"/>
           </rule>
           <rule description="combined gondola aerialway / chair lift" filter="&quot;type&quot; = 'mixed_lift'" key="{abd1ee5c-0f37-4cc3-b5dc-c265d62d54f7}" label="gondola/chair lift"/>
           <rule filter="&quot;type&quot; = 'aerialway'" key="{ed7c8296-8187-4cf3-b99b-1e00d331031c}" label="aerialway"/>
