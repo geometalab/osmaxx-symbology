@@ -11043,11 +11043,7 @@ def my_form_open(dialog, layer, feature):
             <rule filter="NOT (&quot;tunnel&quot; OR &quot;bridge&quot;)" key="{c3f4618c-de08-49c0-b202-100ee28c8349}" symbol="26" label="drag lift"/>
             <rule filter="&quot;tunnel&quot;" key="{49592f44-f805-4686-bb50-b6086579d543}" symbol="27" label="drag lift, tunnel"/>
           </rule>
-          <rule filter="&quot;type&quot; = 'chair_lift'" key="{c06880c8-f052-470d-8f5b-7077b498d35f}" label="chair lift">
-            <rule filter="&quot;bridge&quot;" key="{4b92bc5d-140b-4958-b655-534afe6f90b6}" label="chair lift, bridge"/>
-            <rule filter="NOT (&quot;tunnel&quot; OR &quot;bridge&quot;)" key="{7a0395c3-d2cd-489e-abb2-2412446e43c8}" label="chair lift"/>
-            <rule filter="&quot;tunnel&quot;" key="{708c166b-6444-4883-a8b8-723f46a18751}" label="chair lift, tunnel"/>
-          </rule>
+          <rule filter="&quot;type&quot; = 'chair_lift'" key="{c06880c8-f052-470d-8f5b-7077b498d35f}" label="chair lift"/>
           <rule filter="&quot;type&quot; = 'cable_car'" key="{945318e2-7ecb-44e3-a597-db6e670f33af}" label="cable car aerialway"/>
           <rule filter="&quot;type&quot; = 'gondola'" key="{51ea963d-1b72-4e65-b4cd-5555be86c440}" label="gondola aerialway"/>
           <rule filter="&quot;type&quot; = 'goods'" key="{cb822e98-8d7c-4736-a85d-da56150b98d2}" symbol="28" label="goods lift"/>
