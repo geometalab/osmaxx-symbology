@@ -243,8 +243,26 @@ Font sizes are given in Desktop Publishing Points (DTP).
 | stream               | yes         |  6.0 | <i>Italic</i>              | 0/92/230    |
 | canal                | yes         |  6.0 | <i>Italic</i>              | 0/92/230    |
 | drain                | no          |  6.0 | <i>Italic</i>              | 102/102/102 |
+
+
+### pow_a
+
+| feature type         | shown in M4 | size | modifyers                  | Color (RGB) |
+|----------------------|:-----------:|-----:|----------------------------|-------------|
 |                      | no          |  6.0 | <i>Italic</i>              | 78/78/78    |
+
+
+### transport_a
+
+| feature type         | shown in M4 | size | modifyers                  | Color (RGB) |
+|----------------------|:-----------:|-----:|----------------------------|-------------|
 |                      | no          |  6.0 | regular                    | 78/78/78    |
+
+
+### traffic_a
+
+| feature type         | shown in M4 | size | modifyers                  | Color (RGB) |
+|----------------------|:-----------:|-----:|----------------------------|-------------|
 |                      | no          |  5.5 | <i>Italic</i>              | 102/102/102 |
 
 
