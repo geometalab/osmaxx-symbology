@@ -17,7 +17,7 @@ Font sizes are given in Desktop Publishing Points (DTP).
 
 | feature type         | shown in M4 | size | modifyers                  | Color (RGB) |
 |----------------------|:-----------:|-----:|----------------------------|-------------|
-| naval base           | yes         |  6.4 | <i>Italic</i>              | 70/70/0     |
+| naval_base           | yes         |  6.4 | <i>Italic</i>              | 70/70/0     |
 | airfield             | yes         |  6.0 | <i>Italic</i>              | 70/70/0     |
 | danger_area          | no          |  6.0 | <i>Italic</i>              | 70/70/0     |
 | barracks             | yes         |  6.5 | <i>Italic</i>              | 70/70/0     |
