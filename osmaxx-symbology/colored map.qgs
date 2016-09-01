@@ -3422,8 +3422,8 @@ def my_form_open(dialog, layer, feature):
       </edittypes>
       <renderer-v2 type="nullSymbol"/>
       <labeling type="rule-based">
-        <rules key="{b8ee0b38-2bce-4cbb-8058-e811f573f3d6}">
-          <rule scalemaxdenom="20000" description="naval base" filter="&quot;type&quot;='naval_base'" key="{328f6f91-188c-4751-84cd-827db9520fb9}" scalemindenom="1">
+        <rules key="{733473b6-5f5b-4907-b25c-d3b35b51302c}">
+          <rule description="naval base" filter="&quot;type&quot;='naval_base'" key="{028740e5-e65d-49ed-82ce-ff60a6d8bae0}">
             <settings>
               <text-style fontItalic="1" fontFamily="DejaVu Sans" fontLetterSpacing="0" fontUnderline="0" fontWeight="50" fontStrikeout="0" textTransp="0" previewBkgrdColor="#ffffff" fontCapitals="0" textColor="70,70,0,255" fontSizeInMapUnits="0" isExpression="0" blendMode="0" fontSizeMapUnitScale="0,0,0,0,0,0" fontSize="6.4" fieldName="label" namedStyle="Oblique" fontWordSpacing="0"/>
               <text-format placeDirectionSymbol="0" multilineAlign="0" rightDirectionSymbol=">" multilineHeight="1" plussign="0" addDirectionSymbol="0" leftDirectionSymbol="&lt;" formatNumbers="0" decimals="3" wrapChar="" reverseDirectionSymbol="0"/>
