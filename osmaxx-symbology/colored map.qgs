@@ -505,8 +505,8 @@
         <sizescale scalemethod="diameter"/>
       </renderer-v2>
       <labeling type="rule-based">
-        <rules key="{93cea08b-a7dd-4335-a68d-074a168c61c0}">
-          <rule description="names (latinized, all address types)" key="{ee3341e4-d702-44ee-9bb7-bcf3cdea0d24}">
+        <rules key="{e085f0c7-eae1-4b4f-8373-f2639b5ed1f5}">
+          <rule description="names (latinized, all address types)" active="0" key="{0f9cc368-2103-4559-b2b6-bbe0874b8a6f}">
             <settings>
               <text-style fontItalic="0" fontFamily="DejaVu Sans" fontLetterSpacing="0" fontUnderline="0" fontWeight="50" fontStrikeout="0" textTransp="0" previewBkgrdColor="#ffffff" fontCapitals="0" textColor="0,0,0,255" fontSizeInMapUnits="0" isExpression="0" blendMode="0" fontSizeMapUnitScale="0,0,0,0,0,0" fontSize="5.5" fieldName="label" namedStyle="Book" fontWordSpacing="0"/>
               <text-format placeDirectionSymbol="0" multilineAlign="0" rightDirectionSymbol=">" multilineHeight="1" plussign="0" addDirectionSymbol="0" leftDirectionSymbol="&lt;" formatNumbers="0" decimals="3" wrapChar="" reverseDirectionSymbol="0"/>
@@ -518,7 +518,7 @@
               <data-defined/>
             </settings>
           </rule>
-          <rule description="house numbers (all address types)" key="{92cce943-0bc7-49b3-9fe9-951a3eb07d0c}">
+          <rule description="house numbers (all address types)" active="0" key="{f13621c1-cc00-4254-bdaf-c07014d4807d}">
             <settings>
               <text-style fontItalic="0" fontFamily="DejaVu Sans" fontLetterSpacing="0" fontUnderline="0" fontWeight="50" fontStrikeout="0" textTransp="0" previewBkgrdColor="#ffffff" fontCapitals="0" textColor="0,0,0,255" fontSizeInMapUnits="0" isExpression="0" blendMode="0" fontSizeMapUnitScale="0,0,0,0,0,0" fontSize="5.5" fieldName="housenumber" namedStyle="Book" fontWordSpacing="0"/>
               <text-format placeDirectionSymbol="0" multilineAlign="0" rightDirectionSymbol=">" multilineHeight="1" plussign="0" addDirectionSymbol="0" leftDirectionSymbol="&lt;" formatNumbers="0" decimals="3" wrapChar="" reverseDirectionSymbol="0"/>
