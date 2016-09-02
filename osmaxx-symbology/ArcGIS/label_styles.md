@@ -66,6 +66,7 @@ Font sizes are given in Desktop Publishing Points (DTP).
 | national_park        | yes         |  6.0 | <i>Italic</i>              | 0/110/70    |
 | protected_area       | yes         |  6.0 | <i>Italic</i>              | 0/110/70    |
 
+## Other layer or object labels
 
 ### poi_p
 
