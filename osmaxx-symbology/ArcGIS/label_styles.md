@@ -70,28 +70,28 @@ Font sizes are given in Desktop Publishing Points (DTP).
 
 ### poi_p
 
-| feature type         | shown in M4 | size | modifyers                  | Color (RGB) |
-|----------------------|:-----------:|-----:|----------------------------|-------------|
-| check_point          | yes         |  5.5 | <i>Italic</i>              | 0/0/0       |
-| government           | yes         |  5.5 | <i>Italic</i>              | 0/0/0       |
-| embassy              | yes         |  5.5 | <i>Italic</i>              | 0/0/0       |
-| hospital             | no          |  5.5 | <i>Italic</i>              | 0/0/0       |
-| stadium              | no          |  5.5 | <i>Italic</i>              | 0/0/0       |
-| university           | yes         |  5.5 | <i>Italic</i>              | 0/0/0       |
-| college              | no          |  5.5 | <i>Italic</i>              | 0/0/0       |
-| school               | no          |  5.5 | <i>Italic</i>              | 0/0/0       |
-| marketplace          | no          |  5.5 | <i>Italic</i>              | 0/0/0       |
-| cemetery             | no          |  5.5 | <i>Italic</i>              | 0/0/0       |
-| grave_yard           | no          |  5.5 | <i>Italic</i>              | 0/0/0       |
-| castle               | yes         |  5.5 | <i>Italic</i>              | 0/0/0       |
-| police               | no          |  5.5 | <i>Italic</i>              | 0/0/0       |
-| zoo                  | no          |  5.5 | <i>Italic</i>              | 0/0/0       |
-| camp_site            | no          |  5.5 | <i>Italic</i>              | 0/0/0       |
-| comm_tower           | no          |  5.5 | <i>Italic</i>              | 0/0/0       |
-| golf_course          | yes         |  5.5 | <i>Italic</i>              | 0/0/0       |
-| water_well           | no          |  5.5 | <i>Italic</i>              | 0/0/0       |
-| water_tower          | no          |  5.5 | <i>Italic</i>              | 0/0/0       |
-| lighthouse           | no          |  5.5 | <i>Italic</i>              | 0/0/0       |
+| feature type         | labeled down to | size | modifyers                  | Color (RGB) |
+|----------------------|:---------------:|-----:|----------------------------|-------------|
+| check_point          | M4              |  5.5 | <i>Italic</i>              | 0/0/0       |
+| government           | M4              |  5.5 | <i>Italic</i>              | 0/0/0       |
+| embassy              | M4              |  5.5 | <i>Italic</i>              | 0/0/0       |
+| hospital             | M3              |  5.5 | <i>Italic</i>              | 0/0/0       |
+| stadium              | M1              |  5.5 | <i>Italic</i>              | 0/0/0       |
+| university           | M4              |  5.5 | <i>Italic</i>              | 0/0/0       |
+| college              | M1              |  5.5 | <i>Italic</i>              | 0/0/0       |
+| school               | M1              |  5.5 | <i>Italic</i>              | 0/0/0       |
+| marketplace          | M1              |  5.5 | <i>Italic</i>              | 0/0/0       |
+| cemetery             | (not labeled)   |  5.5 | <i>Italic</i>              | 0/0/0       |
+| grave_yard           | (not labeled)   |  5.5 | <i>Italic</i>              | 0/0/0       |
+| castle               | M4              |  5.5 | <i>Italic</i>              | 0/0/0       |
+| police               | (not labeled)   |  5.5 | <i>Italic</i>              | 0/0/0       |
+| zoo                  | M1              |  5.5 | <i>Italic</i>              | 0/0/0       |
+| camp_site            | (not labeled)   |  5.5 | <i>Italic</i>              | 0/0/0       |
+| comm_tower           | (not labeled)   |  5.5 | <i>Italic</i>              | 0/0/0       |
+| golf_course          | on M4 only      |  5.5 | <i>Italic</i>              | 0/0/0       |
+| water_well           | (not labeled)   |  5.5 | <i>Italic</i>              | 0/0/0       |
+| water_tower          | (not labeled)   |  5.5 | <i>Italic</i>              | 0/0/0       |
+| lighthouse           | (not labeled)   |  5.5 | <i>Italic</i>              | 0/0/0       |
 
 
 ### pow_p
