@@ -1856,7 +1856,9 @@ def my_form_open(dialog, layer, feature):
         <rotation/>
         <sizescale scalemethod="diameter"/>
       </renderer-v2>
-      <labeling type="simple"/>
+      <labeling type="rule-based">
+        <rules key="{3319b2d8-e5d9-44c6-9c57-879a3ef6a1bd}"/>
+      </labeling>
       <customproperties/>
       <blendMode>0</blendMode>
       <featureBlendMode>0</featureBlendMode>
