@@ -505,8 +505,8 @@
         <sizescale scalemethod="diameter"/>
       </renderer-v2>
       <labeling type="rule-based">
-        <rules key="{4356c786-ee63-4d05-a121-587de94eddae}">
-          <rule description="(all)" key="{73325908-2f75-408f-a7d9-9916c8a6e8e1}">
+        <rules key="{43b79c8a-233d-4a24-9863-3f8898065c55}">
+          <rule description="names (latinized, all address types)" key="{777d5b83-aa09-4706-bcf4-a733ef7c8271}">
             <settings>
               <text-style fontItalic="0" fontFamily="DejaVu Sans" fontLetterSpacing="0" fontUnderline="0" fontWeight="50" fontStrikeout="0" textTransp="0" previewBkgrdColor="#ffffff" fontCapitals="0" textColor="0,0,0,255" fontSizeInMapUnits="0" isExpression="0" blendMode="0" fontSizeMapUnitScale="0,0,0,0,0,0" fontSize="5.5" fieldName="label" namedStyle="Book" fontWordSpacing="0"/>
               <text-format placeDirectionSymbol="0" multilineAlign="0" rightDirectionSymbol=">" multilineHeight="1" plussign="0" addDirectionSymbol="0" leftDirectionSymbol="&lt;" formatNumbers="0" decimals="3" wrapChar="" reverseDirectionSymbol="0"/>
