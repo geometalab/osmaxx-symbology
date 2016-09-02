@@ -504,7 +504,9 @@
         <rotation/>
         <sizescale scalemethod="diameter"/>
       </renderer-v2>
-      <labeling type="simple"/>
+      <labeling type="rule-based">
+        <rules key="{8c07f4a0-1d83-4f67-8913-37e7d6f96a92}"/>
+      </labeling>
       <customproperties/>
       <blendMode>0</blendMode>
       <featureBlendMode>0</featureBlendMode>
