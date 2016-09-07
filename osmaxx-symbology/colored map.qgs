@@ -19184,7 +19184,9 @@ def my_form_open(dialog, layer, feature):
           <orderByClause asc="1" nullsFirst="0">"z_order"</orderByClause>
         </orderby>
       </renderer-v2>
-      <labeling type="simple"/>
+      <labeling type="rule-based">
+        <rules key="{0faa3a4f-1914-410d-9b18-20d57f0a84d7}"/>
+      </labeling>
       <customproperties>
         <property key="variableNames" value="_fields_"/>
         <property key="variableValues" value=""/>
