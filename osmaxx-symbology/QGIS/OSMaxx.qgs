@@ -409,7 +409,7 @@
   <projectlayers>
     <maplayer simplifyAlgorithm="0" minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="1" readOnly="0" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Point" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
       <id>20160601_frankfurt_am_main_gpkg_address_p_any20160602124823947</id>
-      <datasource>../data/frankfurt-am-main_wgs-84_2016-06-30_gpkg_full-detail.gpkg|layername=address_p</datasource>
+      <datasource>../../data/frankfurt-am-main_wgs-84_2016-06-30_gpkg_full-detail.gpkg|layername=address_p</datasource>
       <shortname>20160601-frankfurt-am-main_gpkg address_p any</shortname>
       <keywordList>
         <value></value>
@@ -580,7 +580,7 @@
     </maplayer>
     <maplayer simplifyAlgorithm="0" minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="1" readOnly="0" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Polygon" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
       <id>20160601_frankfurt_am_main_gpkg_adminarea_a_any20160602124824119</id>
-      <datasource>../data/frankfurt-am-main_wgs-84_2016-06-30_gpkg_full-detail.gpkg|layername=adminarea_a</datasource>
+      <datasource>../../data/frankfurt-am-main_wgs-84_2016-06-30_gpkg_full-detail.gpkg|layername=adminarea_a</datasource>
       <shortname>20160601-frankfurt-am-main_gpkg adminarea_a any</shortname>
       <keywordList>
         <value></value>
@@ -849,7 +849,7 @@
     </maplayer>
     <maplayer simplifyAlgorithm="0" minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="1" readOnly="0" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Line" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
       <id>20160601_frankfurt_am_main_gpkg_boundary_l_any20160602124824165</id>
-      <datasource>../data/frankfurt-am-main_wgs-84_2016-06-30_gpkg_full-detail.gpkg|layername=boundary_l</datasource>
+      <datasource>../../data/frankfurt-am-main_wgs-84_2016-06-30_gpkg_full-detail.gpkg|layername=boundary_l</datasource>
       <shortname>20160601-frankfurt-am-main_gpkg boundary_l any</shortname>
       <keywordList>
         <value></value>
@@ -1522,7 +1522,7 @@ def my_form_open(dialog, layer, feature):
     </maplayer>
     <maplayer simplifyAlgorithm="0" minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="1" readOnly="0" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Polygon" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
       <id>20160601_frankfurt_am_main_gpkg_building_a_any20160602124824228</id>
-      <datasource>../data/frankfurt-am-main_wgs-84_2016-06-30_gpkg_full-detail.gpkg|layername=building_a</datasource>
+      <datasource>../../data/frankfurt-am-main_wgs-84_2016-06-30_gpkg_full-detail.gpkg|layername=building_a</datasource>
       <shortname>20160601-frankfurt-am-main_gpkg building_a any</shortname>
       <keywordList>
         <value></value>
@@ -1854,7 +1854,7 @@ def my_form_open(dialog, layer, feature):
     </maplayer>
     <maplayer simplifyAlgorithm="0" minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="1" readOnly="0" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Line" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
       <id>20160601_frankfurt_am_main_gpkg_coastline_l_any20160602124824025</id>
-      <datasource>../data/frankfurt-am-main_wgs-84_2016-06-30_gpkg_full-detail.gpkg|layername=coastline_l</datasource>
+      <datasource>../../data/frankfurt-am-main_wgs-84_2016-06-30_gpkg_full-detail.gpkg|layername=coastline_l</datasource>
       <shortname>20160601-frankfurt-am-main_gpkg coastline_l any</shortname>
       <keywordList>
         <value></value>
@@ -1977,7 +1977,7 @@ def my_form_open(dialog, layer, feature):
     </maplayer>
     <maplayer simplifyAlgorithm="0" minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="1" readOnly="0" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Line" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
       <id>20160601_frankfurt_am_main_gpkg_geoname_l_any20160602124824368</id>
-      <datasource>../data/frankfurt-am-main_wgs-84_2016-06-30_gpkg_full-detail.gpkg|layername=geoname_l</datasource>
+      <datasource>../../data/frankfurt-am-main_wgs-84_2016-06-30_gpkg_full-detail.gpkg|layername=geoname_l</datasource>
       <shortname>20160601-frankfurt-am-main_gpkg geoname_l any</shortname>
       <keywordList>
         <value></value>
@@ -2121,7 +2121,7 @@ def my_form_open(dialog, layer, feature):
     </maplayer>
     <maplayer simplifyAlgorithm="0" minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="1" readOnly="0" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Point" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
       <id>20160601_frankfurt_am_main_gpkg_geoname_p_any20160602124824415</id>
-      <datasource>../data/frankfurt-am-main_wgs-84_2016-06-30_gpkg_full-detail.gpkg|layername=geoname_p</datasource>
+      <datasource>../../data/frankfurt-am-main_wgs-84_2016-06-30_gpkg_full-detail.gpkg|layername=geoname_p</datasource>
       <shortname>20160601-frankfurt-am-main_gpkg geoname_p any</shortname>
       <keywordList>
         <value></value>
@@ -2376,7 +2376,7 @@ def my_form_open(dialog, layer, feature):
     </maplayer>
     <maplayer simplifyAlgorithm="0" minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="1" readOnly="0" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Polygon" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
       <id>20160601_frankfurt_am_main_gpkg_landmass_a_any20160602124823885</id>
-      <datasource>../data/frankfurt-am-main_wgs-84_2016-06-30_gpkg_full-detail.gpkg|layername=landmass_a</datasource>
+      <datasource>../../data/frankfurt-am-main_wgs-84_2016-06-30_gpkg_full-detail.gpkg|layername=landmass_a</datasource>
       <shortname>20160601-frankfurt-am-main_gpkg landmass_a any</shortname>
       <keywordList>
         <value></value>
@@ -2480,7 +2480,7 @@ def my_form_open(dialog, layer, feature):
     </maplayer>
     <maplayer simplifyAlgorithm="0" minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="1" readOnly="0" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Polygon" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
       <id>20160601_frankfurt_am_main_gpkg_landuse_a_any20160602124824462</id>
-      <datasource>../data/frankfurt-am-main_wgs-84_2016-06-30_gpkg_full-detail.gpkg|layername=landuse_a</datasource>
+      <datasource>../../data/frankfurt-am-main_wgs-84_2016-06-30_gpkg_full-detail.gpkg|layername=landuse_a</datasource>
       <shortname>20160601-frankfurt-am-main_gpkg landuse_a any</shortname>
       <keywordList>
         <value></value>
@@ -3577,7 +3577,7 @@ def my_form_open(dialog, layer, feature):
     </maplayer>
     <maplayer simplifyAlgorithm="0" minimumScale="-4.65661e-10" maximumScale="1e+08" simplifyDrawingHints="1" readOnly="0" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Polygon" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
       <id>20160601_frankfurt_am_main_gpkg_military_a_any20160602124824509</id>
-      <datasource>../data/frankfurt-am-main_wgs-84_2016-06-30_gpkg_full-detail.gpkg|layername=military_a</datasource>
+      <datasource>../../data/frankfurt-am-main_wgs-84_2016-06-30_gpkg_full-detail.gpkg|layername=military_a</datasource>
       <shortname>20160601-frankfurt-am-main_gpkg military_a any</shortname>
       <keywordList>
         <value></value>
@@ -3990,7 +3990,7 @@ def my_form_open(dialog, layer, feature):
     </maplayer>
     <maplayer simplifyAlgorithm="0" minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="1" readOnly="0" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Point" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
       <id>20160601_frankfurt_am_main_gpkg_military_p_any20160602124824555</id>
-      <datasource>../data/frankfurt-am-main_wgs-84_2016-06-30_gpkg_full-detail.gpkg|layername=military_p</datasource>
+      <datasource>../../data/frankfurt-am-main_wgs-84_2016-06-30_gpkg_full-detail.gpkg|layername=military_p</datasource>
       <shortname>20160601-frankfurt-am-main_gpkg military_p any</shortname>
       <keywordList>
         <value></value>
@@ -4179,7 +4179,7 @@ def my_form_open(dialog, layer, feature):
     </maplayer>
     <maplayer simplifyAlgorithm="0" minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="1" readOnly="0" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Line" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
       <id>20160601_frankfurt_am_main_gpkg_misc_l_any20160602124824586</id>
-      <datasource>../data/frankfurt-am-main_wgs-84_2016-06-30_gpkg_full-detail.gpkg|layername=misc_l</datasource>
+      <datasource>../../data/frankfurt-am-main_wgs-84_2016-06-30_gpkg_full-detail.gpkg|layername=misc_l</datasource>
       <shortname>20160601-frankfurt-am-main_gpkg misc_l any</shortname>
       <keywordList>
         <value></value>
@@ -4734,7 +4734,7 @@ def my_form_open(dialog, layer, feature):
     </maplayer>
     <maplayer simplifyAlgorithm="0" minimumScale="-4.65661e-10" maximumScale="1e+08" simplifyDrawingHints="1" readOnly="0" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Polygon" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
       <id>20160601_frankfurt_am_main_gpkg_natural_a_any20160602124824633</id>
-      <datasource>../data/frankfurt-am-main_wgs-84_2016-06-30_gpkg_full-detail.gpkg|layername=natural_a</datasource>
+      <datasource>../../data/frankfurt-am-main_wgs-84_2016-06-30_gpkg_full-detail.gpkg|layername=natural_a</datasource>
       <shortname>20160601-frankfurt-am-main_gpkg natural_a any</shortname>
       <keywordList>
         <value></value>
@@ -5450,7 +5450,7 @@ def my_form_open(dialog, layer, feature):
     </maplayer>
     <maplayer simplifyAlgorithm="0" minimumScale="-4.65661e-10" maximumScale="1e+08" simplifyDrawingHints="0" readOnly="0" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Point" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
       <id>20160601_frankfurt_am_main_gpkg_natural_p_any20160602124824680</id>
-      <datasource>../data/frankfurt-am-main_wgs-84_2016-06-30_gpkg_full-detail.gpkg|layername=natural_p</datasource>
+      <datasource>../../data/frankfurt-am-main_wgs-84_2016-06-30_gpkg_full-detail.gpkg|layername=natural_p</datasource>
       <shortname>20160601-frankfurt-am-main_gpkg natural_p any</shortname>
       <keywordList>
         <value></value>
@@ -5677,7 +5677,7 @@ def my_form_open(dialog, layer, feature):
               <prop k="angle" v="0"/>
               <prop k="color" v="217,184,84,255"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="./OSMaxx_point_symbols/svg/natural_peak.svg"/>
+              <prop k="name" v="../OSMaxx_point_symbols/svg/natural_peak.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
               <prop k="offset_unit" v="MM"/>
@@ -5741,7 +5741,7 @@ def my_form_open(dialog, layer, feature):
               <prop k="angle" v="0"/>
               <prop k="color" v="13,59,207,255"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="./OSMaxx_point_symbols/svg/natural_tree.svg"/>
+              <prop k="name" v="../OSMaxx_point_symbols/svg/natural_tree.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
               <prop k="offset_unit" v="MM"/>
@@ -6098,7 +6098,7 @@ def my_form_open(dialog, layer, feature):
     </maplayer>
     <maplayer simplifyAlgorithm="0" minimumScale="-4.65661e-10" maximumScale="1e+08" simplifyDrawingHints="1" readOnly="0" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Line" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
       <id>20160601_frankfurt_am_main_gpkg_nonop_l_any20160602124824727</id>
-      <datasource>../data/frankfurt-am-main_wgs-84_2016-06-30_gpkg_full-detail.gpkg|layername=nonop_l</datasource>
+      <datasource>../../data/frankfurt-am-main_wgs-84_2016-06-30_gpkg_full-detail.gpkg|layername=nonop_l</datasource>
       <shortname>20160601-frankfurt-am-main_gpkg nonop_l any</shortname>
       <keywordList>
         <value></value>
@@ -6446,7 +6446,7 @@ def my_form_open(dialog, layer, feature):
     </maplayer>
     <maplayer simplifyAlgorithm="0" minimumScale="-4.65661e-10" maximumScale="1e+08" simplifyDrawingHints="1" readOnly="0" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Polygon" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
       <id>20160601_frankfurt_am_main_gpkg_poi_a_any20160602124824774</id>
-      <datasource>../data/frankfurt-am-main_wgs-84_2016-06-30_gpkg_full-detail.gpkg|layername=poi_a</datasource>
+      <datasource>../../data/frankfurt-am-main_wgs-84_2016-06-30_gpkg_full-detail.gpkg|layername=poi_a</datasource>
       <shortname>20160601-frankfurt-am-main_gpkg poi_a any</shortname>
       <keywordList>
         <value></value>
@@ -7226,7 +7226,7 @@ def my_form_open(dialog, layer, feature):
     </maplayer>
     <maplayer simplifyAlgorithm="0" minimumScale="-4.65661e-10" maximumScale="1e+08" simplifyDrawingHints="0" readOnly="0" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Point" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
       <id>20160601_frankfurt_am_main_gpkg_poi_p_any20160602124824820</id>
-      <datasource>../data/frankfurt-am-main_wgs-84_2016-06-30_gpkg_full-detail.gpkg|layername=poi_p</datasource>
+      <datasource>../../data/frankfurt-am-main_wgs-84_2016-06-30_gpkg_full-detail.gpkg|layername=poi_p</datasource>
       <shortname>20160601-frankfurt-am-main_gpkg poi_p any</shortname>
       <keywordList>
         <value></value>
@@ -7530,7 +7530,7 @@ def my_form_open(dialog, layer, feature):
               <prop k="angle" v="0"/>
               <prop k="color" v="92,240,18,255"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="./OSMaxx_point_symbols/svg/destination_picnic_site.svg"/>
+              <prop k="name" v="../OSMaxx_point_symbols/svg/destination_picnic_site.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
               <prop k="offset_unit" v="MM"/>
@@ -7592,7 +7592,7 @@ def my_form_open(dialog, layer, feature):
               <prop k="angle" v="0"/>
               <prop k="color" v="19,238,209,255"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="./OSMaxx_point_symbols/svg/public_police.svg"/>
+              <prop k="name" v="../OSMaxx_point_symbols/svg/public_police.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
               <prop k="offset_unit" v="MM"/>
@@ -7612,7 +7612,7 @@ def my_form_open(dialog, layer, feature):
               <prop k="angle" v="0"/>
               <prop k="color" v="234,122,17,255"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="./OSMaxx_point_symbols/svg/public_post_office.svg"/>
+              <prop k="name" v="../OSMaxx_point_symbols/svg/public_post_office.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
               <prop k="offset_unit" v="MM"/>
@@ -7632,7 +7632,7 @@ def my_form_open(dialog, layer, feature):
               <prop k="angle" v="0"/>
               <prop k="color" v="39,21,237,255"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="./OSMaxx_point_symbols/svg/public_post_office.svg"/>
+              <prop k="name" v="../OSMaxx_point_symbols/svg/public_post_office.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
               <prop k="offset_unit" v="MM"/>
@@ -7652,7 +7652,7 @@ def my_form_open(dialog, layer, feature):
               <prop k="angle" v="0"/>
               <prop k="color" v="83,36,225,255"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="./OSMaxx_point_symbols/svg/public_prison.svg"/>
+              <prop k="name" v="../OSMaxx_point_symbols/svg/public_prison.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
               <prop k="offset_unit" v="MM"/>
@@ -7672,7 +7672,7 @@ def my_form_open(dialog, layer, feature):
               <prop k="angle" v="0"/>
               <prop k="color" v="154,113,203,255"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="./OSMaxx_point_symbols/svg/catering_pub.svg"/>
+              <prop k="name" v="../OSMaxx_point_symbols/svg/catering_pub.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
               <prop k="offset_unit" v="MM"/>
@@ -7692,7 +7692,7 @@ def my_form_open(dialog, layer, feature):
               <prop k="angle" v="0"/>
               <prop k="color" v="182,223,15,255"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="./OSMaxx_point_symbols/svg/public_public_building.svg"/>
+              <prop k="name" v="../OSMaxx_point_symbols/svg/public_public_building.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
               <prop k="offset_unit" v="MM"/>
@@ -7712,7 +7712,7 @@ def my_form_open(dialog, layer, feature):
               <prop k="angle" v="0"/>
               <prop k="color" v="107,224,83,255"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="./OSMaxx_point_symbols/svg/catering_restaurant.svg"/>
+              <prop k="name" v="../OSMaxx_point_symbols/svg/catering_restaurant.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
               <prop k="offset_unit" v="MM"/>
@@ -7754,7 +7754,7 @@ def my_form_open(dialog, layer, feature):
               <prop k="angle" v="0"/>
               <prop k="color" v="168,103,217,255"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="./OSMaxx_point_symbols/svg/destination_ruin.svg"/>
+              <prop k="name" v="../OSMaxx_point_symbols/svg/destination_ruin.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
               <prop k="offset_unit" v="MM"/>
@@ -7774,7 +7774,7 @@ def my_form_open(dialog, layer, feature):
               <prop k="angle" v="0"/>
               <prop k="color" v="229,78,108,255"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="./OSMaxx_point_symbols/svg/education_school.svg"/>
+              <prop k="name" v="../OSMaxx_point_symbols/svg/education_school.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
               <prop k="offset_unit" v="MM"/>
@@ -7794,7 +7794,7 @@ def my_form_open(dialog, layer, feature):
               <prop k="angle" v="0"/>
               <prop k="color" v="19,226,109,255"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="./OSMaxx_point_symbols/svg/accomodation_shelter.svg"/>
+              <prop k="name" v="../OSMaxx_point_symbols/svg/accomodation_shelter.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
               <prop k="offset_unit" v="MM"/>
@@ -7968,7 +7968,7 @@ def my_form_open(dialog, layer, feature):
               <prop k="angle" v="0"/>
               <prop k="color" v="115,110,207,255"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="./OSMaxx_point_symbols/svg/special_bicycle.svg"/>
+              <prop k="name" v="../OSMaxx_point_symbols/svg/special_bicycle.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
               <prop k="offset_unit" v="MM"/>
@@ -7988,7 +7988,7 @@ def my_form_open(dialog, layer, feature):
               <prop k="angle" v="0"/>
               <prop k="color" v="109,57,240,255"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="./OSMaxx_point_symbols/svg/leisure_stadium.svg"/>
+              <prop k="name" v="../OSMaxx_point_symbols/svg/leisure_stadium.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
               <prop k="offset_unit" v="MM"/>
@@ -8030,7 +8030,7 @@ def my_form_open(dialog, layer, feature):
               <prop k="angle" v="0"/>
               <prop k="color" v="226,112,112,255"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="./OSMaxx_point_symbols/svg/shop_supermarket.svg"/>
+              <prop k="name" v="../OSMaxx_point_symbols/svg/shop_supermarket.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
               <prop k="offset_unit" v="MM"/>
@@ -8158,7 +8158,7 @@ def my_form_open(dialog, layer, feature):
               <prop k="angle" v="0"/>
               <prop k="color" v="224,154,116,255"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="./OSMaxx_point_symbols/svg/public_toilet.svg"/>
+              <prop k="name" v="../OSMaxx_point_symbols/svg/public_toilet.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
               <prop k="offset_unit" v="MM"/>
@@ -8222,7 +8222,7 @@ def my_form_open(dialog, layer, feature):
               <prop k="angle" v="0"/>
               <prop k="color" v="207,217,69,255"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="./OSMaxx_point_symbols/svg/misc_tower.svg"/>
+              <prop k="name" v="../OSMaxx_point_symbols/svg/misc_tower.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
               <prop k="offset_unit" v="MM"/>
@@ -8242,7 +8242,7 @@ def my_form_open(dialog, layer, feature):
               <prop k="angle" v="0"/>
               <prop k="color" v="218,61,55,255"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="./OSMaxx_point_symbols/svg/public_town_hall.svg"/>
+              <prop k="name" v="../OSMaxx_point_symbols/svg/public_town_hall.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
               <prop k="offset_unit" v="MM"/>
@@ -8328,7 +8328,7 @@ def my_form_open(dialog, layer, feature):
               <prop k="angle" v="0"/>
               <prop k="color" v="62,232,204,255"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="./OSMaxx_point_symbols/svg/education_university.svg"/>
+              <prop k="name" v="../OSMaxx_point_symbols/svg/education_university.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
               <prop k="offset_unit" v="MM"/>
@@ -8480,7 +8480,7 @@ def my_form_open(dialog, layer, feature):
               <prop k="angle" v="0"/>
               <prop k="color" v="212,150,55,255"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="./OSMaxx_point_symbols/svg/destination_view_point.svg"/>
+              <prop k="name" v="../OSMaxx_point_symbols/svg/destination_view_point.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
               <prop k="offset_unit" v="MM"/>
@@ -8544,7 +8544,7 @@ def my_form_open(dialog, layer, feature):
               <prop k="angle" v="0"/>
               <prop k="color" v="102,201,105,255"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="./OSMaxx_point_symbols/svg/misc_water_tower.svg"/>
+              <prop k="name" v="../OSMaxx_point_symbols/svg/misc_water_tower.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
               <prop k="offset_unit" v="MM"/>
@@ -8564,7 +8564,7 @@ def my_form_open(dialog, layer, feature):
               <prop k="angle" v="0"/>
               <prop k="color" v="203,28,12,255"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="./OSMaxx_point_symbols/svg/misc_water_well.svg"/>
+              <prop k="name" v="../OSMaxx_point_symbols/svg/misc_water_well.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
               <prop k="offset_unit" v="MM"/>
@@ -8584,7 +8584,7 @@ def my_form_open(dialog, layer, feature):
               <prop k="angle" v="0"/>
               <prop k="color" v="138,213,126,255"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="./OSMaxx_point_symbols/svg/destination_wayside_cross.svg"/>
+              <prop k="name" v="../OSMaxx_point_symbols/svg/destination_wayside_cross.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
               <prop k="offset_unit" v="MM"/>
@@ -8626,7 +8626,7 @@ def my_form_open(dialog, layer, feature):
               <prop k="angle" v="0"/>
               <prop k="color" v="160,236,88,255"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="./OSMaxx_point_symbols/svg/destination_zoo.svg"/>
+              <prop k="name" v="../OSMaxx_point_symbols/svg/destination_zoo.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
               <prop k="offset_unit" v="MM"/>
@@ -8734,7 +8734,7 @@ def my_form_open(dialog, layer, feature):
               <prop k="angle" v="0"/>
               <prop k="color" v="255,0,0,255"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="./OSMaxx_point_symbols/svg/catering_cafe.svg"/>
+              <prop k="name" v="../OSMaxx_point_symbols/svg/catering_cafe.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
               <prop k="offset_unit" v="MM"/>
@@ -8754,7 +8754,7 @@ def my_form_open(dialog, layer, feature):
               <prop k="angle" v="0"/>
               <prop k="color" v="207,87,207,255"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="./OSMaxx_point_symbols/svg/accomodation_camp_site.svg"/>
+              <prop k="name" v="../OSMaxx_point_symbols/svg/accomodation_camp_site.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
               <prop k="offset_unit" v="MM"/>
@@ -8796,7 +8796,7 @@ def my_form_open(dialog, layer, feature):
               <prop k="angle" v="0"/>
               <prop k="color" v="235,31,96,255"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="./OSMaxx_point_symbols/svg/shop_car.svg"/>
+              <prop k="name" v="../OSMaxx_point_symbols/svg/shop_car.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
               <prop k="offset_unit" v="MM"/>
@@ -8816,7 +8816,7 @@ def my_form_open(dialog, layer, feature):
               <prop k="angle" v="0"/>
               <prop k="color" v="49,119,210,255"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="./OSMaxx_point_symbols/svg/shop_car_rental.svg"/>
+              <prop k="name" v="../OSMaxx_point_symbols/svg/shop_car_rental.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
               <prop k="offset_unit" v="MM"/>
@@ -8836,7 +8836,7 @@ def my_form_open(dialog, layer, feature):
               <prop k="angle" v="0"/>
               <prop k="color" v="121,227,146,255"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="./OSMaxx_point_symbols/svg/shop_car_repair.svg"/>
+              <prop k="name" v="../OSMaxx_point_symbols/svg/shop_car_repair.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
               <prop k="offset_unit" v="MM"/>
@@ -8900,7 +8900,7 @@ def my_form_open(dialog, layer, feature):
               <prop k="angle" v="0"/>
               <prop k="color" v="198,240,119,255"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="./OSMaxx_point_symbols/svg/accomodation_caravan_site.svg"/>
+              <prop k="name" v="../OSMaxx_point_symbols/svg/accomodation_caravan_site.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
               <prop k="offset_unit" v="MM"/>
@@ -8920,7 +8920,7 @@ def my_form_open(dialog, layer, feature):
               <prop k="angle" v="0"/>
               <prop k="color" v="200,206,25,255"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="./OSMaxx_point_symbols/svg/destination_castle.svg"/>
+              <prop k="name" v="../OSMaxx_point_symbols/svg/destination_castle.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
               <prop k="offset_unit" v="MM"/>
@@ -8940,7 +8940,7 @@ def my_form_open(dialog, layer, feature):
               <prop k="angle" v="0"/>
               <prop k="color" v="111,67,205,255"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="./OSMaxx_point_symbols/svg/burial_ground_cemetery_grave_yard.svg"/>
+              <prop k="name" v="../OSMaxx_point_symbols/svg/burial_ground_cemetery_grave_yard.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
               <prop k="offset_unit" v="MM"/>
@@ -8982,7 +8982,7 @@ def my_form_open(dialog, layer, feature):
               <prop k="angle" v="0"/>
               <prop k="color" v="203,54,198,255"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="./OSMaxx_point_symbols/svg/leisure_cinema.svg"/>
+              <prop k="name" v="../OSMaxx_point_symbols/svg/leisure_cinema.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
               <prop k="offset_unit" v="MM"/>
@@ -9024,7 +9024,7 @@ def my_form_open(dialog, layer, feature):
               <prop k="angle" v="0"/>
               <prop k="color" v="203,54,198,255"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="./OSMaxx_point_symbols/svg/health_clinic.svg"/>
+              <prop k="name" v="../OSMaxx_point_symbols/svg/health_clinic.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
               <prop k="offset_unit" v="MM"/>
@@ -9066,7 +9066,7 @@ def my_form_open(dialog, layer, feature):
               <prop k="angle" v="0"/>
               <prop k="color" v="218,180,26,255"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="./OSMaxx_point_symbols/svg/education_college.svg"/>
+              <prop k="name" v="../OSMaxx_point_symbols/svg/education_college.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
               <prop k="offset_unit" v="MM"/>
@@ -9086,7 +9086,7 @@ def my_form_open(dialog, layer, feature):
               <prop k="angle" v="0"/>
               <prop k="color" v="119,145,230,255"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="./OSMaxx_point_symbols/svg/misc_comm_tower.svg"/>
+              <prop k="name" v="../OSMaxx_point_symbols/svg/misc_comm_tower.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
               <prop k="offset_unit" v="MM"/>
@@ -9194,7 +9194,7 @@ def my_form_open(dialog, layer, feature):
               <prop k="angle" v="0"/>
               <prop k="color" v="43,73,240,255"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="./OSMaxx_point_symbols/svg/public_courthouse.svg"/>
+              <prop k="name" v="../OSMaxx_point_symbols/svg/public_courthouse.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
               <prop k="offset_unit" v="MM"/>
@@ -9214,7 +9214,7 @@ def my_form_open(dialog, layer, feature):
               <prop k="angle" v="0"/>
               <prop k="color" v="116,216,148,255"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="./OSMaxx_point_symbols/svg/health_dentist.svg"/>
+              <prop k="name" v="../OSMaxx_point_symbols/svg/health_dentist.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
               <prop k="offset_unit" v="MM"/>
@@ -9234,7 +9234,7 @@ def my_form_open(dialog, layer, feature):
               <prop k="angle" v="0"/>
               <prop k="color" v="222,167,27,255"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="./OSMaxx_point_symbols/svg/money_atm.svg"/>
+              <prop k="name" v="../OSMaxx_point_symbols/svg/money_atm.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
               <prop k="offset_unit" v="MM"/>
@@ -9276,7 +9276,7 @@ def my_form_open(dialog, layer, feature):
               <prop k="angle" v="0"/>
               <prop k="color" v="223,119,128,255"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="./OSMaxx_point_symbols/svg/health_doctor.svg"/>
+              <prop k="name" v="../OSMaxx_point_symbols/svg/health_doctor.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
               <prop k="offset_unit" v="MM"/>
@@ -9318,7 +9318,7 @@ def my_form_open(dialog, layer, feature):
               <prop k="angle" v="0"/>
               <prop k="color" v="80,224,183,255"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="./OSMaxx_point_symbols/svg/misc_drinking_water.svg"/>
+              <prop k="name" v="../OSMaxx_point_symbols/svg/misc_drinking_water.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
               <prop k="offset_unit" v="MM"/>
@@ -9338,7 +9338,7 @@ def my_form_open(dialog, layer, feature):
               <prop k="angle" v="0"/>
               <prop k="color" v="108,223,231,255"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="./OSMaxx_point_symbols/svg/public_embassy.svg"/>
+              <prop k="name" v="../OSMaxx_point_symbols/svg/public_embassy.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
               <prop k="offset_unit" v="MM"/>
@@ -9380,7 +9380,7 @@ def my_form_open(dialog, layer, feature):
               <prop k="angle" v="0"/>
               <prop k="color" v="240,84,141,255"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="./OSMaxx_point_symbols/svg/public_emergency.svg"/>
+              <prop k="name" v="../OSMaxx_point_symbols/svg/public_emergency.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
               <prop k="offset_unit" v="MM"/>
@@ -9400,7 +9400,7 @@ def my_form_open(dialog, layer, feature):
               <prop k="angle" v="0"/>
               <prop k="color" v="55,233,219,255"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="./OSMaxx_point_symbols/svg/catering_fastfood.svg"/>
+              <prop k="name" v="../OSMaxx_point_symbols/svg/catering_fastfood.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
               <prop k="offset_unit" v="MM"/>
@@ -9530,7 +9530,7 @@ def my_form_open(dialog, layer, feature):
               <prop k="angle" v="0"/>
               <prop k="color" v="67,206,199,255"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="./OSMaxx_point_symbols/svg/misc_fountain.svg"/>
+              <prop k="name" v="../OSMaxx_point_symbols/svg/misc_fountain.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
               <prop k="offset_unit" v="MM"/>
@@ -9682,7 +9682,7 @@ def my_form_open(dialog, layer, feature):
               <prop k="angle" v="0"/>
               <prop k="color" v="216,226,135,255"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="./OSMaxx_point_symbols/svg/leisure_golf_course.svg"/>
+              <prop k="name" v="../OSMaxx_point_symbols/svg/leisure_golf_course.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
               <prop k="offset_unit" v="MM"/>
@@ -9724,7 +9724,7 @@ def my_form_open(dialog, layer, feature):
               <prop k="angle" v="0"/>
               <prop k="color" v="216,226,135,255"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="./OSMaxx_point_symbols/svg/public_government.svg"/>
+              <prop k="name" v="../OSMaxx_point_symbols/svg/public_government.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
               <prop k="offset_unit" v="MM"/>
@@ -9744,7 +9744,7 @@ def my_form_open(dialog, layer, feature):
               <prop k="angle" v="0"/>
               <prop k="color" v="48,182,222,255"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="./OSMaxx_point_symbols/svg/burial_ground_cemetery_grave_yard.svg"/>
+              <prop k="name" v="../OSMaxx_point_symbols/svg/burial_ground_cemetery_grave_yard.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
               <prop k="offset_unit" v="MM"/>
@@ -9786,7 +9786,7 @@ def my_form_open(dialog, layer, feature):
               <prop k="angle" v="0"/>
               <prop k="color" v="89,237,205,255"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="./OSMaxx_point_symbols/svg/accomodation_guest_house.svg"/>
+              <prop k="name" v="../OSMaxx_point_symbols/svg/accomodation_guest_house.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
               <prop k="offset_unit" v="MM"/>
@@ -9872,7 +9872,7 @@ def my_form_open(dialog, layer, feature):
               <prop k="angle" v="0"/>
               <prop k="color" v="51,215,70,255"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="./OSMaxx_point_symbols/svg/destination_historic.svg"/>
+              <prop k="name" v="../OSMaxx_point_symbols/svg/destination_historic.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
               <prop k="offset_unit" v="MM"/>
@@ -9892,7 +9892,7 @@ def my_form_open(dialog, layer, feature):
               <prop k="angle" v="0"/>
               <prop k="color" v="33,49,225,255"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="./OSMaxx_point_symbols/svg/health_hospital.svg"/>
+              <prop k="name" v="../OSMaxx_point_symbols/svg/health_hospital.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
               <prop k="offset_unit" v="MM"/>
@@ -9912,7 +9912,7 @@ def my_form_open(dialog, layer, feature):
               <prop k="angle" v="0"/>
               <prop k="color" v="223,212,81,255"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="./OSMaxx_point_symbols/svg/accomodation_hostel.svg"/>
+              <prop k="name" v="../OSMaxx_point_symbols/svg/accomodation_hostel.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
               <prop k="offset_unit" v="MM"/>
@@ -9932,7 +9932,7 @@ def my_form_open(dialog, layer, feature):
               <prop k="angle" v="0"/>
               <prop k="color" v="211,205,93,255"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="./OSMaxx_point_symbols/svg/money_bank.svg"/>
+              <prop k="name" v="../OSMaxx_point_symbols/svg/money_bank.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
               <prop k="offset_unit" v="MM"/>
@@ -9952,7 +9952,7 @@ def my_form_open(dialog, layer, feature):
               <prop k="angle" v="0"/>
               <prop k="color" v="143,64,216,255"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="./OSMaxx_point_symbols/svg/accomodation_hotel.svg"/>
+              <prop k="name" v="../OSMaxx_point_symbols/svg/accomodation_hotel.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
               <prop k="offset_unit" v="MM"/>
@@ -9972,7 +9972,7 @@ def my_form_open(dialog, layer, feature):
               <prop k="angle" v="0"/>
               <prop k="color" v="142,239,104,255"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="./OSMaxx_point_symbols/svg/misc_hunting_stand.svg"/>
+              <prop k="name" v="../OSMaxx_point_symbols/svg/misc_hunting_stand.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
               <prop k="offset_unit" v="MM"/>
@@ -10014,7 +10014,7 @@ def my_form_open(dialog, layer, feature):
               <prop k="angle" v="0"/>
               <prop k="color" v="203,82,169,255"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="./OSMaxx_point_symbols/svg/tourism_information.svg"/>
+              <prop k="name" v="../OSMaxx_point_symbols/svg/tourism_information.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
               <prop k="offset_unit" v="MM"/>
@@ -10056,7 +10056,7 @@ def my_form_open(dialog, layer, feature):
               <prop k="angle" v="0"/>
               <prop k="color" v="54,201,234,255"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="./OSMaxx_point_symbols/svg/education_kindergarten.svg"/>
+              <prop k="name" v="../OSMaxx_point_symbols/svg/education_kindergarten.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
               <prop k="offset_unit" v="MM"/>
@@ -10076,7 +10076,7 @@ def my_form_open(dialog, layer, feature):
               <prop k="angle" v="0"/>
               <prop k="color" v="208,104,35,255"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="./OSMaxx_point_symbols/svg/shop_kiosk.svg"/>
+              <prop k="name" v="../OSMaxx_point_symbols/svg/shop_kiosk.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
               <prop k="offset_unit" v="MM"/>
@@ -10096,7 +10096,7 @@ def my_form_open(dialog, layer, feature):
               <prop k="angle" v="0"/>
               <prop k="color" v="201,218,100,255"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="./OSMaxx_point_symbols/svg/shop_laundry.svg"/>
+              <prop k="name" v="../OSMaxx_point_symbols/svg/shop_laundry.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
               <prop k="offset_unit" v="MM"/>
@@ -10138,7 +10138,7 @@ def my_form_open(dialog, layer, feature):
               <prop k="angle" v="0"/>
               <prop k="color" v="106,176,233,255"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="./OSMaxx_point_symbols/svg/public_library.svg"/>
+              <prop k="name" v="../OSMaxx_point_symbols/svg/public_library.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
               <prop k="offset_unit" v="MM"/>
@@ -10158,7 +10158,7 @@ def my_form_open(dialog, layer, feature):
               <prop k="angle" v="0"/>
               <prop k="color" v="255,0,0,255"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="./OSMaxx_point_symbols/svg/catering_bar.svg"/>
+              <prop k="name" v="../OSMaxx_point_symbols/svg/catering_bar.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
               <prop k="offset_unit" v="MM"/>
@@ -10244,7 +10244,7 @@ def my_form_open(dialog, layer, feature):
               <prop k="angle" v="0"/>
               <prop k="color" v="126,208,155,255"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="./OSMaxx_point_symbols/svg/public_market_stand.svg"/>
+              <prop k="name" v="../OSMaxx_point_symbols/svg/public_market_stand.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
               <prop k="offset_unit" v="MM"/>
@@ -10264,7 +10264,7 @@ def my_form_open(dialog, layer, feature):
               <prop k="angle" v="0"/>
               <prop k="color" v="92,238,202,255"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="./OSMaxx_point_symbols/svg/destination_memorial.svg"/>
+              <prop k="name" v="../OSMaxx_point_symbols/svg/destination_memorial.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
               <prop k="offset_unit" v="MM"/>
@@ -10328,7 +10328,7 @@ def my_form_open(dialog, layer, feature):
               <prop k="angle" v="0"/>
               <prop k="color" v="66,96,218,255"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="./OSMaxx_point_symbols/svg/money_money_exchange.svg"/>
+              <prop k="name" v="../OSMaxx_point_symbols/svg/money_money_exchange.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
               <prop k="offset_unit" v="MM"/>
@@ -10348,7 +10348,7 @@ def my_form_open(dialog, layer, feature):
               <prop k="angle" v="0"/>
               <prop k="color" v="203,117,166,255"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="./OSMaxx_point_symbols/svg/destination_monument.svg"/>
+              <prop k="name" v="../OSMaxx_point_symbols/svg/destination_monument.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
               <prop k="offset_unit" v="MM"/>
@@ -10412,7 +10412,7 @@ def my_form_open(dialog, layer, feature):
               <prop k="angle" v="0"/>
               <prop k="color" v="204,81,180,255"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="./OSMaxx_point_symbols/svg/accomodation_motel.svg"/>
+              <prop k="name" v="../OSMaxx_point_symbols/svg/accomodation_motel.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
               <prop k="offset_unit" v="MM"/>
@@ -10432,7 +10432,7 @@ def my_form_open(dialog, layer, feature):
               <prop k="angle" v="0"/>
               <prop k="color" v="123,225,97,255"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="./OSMaxx_point_symbols/svg/destination_museum.svg"/>
+              <prop k="name" v="../OSMaxx_point_symbols/svg/destination_museum.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
               <prop k="offset_unit" v="MM"/>
@@ -10518,7 +10518,7 @@ def my_form_open(dialog, layer, feature):
               <prop k="angle" v="0"/>
               <prop k="color" v="223,102,64,255"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="./OSMaxx_point_symbols/svg/misc_watch_tower.svg"/>
+              <prop k="name" v="../OSMaxx_point_symbols/svg/misc_watch_tower.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
               <prop k="offset_unit" v="MM"/>
@@ -10604,7 +10604,7 @@ def my_form_open(dialog, layer, feature):
               <prop k="angle" v="0"/>
               <prop k="color" v="234,234,18,255"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="./OSMaxx_point_symbols/svg/health_pharmacy.svg"/>
+              <prop k="name" v="../OSMaxx_point_symbols/svg/health_pharmacy.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
               <prop k="offset_unit" v="MM"/>
@@ -11131,7 +11131,7 @@ def my_form_open(dialog, layer, feature):
     </maplayer>
     <maplayer simplifyAlgorithm="0" minimumScale="-4.65661e-10" maximumScale="1e+08" simplifyDrawingHints="1" readOnly="0" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Polygon" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
       <id>20160601_frankfurt_am_main_gpkg_pow_a_any20160602124824867</id>
-      <datasource>../data/frankfurt-am-main_wgs-84_2016-06-30_gpkg_full-detail.gpkg|layername=pow_a</datasource>
+      <datasource>../../data/frankfurt-am-main_wgs-84_2016-06-30_gpkg_full-detail.gpkg|layername=pow_a</datasource>
       <shortname>20160601-frankfurt-am-main_gpkg pow_a any</shortname>
       <keywordList>
         <value></value>
@@ -11478,7 +11478,7 @@ def my_form_open(dialog, layer, feature):
     </maplayer>
     <maplayer simplifyAlgorithm="0" minimumScale="-4.65661e-10" maximumScale="1e+08" simplifyDrawingHints="0" readOnly="0" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Point" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
       <id>20160601_frankfurt_am_main_gpkg_pow_p_any20160602124824914</id>
-      <datasource>../data/frankfurt-am-main_wgs-84_2016-06-30_gpkg_full-detail.gpkg|layername=pow_p</datasource>
+      <datasource>../../data/frankfurt-am-main_wgs-84_2016-06-30_gpkg_full-detail.gpkg|layername=pow_p</datasource>
       <shortname>20160601-frankfurt-am-main_gpkg pow_p any</shortname>
       <keywordList>
         <value></value>
@@ -11641,7 +11641,7 @@ def my_form_open(dialog, layer, feature):
               <prop k="angle" v="0"/>
               <prop k="color" v="62,124,222,255"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="./OSMaxx_point_symbols/svg/worship_islamic.svg"/>
+              <prop k="name" v="../OSMaxx_point_symbols/svg/worship_islamic.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
               <prop k="offset_unit" v="MM"/>
@@ -11683,7 +11683,7 @@ def my_form_open(dialog, layer, feature):
               <prop k="angle" v="0"/>
               <prop k="color" v="218,43,12,255"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="./OSMaxx_point_symbols/svg/worship_place_of_worship_shinto_taoist.svg"/>
+              <prop k="name" v="../OSMaxx_point_symbols/svg/worship_place_of_worship_shinto_taoist.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
               <prop k="offset_unit" v="MM"/>
@@ -11703,7 +11703,7 @@ def my_form_open(dialog, layer, feature):
               <prop k="angle" v="0"/>
               <prop k="color" v="63,218,120,255"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="./OSMaxx_point_symbols/svg/worship_christian.svg"/>
+              <prop k="name" v="../OSMaxx_point_symbols/svg/worship_christian.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
               <prop k="offset_unit" v="MM"/>
@@ -11745,7 +11745,7 @@ def my_form_open(dialog, layer, feature):
               <prop k="angle" v="0"/>
               <prop k="color" v="156,130,233,255"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="./OSMaxx_point_symbols/svg/worship_sikh.svg"/>
+              <prop k="name" v="../OSMaxx_point_symbols/svg/worship_sikh.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
               <prop k="offset_unit" v="MM"/>
@@ -11787,7 +11787,7 @@ def my_form_open(dialog, layer, feature):
               <prop k="angle" v="0"/>
               <prop k="color" v="126,235,83,255"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="./OSMaxx_point_symbols/svg/worship_buddhist.svg"/>
+              <prop k="name" v="../OSMaxx_point_symbols/svg/worship_buddhist.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
               <prop k="offset_unit" v="MM"/>
@@ -11807,7 +11807,7 @@ def my_form_open(dialog, layer, feature):
               <prop k="angle" v="0"/>
               <prop k="color" v="203,38,224,255"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="./OSMaxx_point_symbols/svg/worship_christian.svg"/>
+              <prop k="name" v="../OSMaxx_point_symbols/svg/worship_christian.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
               <prop k="offset_unit" v="MM"/>
@@ -11827,7 +11827,7 @@ def my_form_open(dialog, layer, feature):
               <prop k="angle" v="0"/>
               <prop k="color" v="156,45,240,255"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="./OSMaxx_point_symbols/svg/worship_christian.svg"/>
+              <prop k="name" v="../OSMaxx_point_symbols/svg/worship_christian.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
               <prop k="offset_unit" v="MM"/>
@@ -11847,7 +11847,7 @@ def my_form_open(dialog, layer, feature):
               <prop k="angle" v="0"/>
               <prop k="color" v="117,204,177,255"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="./OSMaxx_point_symbols/svg/worship_christian.svg"/>
+              <prop k="name" v="../OSMaxx_point_symbols/svg/worship_christian.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
               <prop k="offset_unit" v="MM"/>
@@ -11867,7 +11867,7 @@ def my_form_open(dialog, layer, feature):
               <prop k="angle" v="0"/>
               <prop k="color" v="189,201,55,255"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="./OSMaxx_point_symbols/svg/worship_hindu.svg"/>
+              <prop k="name" v="../OSMaxx_point_symbols/svg/worship_hindu.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
               <prop k="offset_unit" v="MM"/>
@@ -11887,7 +11887,7 @@ def my_form_open(dialog, layer, feature):
               <prop k="angle" v="0"/>
               <prop k="color" v="33,231,40,255"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="./OSMaxx_point_symbols/svg/worship_jewish.svg"/>
+              <prop k="name" v="../OSMaxx_point_symbols/svg/worship_jewish.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
               <prop k="offset_unit" v="MM"/>
@@ -12230,7 +12230,7 @@ def my_form_open(dialog, layer, feature):
     </maplayer>
     <maplayer simplifyAlgorithm="0" minimumScale="-4.65661e-10" maximumScale="1e+08" simplifyDrawingHints="1" readOnly="0" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Line" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
       <id>20160601_frankfurt_am_main_gpkg_railway_l_any20160602124824961</id>
-      <datasource>../data/frankfurt-am-main_wgs-84_2016-06-30_gpkg_full-detail.gpkg|layername=railway_l</datasource>
+      <datasource>../../data/frankfurt-am-main_wgs-84_2016-06-30_gpkg_full-detail.gpkg|layername=railway_l</datasource>
       <shortname>20160601-frankfurt-am-main_gpkg railway_l any</shortname>
       <keywordList>
         <value></value>
@@ -15850,7 +15850,7 @@ def my_form_open(dialog, layer, feature):
     </maplayer>
     <maplayer simplifyAlgorithm="0" minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="1" readOnly="0" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Line" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
       <id>20160601_frankfurt_am_main_gpkg_road_l_any20160602124825008</id>
-      <datasource>../data/frankfurt-am-main_wgs-84_2016-06-30_gpkg_full-detail.gpkg|layername=road_l</datasource>
+      <datasource>../../data/frankfurt-am-main_wgs-84_2016-06-30_gpkg_full-detail.gpkg|layername=road_l</datasource>
       <shortname>20160601-frankfurt-am-main_gpkg road_l any</shortname>
       <keywordList>
         <value></value>
@@ -20161,7 +20161,7 @@ def my_form_open(dialog, layer, feature):
     </maplayer>
     <maplayer simplifyAlgorithm="0" minimumScale="-4.65661e-10" maximumScale="1e+08" simplifyDrawingHints="1" readOnly="0" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Line" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
       <id>20160601_frankfurt_am_main_gpkg_route_l_any20160602124825085</id>
-      <datasource>../data/frankfurt-am-main_wgs-84_2016-06-30_gpkg_full-detail.gpkg|layername=route_l</datasource>
+      <datasource>../../data/frankfurt-am-main_wgs-84_2016-06-30_gpkg_full-detail.gpkg|layername=route_l</datasource>
       <shortname>20160601-frankfurt-am-main_gpkg route_l any</shortname>
       <keywordList>
         <value></value>
@@ -20494,7 +20494,7 @@ def my_form_open(dialog, layer, feature):
     </maplayer>
     <maplayer simplifyAlgorithm="0" minimumScale="-4.65661e-10" maximumScale="1e+08" simplifyDrawingHints="1" readOnly="0" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Polygon" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
       <id>20160601_frankfurt_am_main_gpkg_sea_a_any20160602124824072</id>
-      <datasource>../data/frankfurt-am-main_wgs-84_2016-06-30_gpkg_full-detail.gpkg|layername=sea_a</datasource>
+      <datasource>../../data/frankfurt-am-main_wgs-84_2016-06-30_gpkg_full-detail.gpkg|layername=sea_a</datasource>
       <shortname>20160601-frankfurt-am-main_gpkg sea_a any</shortname>
       <keywordList>
         <value></value>
@@ -20791,7 +20791,7 @@ def my_form_open(dialog, layer, feature):
     </maplayer>
     <maplayer simplifyAlgorithm="0" minimumScale="-4.65661e-10" maximumScale="1e+08" simplifyDrawingHints="1" readOnly="0" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Polygon" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
       <id>20160601_frankfurt_am_main_gpkg_traffic_a_any20160602124825148</id>
-      <datasource>../data/frankfurt-am-main_wgs-84_2016-06-30_gpkg_full-detail.gpkg|layername=traffic_a</datasource>
+      <datasource>../../data/frankfurt-am-main_wgs-84_2016-06-30_gpkg_full-detail.gpkg|layername=traffic_a</datasource>
       <shortname>20160601-frankfurt-am-main_gpkg traffic_a any</shortname>
       <keywordList>
         <value></value>
@@ -21126,7 +21126,7 @@ def my_form_open(dialog, layer, feature):
     </maplayer>
     <maplayer simplifyAlgorithm="0" minimumScale="25000" maximumScale="1000" simplifyDrawingHints="0" readOnly="0" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Point" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
       <id>20160601_frankfurt_am_main_gpkg_traffic_p_any20160602124825179</id>
-      <datasource>../data/frankfurt-am-main_wgs-84_2016-06-30_gpkg_full-detail.gpkg|layername=traffic_p</datasource>
+      <datasource>../../data/frankfurt-am-main_wgs-84_2016-06-30_gpkg_full-detail.gpkg|layername=traffic_p</datasource>
       <shortname>20160601-frankfurt-am-main_gpkg traffic_p any</shortname>
       <keywordList>
         <value></value>
@@ -21268,7 +21268,7 @@ def my_form_open(dialog, layer, feature):
               <prop k="angle" v="0"/>
               <prop k="color" v="37,168,17,255"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="./OSMaxx_point_symbols/svg/traffic_gate.svg"/>
+              <prop k="name" v="../OSMaxx_point_symbols/svg/traffic_gate.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
               <prop k="offset_unit" v="MM"/>
@@ -21310,7 +21310,7 @@ def my_form_open(dialog, layer, feature):
               <prop k="angle" v="0"/>
               <prop k="color" v="37,168,17,255"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="./OSMaxx_point_symbols/svg/traffic_level_crossing.svg"/>
+              <prop k="name" v="../OSMaxx_point_symbols/svg/traffic_level_crossing.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
               <prop k="offset_unit" v="MM"/>
@@ -21396,7 +21396,7 @@ def my_form_open(dialog, layer, feature):
               <prop k="angle" v="0"/>
               <prop k="color" v="37,168,17,255"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="./OSMaxx_point_symbols/svg/traffic_multi_storey_parking.svg"/>
+              <prop k="name" v="../OSMaxx_point_symbols/svg/traffic_multi_storey_parking.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
               <prop k="offset_unit" v="MM"/>
@@ -21416,7 +21416,7 @@ def my_form_open(dialog, layer, feature):
               <prop k="angle" v="0"/>
               <prop k="color" v="37,168,17,255"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="./OSMaxx_point_symbols/svg/traffic_parking.svg"/>
+              <prop k="name" v="../OSMaxx_point_symbols/svg/traffic_parking.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
               <prop k="offset_unit" v="MM"/>
@@ -21568,7 +21568,7 @@ def my_form_open(dialog, layer, feature):
               <prop k="angle" v="0"/>
               <prop k="color" v="37,168,17,255"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="./OSMaxx_point_symbols/svg/traffic_parking.svg"/>
+              <prop k="name" v="../OSMaxx_point_symbols/svg/traffic_parking.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
               <prop k="offset_unit" v="MM"/>
@@ -21874,7 +21874,7 @@ def my_form_open(dialog, layer, feature):
               <prop k="angle" v="0"/>
               <prop k="color" v="37,168,17,255"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="./OSMaxx_point_symbols/svg/traffic_fuel_station.svg"/>
+              <prop k="name" v="../OSMaxx_point_symbols/svg/traffic_fuel_station.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
               <prop k="offset_unit" v="MM"/>
@@ -22173,7 +22173,7 @@ def my_form_open(dialog, layer, feature):
     </maplayer>
     <maplayer simplifyAlgorithm="0" minimumScale="-4.65661e-10" maximumScale="1e+08" simplifyDrawingHints="1" readOnly="0" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Polygon" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
       <id>20160601_frankfurt_am_main_gpkg_transport_a_any20160602124825241</id>
-      <datasource>../data/frankfurt-am-main_wgs-84_2016-06-30_gpkg_full-detail.gpkg|layername=transport_a</datasource>
+      <datasource>../../data/frankfurt-am-main_wgs-84_2016-06-30_gpkg_full-detail.gpkg|layername=transport_a</datasource>
       <shortname>20160601-frankfurt-am-main_gpkg transport_a any</shortname>
       <keywordList>
         <value></value>
@@ -22505,7 +22505,7 @@ def my_form_open(dialog, layer, feature):
     </maplayer>
     <maplayer simplifyAlgorithm="0" minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="1" readOnly="0" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Line" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
       <id>20160601_frankfurt_am_main_gpkg_transport_l_any20160602124825273</id>
-      <datasource>../data/frankfurt-am-main_wgs-84_2016-06-30_gpkg_full-detail.gpkg|layername=transport_l</datasource>
+      <datasource>../../data/frankfurt-am-main_wgs-84_2016-06-30_gpkg_full-detail.gpkg|layername=transport_l</datasource>
       <shortname>20160601-frankfurt-am-main_gpkg transport_l any</shortname>
       <keywordList>
         <value></value>
@@ -22856,7 +22856,7 @@ def my_form_open(dialog, layer, feature):
     </maplayer>
     <maplayer simplifyAlgorithm="0" minimumScale="50000" maximumScale="10000" simplifyDrawingHints="0" readOnly="0" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Point" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
       <id>20160601_frankfurt_am_main_gpkg_transport_p_any20160602124825319</id>
-      <datasource>../data/frankfurt-am-main_wgs-84_2016-06-30_gpkg_full-detail.gpkg|layername=transport_p</datasource>
+      <datasource>../../data/frankfurt-am-main_wgs-84_2016-06-30_gpkg_full-detail.gpkg|layername=transport_p</datasource>
       <shortname>20160601-frankfurt-am-main_gpkg transport_p any</shortname>
       <keywordList>
         <value></value>
@@ -23023,7 +23023,7 @@ def my_form_open(dialog, layer, feature):
               <prop k="angle" v="0"/>
               <prop k="color" v="26,214,202,255"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="./OSMaxx_point_symbols/svg/transport_taxi_stand.svg"/>
+              <prop k="name" v="../OSMaxx_point_symbols/svg/transport_taxi_stand.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
               <prop k="offset_unit" v="MM"/>
@@ -23087,7 +23087,7 @@ def my_form_open(dialog, layer, feature):
               <prop k="angle" v="0"/>
               <prop k="color" v="51,214,81,255"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="./OSMaxx_point_symbols/svg/transport_airport.svg"/>
+              <prop k="name" v="../OSMaxx_point_symbols/svg/transport_airport.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
               <prop k="offset_unit" v="MM"/>
@@ -23129,7 +23129,7 @@ def my_form_open(dialog, layer, feature):
               <prop k="angle" v="0"/>
               <prop k="color" v="211,162,48,255"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="./OSMaxx_point_symbols/svg/transport_bus_station.svg"/>
+              <prop k="name" v="../OSMaxx_point_symbols/svg/transport_bus_station.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
               <prop k="offset_unit" v="MM"/>
@@ -23171,7 +23171,7 @@ def my_form_open(dialog, layer, feature):
               <prop k="angle" v="0"/>
               <prop k="color" v="78,179,225,255"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="./OSMaxx_point_symbols/svg/transport_ferry_station.svg"/>
+              <prop k="name" v="../OSMaxx_point_symbols/svg/transport_ferry_station.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
               <prop k="offset_unit" v="MM"/>
@@ -23191,7 +23191,7 @@ def my_form_open(dialog, layer, feature):
               <prop k="angle" v="0"/>
               <prop k="color" v="224,125,130,255"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="./OSMaxx_point_symbols/svg/transport_helipad.svg"/>
+              <prop k="name" v="../OSMaxx_point_symbols/svg/transport_helipad.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
               <prop k="offset_unit" v="MM"/>
@@ -23233,7 +23233,7 @@ def my_form_open(dialog, layer, feature):
               <prop k="angle" v="0"/>
               <prop k="color" v="191,72,221,255"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="./OSMaxx_point_symbols/svg/transport_railway_halt.svg"/>
+              <prop k="name" v="../OSMaxx_point_symbols/svg/transport_railway_halt.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
               <prop k="offset_unit" v="MM"/>
@@ -23616,7 +23616,7 @@ def my_form_open(dialog, layer, feature):
     </maplayer>
     <maplayer simplifyAlgorithm="0" minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="1" readOnly="0" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Polygon" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
       <id>20160601_frankfurt_am_main_gpkg_utility_a_any20160602124825366</id>
-      <datasource>../data/frankfurt-am-main_wgs-84_2016-06-30_gpkg_full-detail.gpkg|layername=utility_a</datasource>
+      <datasource>../../data/frankfurt-am-main_wgs-84_2016-06-30_gpkg_full-detail.gpkg|layername=utility_a</datasource>
       <shortname>20160601-frankfurt-am-main_gpkg utility_a any</shortname>
       <keywordList>
         <value></value>
@@ -23948,7 +23948,7 @@ def my_form_open(dialog, layer, feature):
     </maplayer>
     <maplayer simplifyAlgorithm="0" minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="1" readOnly="0" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Line" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
       <id>20160601_frankfurt_am_main_gpkg_utility_l_any20160602124825413</id>
-      <datasource>../data/frankfurt-am-main_wgs-84_2016-06-30_gpkg_full-detail.gpkg|layername=utility_l</datasource>
+      <datasource>../../data/frankfurt-am-main_wgs-84_2016-06-30_gpkg_full-detail.gpkg|layername=utility_l</datasource>
       <shortname>20160601-frankfurt-am-main_gpkg utility_l any</shortname>
       <keywordList>
         <value></value>
@@ -24354,7 +24354,7 @@ def my_form_open(dialog, layer, feature):
     </maplayer>
     <maplayer simplifyAlgorithm="0" minimumScale="-4.65661e-10" maximumScale="1e+08" simplifyDrawingHints="0" readOnly="0" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Point" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
       <id>20160601_frankfurt_am_main_gpkg_utility_p_any20160602124825444</id>
-      <datasource>../data/frankfurt-am-main_wgs-84_2016-06-30_gpkg_full-detail.gpkg|layername=utility_p</datasource>
+      <datasource>../../data/frankfurt-am-main_wgs-84_2016-06-30_gpkg_full-detail.gpkg|layername=utility_p</datasource>
       <shortname>20160601-frankfurt-am-main_gpkg utility_p any</shortname>
       <keywordList>
         <value></value>
@@ -24431,7 +24431,7 @@ def my_form_open(dialog, layer, feature):
               <prop k="angle" v="0"/>
               <prop k="color" v="86,216,125,255"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="./OSMaxx_point_symbols/svg/utility_fossil.svg"/>
+              <prop k="name" v="../OSMaxx_point_symbols/svg/utility_fossil.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
               <prop k="offset_unit" v="MM"/>
@@ -24451,7 +24451,7 @@ def my_form_open(dialog, layer, feature):
               <prop k="angle" v="0"/>
               <prop k="color" v="17,17,227,255"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="./OSMaxx_point_symbols/svg/utility_hydro.svg"/>
+              <prop k="name" v="../OSMaxx_point_symbols/svg/utility_hydro.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
               <prop k="offset_unit" v="MM"/>
@@ -24537,7 +24537,7 @@ def my_form_open(dialog, layer, feature):
               <prop k="angle" v="0"/>
               <prop k="color" v="43,125,239,255"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="./OSMaxx_point_symbols/svg/utility_plant.svg"/>
+              <prop k="name" v="../OSMaxx_point_symbols/svg/utility_plant.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
               <prop k="offset_unit" v="MM"/>
@@ -24557,7 +24557,7 @@ def my_form_open(dialog, layer, feature):
               <prop k="angle" v="0"/>
               <prop k="color" v="225,164,77,255"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="./OSMaxx_point_symbols/svg/utility_pole_and_tower.svg"/>
+              <prop k="name" v="../OSMaxx_point_symbols/svg/utility_pole_and_tower.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
               <prop k="offset_unit" v="MM"/>
@@ -24599,7 +24599,7 @@ def my_form_open(dialog, layer, feature):
               <prop k="angle" v="0"/>
               <prop k="color" v="211,212,113,255"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="./OSMaxx_point_symbols/svg/utility_solar.svg"/>
+              <prop k="name" v="../OSMaxx_point_symbols/svg/utility_solar.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
               <prop k="offset_unit" v="MM"/>
@@ -24663,7 +24663,7 @@ def my_form_open(dialog, layer, feature):
               <prop k="angle" v="0"/>
               <prop k="color" v="215,60,235,255"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="./OSMaxx_point_symbols/svg/utility_substation.svg"/>
+              <prop k="name" v="../OSMaxx_point_symbols/svg/utility_substation.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
               <prop k="offset_unit" v="MM"/>
@@ -24683,7 +24683,7 @@ def my_form_open(dialog, layer, feature):
               <prop k="angle" v="0"/>
               <prop k="color" v="212,59,100,255"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="./OSMaxx_point_symbols/svg/utility_pole_and_tower.svg"/>
+              <prop k="name" v="../OSMaxx_point_symbols/svg/utility_pole_and_tower.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
               <prop k="offset_unit" v="MM"/>
@@ -25078,7 +25078,7 @@ def my_form_open(dialog, layer, feature):
     </maplayer>
     <maplayer simplifyAlgorithm="0" minimumScale="-4.65661e-10" maximumScale="1e+08" simplifyDrawingHints="1" readOnly="0" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Polygon" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
       <id>20160601_frankfurt_am_main_gpkg_water_a_any20160602124825491</id>
-      <datasource>../data/frankfurt-am-main_wgs-84_2016-06-30_gpkg_full-detail.gpkg|layername=water_a</datasource>
+      <datasource>../../data/frankfurt-am-main_wgs-84_2016-06-30_gpkg_full-detail.gpkg|layername=water_a</datasource>
       <shortname>20160601-frankfurt-am-main_gpkg water_a any</shortname>
       <keywordList>
         <value></value>
@@ -25523,7 +25523,7 @@ def my_form_open(dialog, layer, feature):
     </maplayer>
     <maplayer simplifyAlgorithm="0" minimumScale="-4.65661e-10" maximumScale="1e+08" simplifyDrawingHints="1" readOnly="0" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Line" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
       <id>20160601_frankfurt_am_main_gpkg_water_l_any20160602124825538</id>
-      <datasource>../data/frankfurt-am-main_wgs-84_2016-06-30_gpkg_full-detail.gpkg|layername=water_l</datasource>
+      <datasource>../../data/frankfurt-am-main_wgs-84_2016-06-30_gpkg_full-detail.gpkg|layername=water_l</datasource>
       <shortname>20160601-frankfurt-am-main_gpkg water_l any</shortname>
       <keywordList>
         <value></value>
@@ -26028,7 +26028,7 @@ def my_form_open(dialog, layer, feature):
     </maplayer>
     <maplayer simplifyAlgorithm="0" minimumScale="-4.65661e-10" maximumScale="1e+08" simplifyDrawingHints="0" readOnly="0" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Point" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
       <id>20160601_frankfurt_am_main_gpkg_water_p_any20160602124825584</id>
-      <datasource>../data/frankfurt-am-main_wgs-84_2016-06-30_gpkg_full-detail.gpkg|layername=water_p</datasource>
+      <datasource>../../data/frankfurt-am-main_wgs-84_2016-06-30_gpkg_full-detail.gpkg|layername=water_p</datasource>
       <shortname>20160601-frankfurt-am-main_gpkg water_p any</shortname>
       <keywordList>
         <value></value>
@@ -26210,7 +26210,7 @@ def my_form_open(dialog, layer, feature):
               <prop k="angle" v="0"/>
               <prop k="color" v="226,87,215,255"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="./OSMaxx_point_symbols/svg/water_reservoir_covered.svg"/>
+              <prop k="name" v="../OSMaxx_point_symbols/svg/water_reservoir_covered.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
               <prop k="offset_unit" v="MM"/>
@@ -26274,7 +26274,7 @@ def my_form_open(dialog, layer, feature):
               <prop k="angle" v="0"/>
               <prop k="color" v="136,238,143,255"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="./OSMaxx_point_symbols/svg/water_spring.svg"/>
+              <prop k="name" v="../OSMaxx_point_symbols/svg/water_spring.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
               <prop k="offset_unit" v="MM"/>
