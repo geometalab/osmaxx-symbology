@@ -41,6 +41,10 @@ the QGIS variable ``osmaxx_label_expression`` to a different value, e.g. to
 https://github.com/geometalab/osmaxx/blob/master/docs/osmaxx_data_schema.md#common-attributes
 for other suitable attributes. In QGIS 2.x, open the OSMaxx.qgs project, then
 go to menu "Project" > "Project Properties...", tab "Variables" to see and
-edit the QGIS project variables. You may also override the variable for only
-selected layers by defining a QGIS layer variable of the same name in the
-respective layers' properties dialogs.
+edit the QGIS project variables.
+
+Alternatively, if you want to label some layers differently, you may also
+*override the project variable* for those layers by defining a QGIS
+*layer variable* of the same name (``osmaxx_label_expression``) in the respective
+layers' properties dialogs:
+Context menu of the layer > "Properties", tab "Variables", then use the "+"-Button.
