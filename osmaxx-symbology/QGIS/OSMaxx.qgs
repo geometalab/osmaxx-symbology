@@ -23440,7 +23440,7 @@ def my_form_open(dialog, layer, feature):
       <renderer-v2 attr="type" forceraster="0" symbollevels="0" type="categorizedSymbol" enableorderby="0">
         <categories>
           <category render="true" symbol="0" value="runway" label="runway"/>
-          <category render="true" symbol="1" value="Taxiway" label="Taxiway"/>
+          <category render="true" symbol="1" value="taxiway" label="Taxiway"/>
         </categories>
         <symbols>
           <symbol alpha="1" clip_to_extent="1" type="line" name="0">
