@@ -19,9 +19,9 @@
           <customproperties/>
         </layer-tree-layer>
       </layer-tree-group>
-      <layer-tree-group expanded="0" checked="Qt::Checked" name="traffic">
+      <layer-tree-group expanded="1" checked="Qt::Checked" name="traffic">
         <customproperties/>
-        <layer-tree-layer expanded="0" checked="Qt::Checked" id="20160601_frankfurt_am_main_gpkg_traffic_p_any20160602124825179" name="traffic_p">
+        <layer-tree-layer expanded="1" checked="Qt::Checked" id="20160601_frankfurt_am_main_gpkg_traffic_p_any20160602124825179" name="traffic_p">
           <customproperties/>
         </layer-tree-layer>
         <layer-tree-layer expanded="1" checked="Qt::Checked" id="20160601_frankfurt_am_main_gpkg_traffic_a_any20160602124825148" name="traffic_a">
@@ -259,9 +259,9 @@
           </filegroup>
         </legendlayer>
       </legendgroup>
-      <legendgroup open="false" checked="Qt::Checked" name="traffic">
-        <legendlayer drawingOrder="5" open="false" checked="Qt::Checked" name="traffic_p" showFeatureCount="0">
-          <filegroup open="false" hidden="false">
+      <legendgroup open="true" checked="Qt::Checked" name="traffic">
+        <legendlayer drawingOrder="5" open="true" checked="Qt::Checked" name="traffic_p" showFeatureCount="0">
+          <filegroup open="true" hidden="false">
             <legendlayerfile isInOverview="0" layerid="20160601_frankfurt_am_main_gpkg_traffic_p_any20160602124825179" visible="1"/>
           </filegroup>
         </legendlayer>
@@ -2071,6 +2071,7 @@ def my_form_open(dialog, layer, feature):
       <SingleCategoryDiagramRenderer diagramType="Histogram" sizeLegend="0" attributeLegend="1">
         <DiagramCategory penColor="#000000" labelPlacementMethod="XHeight" penWidth="0" diagramOrientation="Up" sizeScale="0,0,0,0,0,0" minimumSize="0" barWidth="5" penAlpha="255" maxScaleDenominator="1e+08" backgroundColor="#ffffff" transparency="0" width="15" scaleDependency="Area" backgroundAlpha="255" angleOffset="1440" scaleBasedVisibility="0" enabled="0" height="15" lineSizeScale="0,0,0,0,0,0" sizeType="MM" lineSizeType="MM" minScaleDenominator="inf">
           <fontProperties description="MS Shell Dlg 2,8.25,-1,5,50,0,0,0,0,0" style=""/>
+          <attribute field="" color="#000000" label=""/>
         </DiagramCategory>
         <symbol alpha="1" clip_to_extent="1" type="marker" name="sizeSymbol">
           <layer pass="0" class="SimpleMarker" locked="0">
@@ -22820,37 +22821,37 @@ def my_form_open(dialog, layer, feature):
       </edittypes>
       <renderer-v2 forceraster="0" symbollevels="0" type="RuleRenderer" enableorderby="0">
         <rules key="{2f5d1ee8-993d-4c5b-b766-be9d834c93d5}">
-          <rule filter="ELSE" key="{eded335a-bc82-433a-83f7-a77ee01db59e}" symbol="0"/>
-          <rule filter="&quot;type&quot; = 'barrier'" key="{83dad493-cff8-4a57-9af5-9a011cb99ac5}" symbol="1" label="barrier"/>
-          <rule filter="&quot;type&quot; = 'bicycle'" key="{36b600ca-2a0a-45c2-b523-ce0a251264b2}" symbol="2" label="bicycle"/>
-          <rule filter="&quot;type&quot; = 'block'" key="{71bd89f3-123f-4f94-9582-958a027e58ba}" symbol="3" label="block"/>
-          <rule filter="&quot;type&quot; = 'bollard'" key="{87069fa3-f4e5-41c8-bb94-995557ae1a11}" symbol="4" label="bollard"/>
-          <rule filter="&quot;type&quot; = 'cattle_grid'" key="{d8070541-4619-4079-b34a-214ef000da9e}" symbol="5" label="cattle_grid"/>
-          <rule filter="&quot;type&quot; = 'crossing'" key="{06b856de-c25c-4174-94b1-05c9d892ad08}" symbol="6" label="crossing"/>
-          <rule filter="&quot;type&quot; = 'cycle_barrier'" key="{fb21ccf6-9cab-4c15-a286-8eaac14d035f}" symbol="7" label="cycle_barrier"/>
-          <rule filter="&quot;type&quot; = 'fence'" key="{c37b5779-b2f7-45b4-8ab4-a517400724ed}" symbol="8" label="fence"/>
+          <rule checkstate="0" filter="ELSE" key="{eded335a-bc82-433a-83f7-a77ee01db59e}" symbol="0"/>
+          <rule checkstate="0" filter="&quot;type&quot; = 'barrier'" key="{83dad493-cff8-4a57-9af5-9a011cb99ac5}" symbol="1" label="barrier"/>
+          <rule checkstate="0" filter="&quot;type&quot; = 'bicycle'" key="{36b600ca-2a0a-45c2-b523-ce0a251264b2}" symbol="2" label="bicycle"/>
+          <rule checkstate="0" filter="&quot;type&quot; = 'block'" key="{71bd89f3-123f-4f94-9582-958a027e58ba}" symbol="3" label="block"/>
+          <rule checkstate="0" filter="&quot;type&quot; = 'bollard'" key="{87069fa3-f4e5-41c8-bb94-995557ae1a11}" symbol="4" label="bollard"/>
+          <rule checkstate="0" filter="&quot;type&quot; = 'cattle_grid'" key="{d8070541-4619-4079-b34a-214ef000da9e}" symbol="5" label="cattle_grid"/>
+          <rule checkstate="0" filter="&quot;type&quot; = 'crossing'" key="{06b856de-c25c-4174-94b1-05c9d892ad08}" symbol="6" label="crossing"/>
+          <rule checkstate="0" filter="&quot;type&quot; = 'cycle_barrier'" key="{fb21ccf6-9cab-4c15-a286-8eaac14d035f}" symbol="7" label="cycle_barrier"/>
+          <rule checkstate="0" filter="&quot;type&quot; = 'fence'" key="{c37b5779-b2f7-45b4-8ab4-a517400724ed}" symbol="8" label="fence"/>
           <rule checkstate="0" filter="&quot;type&quot; = 'fuel'" key="{e10a3323-c48f-4c34-9fe5-2ec76a8f300d}" symbol="9" label="fuel"/>
           <rule checkstate="0" filter="&quot;type&quot; = 'gate'" key="{b72d9ad1-3b61-4d35-8e62-d11515063933}" symbol="10" label="gate"/>
-          <rule filter="&quot;type&quot; = 'general_traffic'" key="{7f571de2-012e-47da-8ec8-9def226b1be3}" symbol="11" label="general_traffic"/>
+          <rule checkstate="0" filter="&quot;type&quot; = 'general_traffic'" key="{7f571de2-012e-47da-8ec8-9def226b1be3}" symbol="11" label="general_traffic"/>
           <rule checkstate="0" filter="&quot;type&quot; = 'level_crossing'" key="{98c8c6b0-8137-4504-86a5-ea374000b6b7}" symbol="12" label="level_crossing"/>
-          <rule filter="&quot;type&quot; = 'lift_gate'" key="{85a80114-0dfe-42e5-9c73-26acf455efeb}" symbol="13" label="lift_gate"/>
-          <rule filter="&quot;type&quot; = 'mini_roundabout'" key="{776716cc-bafc-476f-a5d4-a363fee5c26c}" symbol="14" label="mini_roundabout"/>
-          <rule filter="&quot;type&quot; = 'motorway_junction'" key="{c5e5f1a8-fe92-4b1e-8369-ba0b5c61c0ec}" symbol="15" label="motorway_junction"/>
+          <rule checkstate="0" filter="&quot;type&quot; = 'lift_gate'" key="{85a80114-0dfe-42e5-9c73-26acf455efeb}" symbol="13" label="lift_gate"/>
+          <rule checkstate="0" filter="&quot;type&quot; = 'mini_roundabout'" key="{776716cc-bafc-476f-a5d4-a363fee5c26c}" symbol="14" label="mini_roundabout"/>
+          <rule checkstate="0" filter="&quot;type&quot; = 'motorway_junction'" key="{c5e5f1a8-fe92-4b1e-8369-ba0b5c61c0ec}" symbol="15" label="motorway_junction"/>
           <rule checkstate="0" filter="&quot;type&quot; = 'multi-storey'" key="{2bc9f061-5001-4e7a-9ba5-0719bb087ea3}" symbol="16" label="multi-storey"/>
           <rule checkstate="0" filter="&quot;type&quot; = 'parking'" key="{71aafd64-dabc-4640-b896-0a51fe84ef59}" symbol="17" label="parking"/>
-          <rule filter="&quot;type&quot; = 'services'" key="{9607e99d-b1a2-4ff8-95c3-0ce59c0062ab}" symbol="18" label="services"/>
-          <rule filter="&quot;type&quot; = 'speed_camera'" key="{9ac3321e-0e9f-4862-a2f7-463b23389c5b}" symbol="19" label="speed_camera"/>
-          <rule filter="&quot;type&quot; = 'stile'" key="{e8acee7b-184f-4f31-8e31-988ac7d4bf8c}" symbol="20" label="stile"/>
-          <rule filter="&quot;type&quot; = 'stop'" key="{6e5fba9c-0900-4cc8-8b75-36925e544a7f}" symbol="21" label="stop"/>
-          <rule filter="&quot;type&quot; = 'street_lamp'" key="{13e15b12-2c1f-4400-a308-72eb43f46e7d}" symbol="22" label="street_lamp"/>
+          <rule checkstate="0" filter="&quot;type&quot; = 'services'" key="{9607e99d-b1a2-4ff8-95c3-0ce59c0062ab}" symbol="18" label="services"/>
+          <rule checkstate="0" filter="&quot;type&quot; = 'speed_camera'" key="{9ac3321e-0e9f-4862-a2f7-463b23389c5b}" symbol="19" label="speed_camera"/>
+          <rule checkstate="0" filter="&quot;type&quot; = 'stile'" key="{e8acee7b-184f-4f31-8e31-988ac7d4bf8c}" symbol="20" label="stile"/>
+          <rule checkstate="0" filter="&quot;type&quot; = 'stop'" key="{6e5fba9c-0900-4cc8-8b75-36925e544a7f}" symbol="21" label="stop"/>
+          <rule checkstate="0" filter="&quot;type&quot; = 'street_lamp'" key="{13e15b12-2c1f-4400-a308-72eb43f46e7d}" symbol="22" label="street_lamp"/>
           <rule checkstate="0" filter="&quot;type&quot; = 'surface'" key="{568e96ad-58c6-42e4-98ba-451dec39185f}" symbol="23" label="surface"/>
-          <rule filter="&quot;type&quot; = 'table'" key="{77b91bb1-0e9f-49da-b282-1298b643bf43}" symbol="24" label="table"/>
-          <rule filter="&quot;type&quot; = 'toll_booth'" key="{e6be75c7-a67e-401f-8f1d-baf3798501b7}" symbol="25" label="toll_booth"/>
-          <rule filter="&quot;type&quot; = 'traffic_calming'" key="{d5a99ab6-4756-47ef-8083-24aac77c56f8}" symbol="26" label="traffic_calming"/>
-          <rule filter="&quot;type&quot; = 'traffic_signals'" key="{8613156c-a1c6-467c-8ffb-1fd64922000e}" symbol="27" label="traffic_signals"/>
-          <rule filter="&quot;type&quot; = 'turning_circle'" key="{34c83ef9-618c-4b61-8855-afc4f276533d}" symbol="28" label="turning_circle"/>
-          <rule filter="&quot;type&quot; = 'underground'" key="{92638853-b04a-4197-b22d-71db134612ae}" symbol="29" label="underground"/>
-          <rule filter="ELSE" key="{6392d1ca-e370-448a-beb0-37bb204bcb01}" symbol="30"/>
+          <rule checkstate="0" filter="&quot;type&quot; = 'table'" key="{77b91bb1-0e9f-49da-b282-1298b643bf43}" symbol="24" label="table"/>
+          <rule checkstate="0" filter="&quot;type&quot; = 'toll_booth'" key="{e6be75c7-a67e-401f-8f1d-baf3798501b7}" symbol="25" label="toll_booth"/>
+          <rule checkstate="0" filter="&quot;type&quot; = 'traffic_calming'" key="{d5a99ab6-4756-47ef-8083-24aac77c56f8}" symbol="26" label="traffic_calming"/>
+          <rule checkstate="0" filter="&quot;type&quot; = 'traffic_signals'" key="{8613156c-a1c6-467c-8ffb-1fd64922000e}" symbol="27" label="traffic_signals"/>
+          <rule checkstate="0" filter="&quot;type&quot; = 'turning_circle'" key="{34c83ef9-618c-4b61-8855-afc4f276533d}" symbol="28" label="turning_circle"/>
+          <rule checkstate="0" filter="&quot;type&quot; = 'underground'" key="{92638853-b04a-4197-b22d-71db134612ae}" symbol="29" label="underground"/>
+          <rule checkstate="0" filter="ELSE" key="{6392d1ca-e370-448a-beb0-37bb204bcb01}" symbol="30"/>
         </rules>
         <symbols>
           <symbol alpha="1" clip_to_extent="1" type="marker" name="0">
@@ -23526,8 +23527,8 @@ def my_form_open(dialog, layer, feature):
         </symbols>
       </renderer-v2>
       <labeling type="rule-based">
-        <rules key="{0feeb0de-1a77-4ba4-a4e3-a435578117c2}">
-          <rule description="(all traffic points)" active="0" key="{01cbc117-2669-490d-951f-412b4b3538b8}">
+        <rules key="{bbf8ef4d-3f27-4f24-8040-8be2b6649ac8}">
+          <rule description="(all traffic points)" active="0" key="{fa7c4efb-1dd5-410b-b7e4-a2b5abaef218}">
             <settings>
               <text-style fontItalic="0" fontFamily="MS Shell Dlg 2" fontLetterSpacing="0" fontUnderline="0" fontWeight="50" fontStrikeout="0" textTransp="0" previewBkgrdColor="#ffffff" fontCapitals="0" textColor="102,102,102,255" fontSizeInMapUnits="0" isExpression="1" blendMode="0" fontSizeMapUnitScale="0,0,0,0,0,0" fontSize="5.5" fieldName="eval(@osmaxx_label_expression)" namedStyle="Book" fontWordSpacing="0" useSubstitutions="0">
                 <substitutions/>
