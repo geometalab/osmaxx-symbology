@@ -589,7 +589,7 @@
       <label>0</label>
       <labelattributes>
         <label fieldname="" text="Beschriftung"/>
-        <family fieldname="" name="MS Shell Dlg 2"/>
+        <family fieldname="" name="DejaVu Sans"/>
         <size fieldname="" units="pt" value="12"/>
         <bold fieldname="" on="0"/>
         <italic fieldname="" on="0"/>
@@ -907,7 +907,7 @@
       <label>0</label>
       <labelattributes>
         <label fieldname="" text="Beschriftung"/>
-        <family fieldname="" name="MS Shell Dlg 2"/>
+        <family fieldname="" name="DejaVu Sans"/>
         <size fieldname="" units="pt" value="12"/>
         <bold fieldname="" on="0"/>
         <italic fieldname="" on="0"/>
@@ -1497,7 +1497,7 @@
       <label>0</label>
       <labelattributes>
         <label fieldname="" text="Beschriftung"/>
-        <family fieldname="" name="MS Shell Dlg 2"/>
+        <family fieldname="" name="DejaVu Sans"/>
         <size fieldname="" units="pt" value="12"/>
         <bold fieldname="" on="0"/>
         <italic fieldname="" on="0"/>
@@ -1862,7 +1862,7 @@ def my_form_open(dialog, layer, feature):
       <label>0</label>
       <labelattributes>
         <label fieldname="" text="Beschriftung"/>
-        <family fieldname="" name="MS Shell Dlg 2"/>
+        <family fieldname="" name="DejaVu Sans"/>
         <size fieldname="" units="pt" value="12"/>
         <bold fieldname="" on="0"/>
         <italic fieldname="" on="0"/>
@@ -2050,7 +2050,7 @@ def my_form_open(dialog, layer, feature):
       <label>0</label>
       <labelattributes>
         <label fieldname="" text="Beschriftung"/>
-        <family fieldname="" name="MS Shell Dlg 2"/>
+        <family fieldname="" name="DejaVu Sans"/>
         <size fieldname="" units="pt" value="12"/>
         <bold fieldname="" on="0"/>
         <italic fieldname="" on="0"/>
@@ -2260,7 +2260,7 @@ def my_form_open(dialog, layer, feature):
       <label>0</label>
       <labelattributes>
         <label fieldname="" text="Beschriftung"/>
-        <family fieldname="" name="MS Shell Dlg 2"/>
+        <family fieldname="" name="DejaVu Sans"/>
         <size fieldname="" units="pt" value="12"/>
         <bold fieldname="" on="0"/>
         <italic fieldname="" on="0"/>
@@ -2557,7 +2557,7 @@ def my_form_open(dialog, layer, feature):
       <label>0</label>
       <labelattributes>
         <label fieldname="" text="Beschriftung"/>
-        <family fieldname="" name="MS Shell Dlg 2"/>
+        <family fieldname="" name="DejaVu Sans"/>
         <size fieldname="" units="pt" value="12"/>
         <bold fieldname="" on="0"/>
         <italic fieldname="" on="0"/>
@@ -2676,7 +2676,7 @@ def my_form_open(dialog, layer, feature):
       <label>0</label>
       <labelattributes>
         <label fieldname="" text="Beschriftung"/>
-        <family fieldname="" name="MS Shell Dlg 2"/>
+        <family fieldname="" name="DejaVu Sans"/>
         <size fieldname="" units="pt" value="12"/>
         <bold fieldname="" on="0"/>
         <italic fieldname="" on="0"/>
@@ -3784,7 +3784,7 @@ def my_form_open(dialog, layer, feature):
       <label>0</label>
       <labelattributes>
         <label fieldname="" text="Beschriftung"/>
-        <family fieldname="" name="MS Shell Dlg 2"/>
+        <family fieldname="" name="DejaVu Sans"/>
         <size fieldname="" units="pt" value="12"/>
         <bold fieldname="" on="0"/>
         <italic fieldname="" on="0"/>
@@ -4219,7 +4219,7 @@ def my_form_open(dialog, layer, feature):
       <label>0</label>
       <labelattributes>
         <label fieldname="" text="Beschriftung"/>
-        <family fieldname="" name="MS Shell Dlg 2"/>
+        <family fieldname="" name="DejaVu Sans"/>
         <size fieldname="" units="pt" value="12"/>
         <bold fieldname="" on="0"/>
         <italic fieldname="" on="0"/>
@@ -4485,7 +4485,7 @@ def my_form_open(dialog, layer, feature):
       <label>0</label>
       <labelattributes>
         <label fieldname="" text="Beschriftung"/>
-        <family fieldname="" name="MS Shell Dlg 2"/>
+        <family fieldname="" name="DejaVu Sans"/>
         <size fieldname="" units="pt" value="12"/>
         <bold fieldname="" on="0"/>
         <italic fieldname="" on="0"/>
@@ -4938,7 +4938,7 @@ def my_form_open(dialog, layer, feature):
       <label>0</label>
       <labelattributes>
         <label fieldname="" text="Beschriftung"/>
-        <family fieldname="" name="MS Shell Dlg 2"/>
+        <family fieldname="" name="DejaVu Sans"/>
         <size fieldname="" units="pt" value="12"/>
         <bold fieldname="" on="0"/>
         <italic fieldname="" on="0"/>
@@ -5716,7 +5716,7 @@ def my_form_open(dialog, layer, feature):
       <label>0</label>
       <labelattributes>
         <label fieldname="" text="Beschriftung"/>
-        <family fieldname="" name="MS Shell Dlg 2"/>
+        <family fieldname="" name="DejaVu Sans"/>
         <size fieldname="" units="pt" value="12"/>
         <bold fieldname="" on="0"/>
         <italic fieldname="" on="0"/>
@@ -6514,7 +6514,7 @@ def my_form_open(dialog, layer, feature):
       <label>0</label>
       <labelattributes>
         <label fieldname="" text="Beschriftung"/>
-        <family fieldname="" name="MS Shell Dlg 2"/>
+        <family fieldname="" name="DejaVu Sans"/>
         <size fieldname="" units="pt" value="12"/>
         <bold fieldname="" on="0"/>
         <italic fieldname="" on="0"/>
@@ -7020,7 +7020,7 @@ def my_form_open(dialog, layer, feature):
       <label>0</label>
       <labelattributes>
         <label fieldname="" text="Beschriftung"/>
-        <family fieldname="" name="MS Shell Dlg 2"/>
+        <family fieldname="" name="DejaVu Sans"/>
         <size fieldname="" units="pt" value="12"/>
         <bold fieldname="" on="0"/>
         <italic fieldname="" on="0"/>
@@ -7879,7 +7879,7 @@ def my_form_open(dialog, layer, feature):
       <label>0</label>
       <labelattributes>
         <label fieldname="" text="Beschriftung"/>
-        <family fieldname="" name="MS Shell Dlg 2"/>
+        <family fieldname="" name="DejaVu Sans"/>
         <size fieldname="" units="pt" value="12"/>
         <bold fieldname="" on="0"/>
         <italic fieldname="" on="0"/>
@@ -12187,7 +12187,7 @@ def my_form_open(dialog, layer, feature):
       <label>0</label>
       <labelattributes>
         <label fieldname="" text="Beschriftung"/>
-        <family fieldname="" name="MS Shell Dlg 2"/>
+        <family fieldname="" name="DejaVu Sans"/>
         <size fieldname="" units="pt" value="12"/>
         <bold fieldname="" on="0"/>
         <italic fieldname="" on="0"/>
@@ -12590,7 +12590,7 @@ def my_form_open(dialog, layer, feature):
       <label>0</label>
       <labelattributes>
         <label fieldname="" text="Beschriftung"/>
-        <family fieldname="" name="MS Shell Dlg 2"/>
+        <family fieldname="" name="DejaVu Sans"/>
         <size fieldname="" units="pt" value="12"/>
         <bold fieldname="" on="0"/>
         <italic fieldname="" on="0"/>
@@ -13372,7 +13372,7 @@ def my_form_open(dialog, layer, feature):
       <label>0</label>
       <labelattributes>
         <label fieldname="" text="Beschriftung"/>
-        <family fieldname="" name="MS Shell Dlg 2"/>
+        <family fieldname="" name="DejaVu Sans"/>
         <size fieldname="" units="pt" value="12"/>
         <bold fieldname="" on="0"/>
         <italic fieldname="" on="0"/>
@@ -17043,7 +17043,7 @@ def my_form_open(dialog, layer, feature):
       <label>0</label>
       <labelattributes>
         <label fieldname="" text="Beschriftung"/>
-        <family fieldname="" name="MS Shell Dlg 2"/>
+        <family fieldname="" name="DejaVu Sans"/>
         <size fieldname="" units="pt" value="12"/>
         <bold fieldname="" on="0"/>
         <italic fieldname="" on="0"/>
@@ -21601,7 +21601,7 @@ def my_form_open(dialog, layer, feature):
       <label>0</label>
       <labelattributes>
         <label fieldname="" text="Beschriftung"/>
-        <family fieldname="" name="MS Shell Dlg 2"/>
+        <family fieldname="" name="DejaVu Sans"/>
         <size fieldname="" units="pt" value="12"/>
         <bold fieldname="" on="0"/>
         <italic fieldname="" on="0"/>
@@ -21980,7 +21980,7 @@ def my_form_open(dialog, layer, feature):
       <label>0</label>
       <labelattributes>
         <label fieldname="" text="Beschriftung"/>
-        <family fieldname="" name="MS Shell Dlg 2"/>
+        <family fieldname="" name="DejaVu Sans"/>
         <size fieldname="" units="pt" value="12"/>
         <bold fieldname="" on="0"/>
         <italic fieldname="" on="0"/>
@@ -22301,7 +22301,7 @@ def my_form_open(dialog, layer, feature):
       <label>0</label>
       <labelattributes>
         <label fieldname="" text="Beschriftung"/>
-        <family fieldname="" name="MS Shell Dlg 2"/>
+        <family fieldname="" name="DejaVu Sans"/>
         <size fieldname="" units="pt" value="12"/>
         <bold fieldname="" on="0"/>
         <italic fieldname="" on="0"/>
@@ -22654,7 +22654,7 @@ def my_form_open(dialog, layer, feature):
       <label>0</label>
       <labelattributes>
         <label fieldname="" text="Beschriftung"/>
-        <family fieldname="" name="MS Shell Dlg 2"/>
+        <family fieldname="" name="DejaVu Sans"/>
         <size fieldname="" units="pt" value="12"/>
         <bold fieldname="" on="0"/>
         <italic fieldname="" on="0"/>
@@ -23702,7 +23702,7 @@ def my_form_open(dialog, layer, feature):
       <label>0</label>
       <labelattributes>
         <label fieldname="" text="Beschriftung"/>
-        <family fieldname="" name="MS Shell Dlg 2"/>
+        <family fieldname="" name="DejaVu Sans"/>
         <size fieldname="" units="pt" value="12"/>
         <bold fieldname="" on="0"/>
         <italic fieldname="" on="0"/>
@@ -24071,7 +24071,7 @@ def my_form_open(dialog, layer, feature):
       <label>0</label>
       <labelattributes>
         <label fieldname="" text="Beschriftung"/>
-        <family fieldname="" name="MS Shell Dlg 2"/>
+        <family fieldname="" name="DejaVu Sans"/>
         <size fieldname="" units="pt" value="12"/>
         <bold fieldname="" on="0"/>
         <italic fieldname="" on="0"/>
@@ -24473,7 +24473,7 @@ def my_form_open(dialog, layer, feature):
       <label>0</label>
       <labelattributes>
         <label fieldname="" text="Beschriftung"/>
-        <family fieldname="" name="MS Shell Dlg 2"/>
+        <family fieldname="" name="DejaVu Sans"/>
         <size fieldname="" units="pt" value="12"/>
         <bold fieldname="" on="0"/>
         <italic fieldname="" on="0"/>
@@ -25302,7 +25302,7 @@ def my_form_open(dialog, layer, feature):
       <label>0</label>
       <labelattributes>
         <label fieldname="" text="Beschriftung"/>
-        <family fieldname="" name="MS Shell Dlg 2"/>
+        <family fieldname="" name="DejaVu Sans"/>
         <size fieldname="" units="pt" value="12"/>
         <bold fieldname="" on="0"/>
         <italic fieldname="" on="0"/>
@@ -25669,7 +25669,7 @@ def my_form_open(dialog, layer, feature):
       <label>0</label>
       <labelattributes>
         <label fieldname="" text="Beschriftung"/>
-        <family fieldname="" name="MS Shell Dlg 2"/>
+        <family fieldname="" name="DejaVu Sans"/>
         <size fieldname="" units="pt" value="12"/>
         <bold fieldname="" on="0"/>
         <italic fieldname="" on="0"/>
@@ -26079,7 +26079,7 @@ def my_form_open(dialog, layer, feature):
       <label>0</label>
       <labelattributes>
         <label fieldname="" text="Beschriftung"/>
-        <family fieldname="" name="MS Shell Dlg 2"/>
+        <family fieldname="" name="DejaVu Sans"/>
         <size fieldname="" units="pt" value="12"/>
         <bold fieldname="" on="0"/>
         <italic fieldname="" on="0"/>
@@ -26875,7 +26875,7 @@ def my_form_open(dialog, layer, feature):
       <label>0</label>
       <labelattributes>
         <label fieldname="" text="Beschriftung"/>
-        <family fieldname="" name="MS Shell Dlg 2"/>
+        <family fieldname="" name="DejaVu Sans"/>
         <size fieldname="" units="pt" value="12"/>
         <bold fieldname="" on="0"/>
         <italic fieldname="" on="0"/>
@@ -27362,7 +27362,7 @@ def my_form_open(dialog, layer, feature):
       <label>0</label>
       <labelattributes>
         <label fieldname="" text="Beschriftung"/>
-        <family fieldname="" name="MS Shell Dlg 2"/>
+        <family fieldname="" name="DejaVu Sans"/>
         <size fieldname="" units="pt" value="12"/>
         <bold fieldname="" on="0"/>
         <italic fieldname="" on="0"/>
@@ -27898,7 +27898,7 @@ def my_form_open(dialog, layer, feature):
       <label>0</label>
       <labelattributes>
         <label fieldname="" text="Beschriftung"/>
-        <family fieldname="" name="MS Shell Dlg 2"/>
+        <family fieldname="" name="DejaVu Sans"/>
         <size fieldname="" units="pt" value="12"/>
         <bold fieldname="" on="0"/>
         <italic fieldname="" on="0"/>
@@ -28569,7 +28569,7 @@ def my_form_open(dialog, layer, feature):
       <label>0</label>
       <labelattributes>
         <label fieldname="" text="Beschriftung"/>
-        <family fieldname="" name="MS Shell Dlg 2"/>
+        <family fieldname="" name="DejaVu Sans"/>
         <size fieldname="" units="pt" value="12"/>
         <bold fieldname="" on="0"/>
         <italic fieldname="" on="0"/>
