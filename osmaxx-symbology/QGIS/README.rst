@@ -8,7 +8,7 @@ File format
 Because it is (to our knowledge) currently the only way to preserve
 layer order, the symbolization for QGIS is offered as QGIS project files.
 
-Because `scale-dependant rules cannot keep half-open scale ranges`_ in
+Because `scale-dependent rules cannot keep half-open scale ranges`_ in
 current QGIS versions, we provide a separate project file for each of the
 supported scale levels:
 
@@ -21,7 +21,7 @@ supported scale levels:
 1:25'000 (M4)
     ``OSMaxx_M4.qgs``
 
-.. _`scale-dependant rules cannot keep half-open scale ranges`: http://hub.qgis.org/issues/15512
+.. _`scale-dependent rules cannot keep half-open scale ranges`: http://hub.qgis.org/issues/15512
 
 
 Help us improve
