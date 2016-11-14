@@ -10,15 +10,15 @@ layer order, the symbolization for QGIS is offered as QGIS project files.
 
 Because `scale-dependent rules cannot keep half-open scale ranges`_ in
 current QGIS versions, we provide a separate project file for each of the
-supported scale levels:
+supported scale ranges:
 
-1:2'500 (M1)
+around 1:2'500 (M1)
     ``OSMaxx_M1.qgs``
     
-1:10'000 (M3)
+around 1:10'000 (M3)
     ``OSMaxx_M3.qgs``
     
-1:25'000 (M4)
+around 1:25'000 (M4)
     ``OSMaxx_M4.qgs``
 
 .. _`scale-dependent rules cannot keep half-open scale ranges`: http://hub.qgis.org/issues/15512
