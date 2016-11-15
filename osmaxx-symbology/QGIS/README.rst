@@ -14,10 +14,10 @@ supported scale ranges:
 
 around 1:2'500 (M1)
     ``OSMaxx_M1.qgs``
-    
+
 around 1:10'000 (M3)
     ``OSMaxx_M3.qgs``
-    
+
 around 1:25'000 (M4)
     ``OSMaxx_M4.qgs``
 
