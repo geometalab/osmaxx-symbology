@@ -1,9 +1,15 @@
 # osmaxx-symbology
 
-Map symbology for OpenStreetMap GIS exports from OSMaxx
+Map symbology for OpenStreetMap GIS exports from OSMaxx:
 
 * QGIS
 * Esri ArcGIS
+
+There are following scale ranges (=SR) (german: Massstabsbereich, M):
+
+* SR1 / M1: 1:2‘500 (1:1 - 1:5'000)
+* SR1 / M3: 1:10‘000 (1:5'000 - 15'000)
+* SR4 / M4: 1:25‘000 (1:15'000 - 50'000)
 
 ## Symbol Font Versioning
 
