@@ -5,7 +5,7 @@ Map symbology for OpenStreetMap GIS exports from OSMaxx:
 * QGIS
 * Esri ArcGIS
 
-There are the following scale ranges (=SR) (German: Maßstabsbereich, M):
+Supports the following scale ranges (=SR) (German: Maßstabsbereich, M):
 
 * SR1 / M1: 1:2‘500 (1:1 - 1:5'000)
 * SR1 / M3: 1:10‘000 (1:5'000 - 15'000)
